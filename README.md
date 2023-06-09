@@ -10,6 +10,8 @@ But because I have developed this module, since I think it is useful, I wanted t
 
 To use it, just copy the [sfp_local_data.py](https://github.com/her0marodeur/Spiderfoot-local-data-module/blob/main/sfp_local_data.py) to the modules directory of your Spiderfoot installation
 
+If you want to read more about it, you can check out my blog: 
+
 ### Usage
 
 Datasets have to be stored on the local machine. If you want to make them available for Spiderfoot, you have to include their full path in the settings of the module. Multiple files can be specified in a comma separated list. Below the path configuration you can select what kinds of data the module should listen for. So, if that kind of data is found during your scan, the module will automatically start searching for it in your local files. Do not forget to click “Save Changes”.
