@@ -8,7 +8,7 @@ They are amazing <3!
 It is not included in Spiderfoots standard installation, because it is not how Spiderfoot was designed to work.
 But because I have developed this module, since I think it is useful, I wanted to make it available to others.
 
-To use it, just copy the sfp_local_data.py to the modules directory of your Spiderfoot installation
+To use it, just copy the [sfp_local_data.py](https://github.com/her0marodeur/Spiderfoot-local-data-module/blob/main/sfp_local_data.py) to the modules directory of your Spiderfoot installation
 
 ### Usage
 
