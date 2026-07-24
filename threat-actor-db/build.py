@@ -1,0 +1,332 @@
+#!/usr/bin/env python3
+"""Merge, validate and render the physical/hybrid threat actor database.
+
+Usage:
+    python3 build.py            # validate + write dist/actors.json and ACTORS.md
+    python3 build.py --check    # validate only, non-zero exit on problems
+
+No third-party dependencies. Validation is intentionally hand-rolled against
+schema.json rather than pulled from jsonschema so the repo stays installable
+anywhere Python 3.9+ runs.
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import re
+import sys
+from collections import Counter, defaultdict
+from pathlib import Path
+
+ROOT = Path(__file__).parent
+DATA_DIR = ROOT / "data"
+DIST_DIR = ROOT / "dist"
+SCHEMA_PATH = ROOT / "schema.json"
+MARKDOWN_OUT = ROOT / "ACTORS.md"
+JSON_OUT = DIST_DIR / "actors.json"
+
+ID_RE = re.compile(r"^[A-Z]{2,4}-[A-Z0-9]+-[A-Z0-9-]+$")
+
+REGION_ORDER = ["Europe", "Americas", "Southeast Asia", "Oceania", "Global"]
+
+
+def load_schema() -> dict:
+    return json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
+
+
+def load_actors() -> list[dict]:
+    actors: list[dict] = []
+    for path in sorted(DATA_DIR.glob("actors_*.json")):
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        for actor in payload["actors"]:
+            actor["_source_file"] = path.name
+            actors.append(actor)
+    return actors
+
+
+def validate(actors: list[dict], schema: dict) -> list[str]:
+    """Check required fields, enum membership and cross-references."""
+    errors: list[str] = []
+    props = schema["properties"]
+    required = schema["required"]
+    known_ids = {a["id"] for a in actors}
+
+    def enum_of(field: str) -> set[str] | None:
+        node = props.get(field, {})
+        if "enum" in node:
+            return set(node["enum"])
+        if node.get("type") == "array" and "enum" in node.get("items", {}):
+            return set(node["items"]["enum"])
+        return None
+
+    seen_ids: set[str] = set()
+    for actor in actors:
+        aid = actor.get("id", "<missing id>")
+        where = f"{actor.get('_source_file', '?')}:{aid}"
+
+        for field in required:
+            if field not in actor:
+                errors.append(f"{where}: missing required field '{field}'")
+
+        if "id" in actor:
+            if not ID_RE.match(actor["id"]):
+                errors.append(f"{where}: id does not match REGION-CLASS-SLUG pattern")
+            if actor["id"] in seen_ids:
+                errors.append(f"{where}: duplicate id")
+            seen_ids.add(actor["id"])
+
+        for field in (
+            "actor_class",
+            "primary_motivation",
+            "status",
+            "capability",
+            "categories",
+            "regions",
+            "targets",
+        ):
+            allowed = enum_of(field)
+            if allowed is None or field not in actor:
+                continue
+            value = actor[field]
+            values = value if isinstance(value, list) else [value]
+            for item in values:
+                if item not in allowed:
+                    errors.append(f"{where}: '{item}' is not a valid {field}")
+
+        for code in actor.get("countries", []):
+            if not re.match(r"^[A-Z]{2}$", code):
+                errors.append(f"{where}: country '{code}' is not ISO 3166-1 alpha-2")
+
+        assessments = actor.get("assessments", {})
+        for key in ("existence", "attribution", "financial_targeting"):
+            node = assessments.get(key)
+            if not isinstance(node, dict):
+                errors.append(f"{where}: assessments.{key} missing")
+                continue
+            if node.get("confidence") not in {"low", "moderate", "high"}:
+                errors.append(f"{where}: assessments.{key}.confidence invalid")
+            if not node.get("basis"):
+                errors.append(f"{where}: assessments.{key}.basis is empty")
+
+        if not actor.get("sources"):
+            errors.append(f"{where}: at least one source is required")
+        for source in actor.get("sources", []):
+            if not source.get("url", "").startswith("http"):
+                errors.append(f"{where}: source '{source.get('title')}' has no usable url")
+
+    for actor in actors:
+        for ref in actor.get("linked_actors", []):
+            if ref not in known_ids:
+                errors.append(f"{actor['id']}: linked_actors references unknown id '{ref}'")
+
+    return errors
+
+
+def region_key(actor: dict) -> str:
+    for region in REGION_ORDER:
+        if region in actor.get("regions", []):
+            return region
+    return "Global"
+
+
+def humanise(value: str) -> str:
+    return value.replace("_", " ")
+
+
+def render_markdown(actors: list[dict]) -> str:
+    by_region: dict[str, list[dict]] = defaultdict(list)
+    for actor in actors:
+        by_region[region_key(actor)].append(actor)
+
+    lines: list[str] = []
+    add = lines.append
+
+    add("# Physical and Hybrid Threat Actors: Financial Sector")
+    add("")
+    add(
+        "Generated from `data/actors_*.json` by `build.py`. Do not edit this file "
+        "directly; edit the JSON and re-run the build."
+    )
+    add("")
+    add(f"**Actors: {len(actors)}** | Last build reflects `last_reviewed` dates on each record.")
+    add("")
+
+    # Summary tables
+    add("## At a glance")
+    add("")
+    counts = Counter(region_key(a) for a in actors)
+    add("| Region | Actors |")
+    add("| --- | ---: |")
+    for region in REGION_ORDER:
+        if counts.get(region):
+            add(f"| {region} | {counts[region]} |")
+    add("")
+
+    class_counts = Counter(a["actor_class"] for a in actors)
+    add("| Actor class | Count |")
+    add("| --- | ---: |")
+    for name, count in class_counts.most_common():
+        add(f"| {humanise(name)} | {count} |")
+    add("")
+
+    cat_counts = Counter(c for a in actors for c in a["categories"])
+    add("| Category | Actors |")
+    add("| --- | ---: |")
+    for name, count in cat_counts.most_common():
+        add(f"| {humanise(name)} | {count} |")
+    add("")
+
+    add("## Index")
+    add("")
+    for region in REGION_ORDER:
+        if region not in by_region:
+            continue
+        add(f"**{region}**")
+        add("")
+        for actor in sorted(by_region[region], key=lambda a: a["name"]):
+            anchor = actor["id"].lower()
+            add(f"- [`{actor['id']}` {actor['name']}](#{anchor})")
+        add("")
+
+    for region in REGION_ORDER:
+        if region not in by_region:
+            continue
+        add(f"## {region}")
+        add("")
+        for actor in sorted(by_region[region], key=lambda a: a["name"]):
+            add(render_actor(actor))
+
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def render_actor(actor: dict) -> str:
+    out: list[str] = []
+    add = out.append
+
+    add(f"<a id=\"{actor['id'].lower()}\"></a>")
+    add(f"### {actor['name']}")
+    add("")
+    add(f"`{actor['id']}`")
+    add("")
+    if actor.get("aliases"):
+        add("**Also known as:** " + ", ".join(actor["aliases"]))
+        add("")
+
+    add(
+        f"**Class:** {humanise(actor['actor_class'])} &nbsp;|&nbsp; "
+        f"**Motivation:** {humanise(actor['primary_motivation'])} &nbsp;|&nbsp; "
+        f"**Status:** {actor['status']} &nbsp;|&nbsp; "
+        f"**Capability:** {actor['capability']}"
+    )
+    add("")
+    add(f"**Active since:** {actor.get('active_since', 'unknown')}")
+    add("")
+    add("**Operates in:** " + ", ".join(actor["countries"]))
+    add("")
+    add("**Categories:** " + ", ".join(humanise(c) for c in actor["categories"]))
+    add("")
+    add("**Targets:** " + ", ".join(humanise(t) for t in actor["targets"]))
+    add("")
+    add(actor["description"])
+    add("")
+    add("**Why the financial sector should care**")
+    add("")
+    add(actor["financial_sector_relevance"])
+    add("")
+
+    if actor.get("ttps"):
+        add("**Tactics, techniques and procedures**")
+        add("")
+        for ttp in actor["ttps"]:
+            add(f"- {ttp}")
+        add("")
+
+    add("**Confidence (assessed per variable)**")
+    add("")
+    add("| Variable | Confidence | Basis |")
+    add("| --- | --- | --- |")
+    for key, node in actor["assessments"].items():
+        add(f"| {humanise(key)} | {node['confidence']} | {node['basis']} |")
+    add("")
+
+    if actor.get("notable_incidents"):
+        add("**Notable incidents**")
+        add("")
+        for incident in actor["notable_incidents"]:
+            location = f" ({incident['location']})" if incident.get("location") else ""
+            add(f"- **{incident['date']}**{location} — {incident['summary']}")
+        add("")
+
+    if actor.get("watch_indicators"):
+        add("**Watch indicators**")
+        add("")
+        for indicator in actor["watch_indicators"]:
+            add(f"- {indicator}")
+        add("")
+
+    if actor.get("linked_actors"):
+        add("**Related records:** " + ", ".join(f"`{r}`" for r in actor["linked_actors"]))
+        add("")
+
+    add("**Sources**")
+    add("")
+    for source in actor["sources"]:
+        add(f"- [{source['title']}]({source['url']}) — *{humanise(source['type'])}*")
+    add("")
+    add(f"*Last reviewed: {actor['last_reviewed']}*")
+    add("")
+    add("---")
+    add("")
+
+    return "\n".join(out)
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--check", action="store_true", help="validate only")
+    args = parser.parse_args()
+
+    schema = load_schema()
+    actors = load_actors()
+    errors = validate(actors, schema)
+
+    if errors:
+        print(f"FAILED validation with {len(errors)} problem(s):", file=sys.stderr)
+        for error in errors:
+            print(f"  - {error}", file=sys.stderr)
+        return 1
+
+    print(f"OK: {len(actors)} actor records validated.")
+
+    if args.check:
+        return 0
+
+    clean = []
+    for actor in actors:
+        record = {k: v for k, v in actor.items() if not k.startswith("_")}
+        clean.append(record)
+    clean.sort(key=lambda a: a["id"])
+
+    DIST_DIR.mkdir(exist_ok=True)
+    JSON_OUT.write_text(
+        json.dumps(
+            {
+                "schema": "schema.json",
+                "actor_count": len(clean),
+                "actors": clean,
+            },
+            indent=2,
+            ensure_ascii=False,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+    MARKDOWN_OUT.write_text(render_markdown(actors), encoding="utf-8")
+
+    print(f"Wrote {JSON_OUT.relative_to(ROOT)} and {MARKDOWN_OUT.relative_to(ROOT)}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

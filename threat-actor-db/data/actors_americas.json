@@ -1,0 +1,2995 @@
+{
+  "region_file": "Americas",
+  "last_reviewed": "2026-07-24",
+  "actors": [
+    {
+      "id": "AM-GRP-PCC",
+      "name": "Primeiro Comando da Capital",
+      "aliases": [
+        "PCC",
+        "First Capital Command",
+        "Partido do Crime"
+      ],
+      "actor_class": "named_group",
+      "primary_motivation": "profit",
+      "categories": [
+        "branch_robbery",
+        "cash_centre_attack",
+        "cash_in_transit_attack",
+        "ied_explosive_attack",
+        "money_laundering_physical",
+        "extortion_protection"
+      ],
+      "status": "active",
+      "active_since": "1993",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "BR",
+        "PY",
+        "BO",
+        "PE",
+        "CO",
+        "PT",
+        "ES"
+      ],
+      "description": "Brazil's largest and most disciplined criminal organisation, functioning as a prison-street gang complex with formal membership, dues and internal courts. Beyond drug trafficking it operates a specialised armed robbery capability responsible for the most sophisticated bank and cash-centre assaults in the Western Hemisphere, and it has expanded into Paraguay, Bolivia and, financially, into Europe. Brazilian prosecutors attribute a share of the novo cangaco raids directly to PCC-linked structures.",
+      "financial_sector_relevance": "The most capable non-state actor in the world at attacking bank and cash-logistics infrastructure by force. It has demonstrated multi-team assaults on cash centres and vaults involving explosives, drones, human shields and heavy weapons, and it simultaneously represents a first-order money laundering exposure through fuel stations, fintechs and payment institutions in Brazil.",
+      "targets": [
+        "bank_branch",
+        "cash_centre",
+        "cit_vehicle",
+        "atm_estate",
+        "corporate_premises",
+        "money_service_business"
+      ],
+      "ttps": [
+        "Multi-team urban raids with 20-40 armed participants seizing a town's police response capacity",
+        "Human shields tied to vehicle exteriors to prevent police engagement",
+        "Explosive breaching of vaults and ATMs, and drone-assisted overwatch",
+        "Disabling of electrical substations and communications before the assault",
+        "Deep insider reconnaissance of cash-centre holdings and shift patterns",
+        "Laundering through fuel distribution, fintechs and payment institutions",
+        "Cross-border staging from Paraguay and Bolivia"
+      ],
+      "capability": "advanced",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Extensive Brazilian prosecutions and academic study."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Formal membership structure documented judicially."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Banks, cash centres and CIT are explicit and repeated targets."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2021-08-30",
+          "location": "Aracatuba, SP, BR",
+          "summary": "Urban bank raid using human shields, explosives and drones; a defining novo cangaco operation."
+        },
+        {
+          "date": "2020-07-30",
+          "location": "BR",
+          "summary": "Around 40 armed masked assailants attacked at least three bank branches, destroying one with explosives, taking residents hostage and exchanging fire with police."
+        },
+        {
+          "date": "2017-04",
+          "location": "Ciudad del Este, PY",
+          "summary": "Assault on the Prosegur cash vault, one of the largest cash heists in Latin American history, attributed to PCC-linked operators."
+        }
+      ],
+      "watch_indicators": [
+        "Theft of explosives or detonating cord from mining or construction sites in the region",
+        "Reconnaissance of substation and telecoms infrastructure near cash centres",
+        "Movement of known operators toward the Paraguay and Bolivia borders",
+        "Insider queries about vault holdings or replenishment schedules"
+      ],
+      "linked_actors": [
+        "AM-CLU-NOVOCANGACO",
+        "AM-GRP-CV",
+        "AM-CLU-CIT-BR"
+      ],
+      "sources": [
+        {
+          "title": "Third Generation Gangs Strategic Note No. 42: Brazilian Gangs Utilize Human Shields, Explosives, and Drones in a New 'Cangaco' Style Urban Bank Raid in Aracatuba",
+          "url": "https://smallwarsjournal.com/2021/09/05/third-generation-gangs-strategic-note-no-42-brazilian-gangs-utilize-human-shields/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "The Descent into Madness of Brazil's Bank Robberies",
+          "url": "https://insightcrime.org/news/the-descent-into-madness-of-brazils-bank-robberies/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Third Generation Gangs Strategic Note No. 33: Brazilian Gangs (Quadrilhas) Wage Urban Bank Raids in a New 'Cangaco'",
+          "url": "https://smallwarsjournal.com/2020/12/03/third-generation-gangs-strategic-note-no-33-brazilian-gangs-quadrilhas-wage-urban-bank/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-CLU-NOVOCANGACO",
+      "name": "Novo Cangaco raid crews",
+      "aliases": [
+        "novo cangaco",
+        "dominio de cidade",
+        "city domination raids"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "branch_robbery",
+        "ied_explosive_attack",
+        "cash_centre_attack"
+      ],
+      "status": "active",
+      "active_since": "2015",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "BR",
+        "PY"
+      ],
+      "description": "A distinct Brazilian attack pattern in which a heavily armed crew seizes control of an entire small town for 20 to 60 minutes, neutralising police and communications, in order to strip its bank branches and ATMs. Crews are highly specialised, use assault rifles and explosives, and have taken an estimated USD 120 million since the pattern emerged in 2015. Some raids are attributable to the PCC; many are conducted by independent quadrilhas using the same doctrine.",
+      "financial_sector_relevance": "Defines the worst-case physical scenario for branch networks in low-density areas: the assumption that police response constrains attacker dwell time simply does not hold. It has driven Brazilian banks toward cashless branches, remote vault management and closure of rural cash points, which is itself a financial-inclusion consequence worth tracking.",
+      "targets": [
+        "bank_branch",
+        "atm_estate",
+        "cash_centre"
+      ],
+      "ttps": [
+        "Simultaneous seizure of police stations, radio masts and access roads",
+        "Suppressive fire from .50 calibre and assault rifles against police facilities",
+        "Hostages taken from the street and used as human shields on vehicle exteriors",
+        "Explosive breaching of vaults, ATMs and safe rooms",
+        "Vehicles burned and roads spiked to block pursuit",
+        "Rural dispersal on foot and by boat after the raid"
+      ],
+      "capability": "advanced",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Documented raid series with consistent doctrine; extensive Brazilian reporting and academic analysis."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Some raids attributed to PCC; many crews are independent and unnamed."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Bank branches and ATMs are the sole objective of the pattern."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2022-04",
+          "location": "Guarapuava, PR, BR",
+          "summary": "Novo cangaco-style urban raid analysed in detail as a template of the doctrine."
+        },
+        {
+          "date": "2020-11",
+          "location": "Criciuma, SC, BR",
+          "summary": "Town-domination raid outside the usual Sao Paulo concentration, demonstrating national spread."
+        }
+      ],
+      "watch_indicators": [
+        "Theft of high-calibre weapons or explosives in the state",
+        "Reconnaissance of small-town branches with high overnight vault holdings",
+        "Prior raids on branches of the same bank in adjacent municipalities"
+      ],
+      "linked_actors": [
+        "AM-GRP-PCC",
+        "AM-CLU-CIT-BR"
+      ],
+      "sources": [
+        {
+          "title": "Third Generation Gangs Strategic Note No. 48: 'Novo Cangaco' Style Urban Raid in Guarapuava",
+          "url": "https://smallwarsjournal.com/2022/05/09/third-generation-gangs-strategic-note-no-48-novo-cangaco-style-urban-raid-guarapuava/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "With fresh firepower, brutal bank thieves blitz small-town Brazil",
+          "url": "https://www.nasdaq.com/articles/with-fresh-firepower-brutal-bank-thieves-blitz-small-town-brazil",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "These 'Mad Max' Mega-Heists Are the Future of Brazil's Bank Robberies",
+          "url": "https://www.thedailybeast.com/these-mad-max-mega-heists-are-the-future-of-brazils-bank-robberies/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-GRP-CV",
+      "name": "Comando Vermelho",
+      "aliases": [
+        "CV",
+        "Red Command"
+      ],
+      "actor_class": "named_group",
+      "primary_motivation": "profit",
+      "categories": [
+        "extortion_protection",
+        "branch_robbery",
+        "customer_predation",
+        "money_laundering_physical"
+      ],
+      "status": "active",
+      "active_since": "1979",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "BR",
+        "PY",
+        "BO",
+        "VE",
+        "CO"
+      ],
+      "description": "Brazil's oldest major criminal faction, territorially dominant in Rio de Janeiro favelas and expanding into the Amazon and northern states. Less corporate than the PCC, it exercises territorial control that includes taxation of local commerce and control of utilities and financial services access within its areas.",
+      "financial_sector_relevance": "Territorial control converts into de facto control over who may operate banking correspondents, ATMs and card acceptance in large urban areas. Institutions face extortion of agents, denial of physical access for maintenance and cash replenishment, and customer-level predation. Bank ATMs in controlled territories are routinely stripped or destroyed.",
+      "targets": [
+        "atm_estate",
+        "correspondent_agents",
+        "customers",
+        "bank_branch",
+        "corporate_premises"
+      ],
+      "ttps": [
+        "Taxation of local commerce and of banking correspondent agents",
+        "Denial or licensing of access for cash replenishment and maintenance crews",
+        "ATM destruction and looting during territorial conflict",
+        "Control of local internet and utility provision creating de facto service gatekeeping",
+        "Laundering through local commerce, transport and construction"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Extensive Brazilian judicial and academic record."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Well-defined faction identity."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Financial infrastructure is affected through territorial control rather than targeted for its own sake."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Correspondent agents in controlled areas reporting protection demands",
+        "Repeated failure to complete ATM replenishment runs in specific districts",
+        "Territorial conflict escalation preceding infrastructure damage"
+      ],
+      "linked_actors": [
+        "AM-GRP-PCC"
+      ],
+      "sources": [
+        {
+          "title": "The Descent into Madness of Brazil's Bank Robberies",
+          "url": "https://insightcrime.org/news/the-descent-into-madness-of-brazils-bank-robberies/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-CLU-CIT-BR",
+      "name": "Brazilian cash-in-transit and cash-logistics attack crews",
+      "aliases": [
+        "assalto a carro-forte crews"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "cash_in_transit_attack",
+        "ied_explosive_attack",
+        "cash_centre_attack"
+      ],
+      "status": "active",
+      "active_since": "2000",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "BR",
+        "PY"
+      ],
+      "description": "Crews that ambush armoured cash vehicles on highways and, in the highest-capability cases, attack cash vaults and airport cargo areas. Tactics include explosive breaching of the armoured vehicle body, use of heavy weapons to defeat armour, and coordinated blocking of highways. The capability overlaps heavily with the PCC and with novo cangaco crews.",
+      "financial_sector_relevance": "Brazil operates one of the world's largest cash logistics markets, and CIT attack severity there sets the ceiling for what CIT operators globally must design against. Airport cargo attacks additionally implicate bullion and foreign currency movements handled by banks.",
+      "targets": [
+        "cit_vehicle",
+        "cash_centre",
+        "armoured_air_cargo"
+      ],
+      "ttps": [
+        "Highway blocking with heavy vehicles and burning obstacles",
+        "Explosive charges placed against the armoured vehicle body",
+        "Heavy-calibre fire to defeat vehicle armour and deter crew response",
+        "Airport airside intrusion for high-value cargo",
+        "Insider information on route timing and load value"
+      ],
+      "capability": "advanced",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Sustained Brazilian incident and prosecution record."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Overlap with PCC established in some cases; many crews independent."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Cash logistics is the exclusive target."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Explosives or heavy weapons seizures in the operating state",
+        "Route observation reports from CIT crews",
+        "Insider access anomalies at cash centres and airport cargo facilities"
+      ],
+      "linked_actors": [
+        "AM-GRP-PCC",
+        "AM-CLU-NOVOCANGACO"
+      ],
+      "sources": [
+        {
+          "title": "The Descent into Madness of Brazil's Bank Robberies",
+          "url": "https://insightcrime.org/news/the-descent-into-madness-of-brazils-bank-robberies/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-CLU-SAIDINHA",
+      "name": "Brazilian saidinha de banco follow-out robbery cluster",
+      "aliases": [
+        "saidinha bancaria",
+        "bank exit robbery"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "customer_predation"
+      ],
+      "status": "active",
+      "active_since": "2005",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "BR"
+      ],
+      "description": "Crews that identify customers withdrawing cash inside a branch, follow them out and rob them at the first convenient point. A spotter operates inside the branch or in the queue, communicating by phone to motorcycle-mounted attackers outside. Legislative attention in Brazil has focused on making banks liable for failing to prevent the pattern.",
+      "financial_sector_relevance": "Creates direct legal and reputational liability for banks in Brazil, where courts have repeatedly held institutions responsible for customer losses in follow-out robberies. It is a design problem for branch layout, exit sightlines, cash counting areas and queue privacy rather than a guarding problem.",
+      "targets": [
+        "customers",
+        "bank_branch"
+      ],
+      "ttps": [
+        "In-branch spotter identifying high-value withdrawals",
+        "Real-time communication to motorcycle-mounted attackers outside",
+        "Robbery at the customer's vehicle or at the first traffic stop",
+        "Repeat targeting of branches with poor exit sightlines and adjacent parking"
+      ],
+      "capability": "low",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Well-established Brazilian crime pattern with dedicated legal and policy response."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Numerous small independent crews."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Victim selection occurs inside the branch."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Persons loitering in branch queues without transacting",
+        "Repeat robbery reports within 500 metres of the same branch",
+        "Motorcycles waiting on the branch approach at peak withdrawal times"
+      ],
+      "linked_actors": [
+        "AM-CLU-JUGGING",
+        "AM-CLU-SALIDERA"
+      ],
+      "sources": [
+        {
+          "title": "The Descent into Madness of Brazil's Bank Robberies",
+          "url": "https://insightcrime.org/news/the-descent-into-madness-of-brazils-bank-robberies/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-GRP-CJNG",
+      "name": "Cartel de Jalisco Nueva Generacion",
+      "aliases": [
+        "CJNG",
+        "New Generation Jalisco Cartel"
+      ],
+      "actor_class": "named_group",
+      "primary_motivation": "profit",
+      "categories": [
+        "extortion_protection",
+        "money_laundering_physical",
+        "arson_sabotage",
+        "kidnap_for_ransom",
+        "insider_recruitment"
+      ],
+      "status": "active",
+      "active_since": "2009",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "MX",
+        "US",
+        "CO",
+        "GT",
+        "EC"
+      ],
+      "description": "One of Mexico's two dominant cartels, designated a Foreign Terrorist Organization by the United States in 2025 and subject to the largest OFAC action ever taken against it. It fields paramilitary capability including armoured vehicles, drones with explosive payloads and coordinated narcobloqueos, and it operates a professionalised financial arm of money brokers and launderers concentrated in Zapopan and Guadalajara.",
+      "financial_sector_relevance": "Twofold. Operationally, extortion (cobro de piso) reaches bank correspondent agents, ATM operators and armoured transport providers in cartel-controlled states, and vehicle arson and road blockades disrupt cash logistics. Financially, FinCEN has warned US institutions specifically about cartel repatriation of bulk cash through armoured car services and air transport, and the 2025 FTO designation converted routine AML exposure into potential material-support risk.",
+      "targets": [
+        "correspondent_agents",
+        "cit_vehicle",
+        "corporate_premises",
+        "customers",
+        "money_service_business",
+        "insiders"
+      ],
+      "ttps": [
+        "Extortion of businesses and service providers in areas of territorial control",
+        "Bulk cash smuggling and repatriation via armoured car services and air transport",
+        "Coordinated narcobloqueos, vehicle arson and highway shutdowns",
+        "Explosive-payload drones and improvised armoured vehicles",
+        "Corruption and coercion of officials and private-sector insiders",
+        "Laundering via professional money broker networks and trade-based schemes"
+      ],
+      "capability": "advanced",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "US Treasury designations, DEA reporting, Mexican prosecutions."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Formally designated and extensively documented."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Financial institutions are used as laundering infrastructure and their local agents extorted; direct attacks on banks are not a signature behaviour."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025-03-31",
+          "location": "US",
+          "summary": "FinCEN alert urging US institutions to identify and report transactions linked to cross-border bulk cash smuggling, noting cartel use of armoured car services and air transport."
+        },
+        {
+          "date": "2025",
+          "location": "MX",
+          "summary": "Tactical evolution documented including coordinated narcobloqueos, vehicle arson and multi-municipality highway shutdowns."
+        }
+      ],
+      "watch_indicators": [
+        "Armoured car and air cargo providers with unexplained cross-border cash volumes",
+        "Correspondent agents in cartel states reporting protection demands",
+        "FinCEN and OFAC advisories naming linked facilitators"
+      ],
+      "linked_actors": [
+        "AM-GRP-SINALOA",
+        "AM-CLU-MXEXTORTION",
+        "AM-GRP-CHONEROS"
+      ],
+      "sources": [
+        {
+          "title": "FinCEN Warns US Financial Institutions of Bulk Cash Smuggling Risks from Mexico-Based Cartels",
+          "url": "https://www.gtlaw.com/en/insights/2025/4/fincen-warns-us-financial-institutions-of-bulk-cash-smuggling-risks-from-mexico-based-cartels",
+          "type": "industry",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Treasury Takes Largest Action Ever Targeting Cartel de Jalisco Nueva Generacion",
+          "url": "https://home.treasury.gov/news/press-releases/sb0573",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Hybrid Violence in Mexico: Cartel Attacks, Tactical Evolution, and the Impact of 2025 Terrorist Designations",
+          "url": "https://smallwarsjournal.com/2026/07/16/hybrid-violence-in-mexico-cartel-attacks-tactical-evolution-and-the-impact-of-2025-terrorist-designations/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "New Generation Jalisco Cartel (CJNG) - NCTC",
+          "url": "https://www.dni.gov/nctc/terrorist_groups/cjng.html",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-GRP-SINALOA",
+      "name": "Sinaloa Cartel",
+      "aliases": [
+        "Cartel de Sinaloa",
+        "CDS",
+        "Los Chapitos",
+        "La Mayiza"
+      ],
+      "actor_class": "named_group",
+      "primary_motivation": "profit",
+      "categories": [
+        "money_laundering_physical",
+        "extortion_protection",
+        "kidnap_for_ransom",
+        "insider_recruitment"
+      ],
+      "status": "active",
+      "active_since": "1989",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "MX",
+        "US",
+        "CO",
+        "EC",
+        "CA"
+      ],
+      "description": "Mexico's other dominant cartel, designated an FTO in 2025 and currently fractured by internal conflict between the Chapitos and Mayiza factions. Its financial architecture is notable for extensive use of Chinese money laundering organisations to convert US drug proceeds, a structure that directly implicates US and Canadian banking and money service businesses.",
+      "financial_sector_relevance": "The principal driver of Chinese-brokered mirror-transfer laundering through North American banks and MSBs, and a key reason bulk cash pickup networks operate in US cities. Physical risk to institutions is concentrated in Mexico, where extortion and coerced insider access affect branch and correspondent operations in contested states.",
+      "targets": [
+        "money_service_business",
+        "correspondent_agents",
+        "insiders",
+        "customers",
+        "corporate_premises"
+      ],
+      "ttps": [
+        "Bulk cash pickup networks operating in US metropolitan areas",
+        "Chinese money laundering organisation brokerage and mirror transfers",
+        "Extortion and coercion of local businesses and officials",
+        "Kidnapping for ransom and debt enforcement",
+        "Corruption of insiders in transport, customs and financial services"
+      ],
+      "capability": "advanced",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "US designations, DOJ prosecutions, extensive documentation."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Formally designated; leadership judicially identified."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Banking is used as laundering infrastructure; institutions are not physically attacked as a pattern."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Structured cash deposits following known pickup network geography",
+        "Trade accounts with mirror-transfer indicators to Chinese counterparties",
+        "Sanctions listings of linked facilitators and front companies"
+      ],
+      "linked_actors": [
+        "AM-GRP-CJNG",
+        "AM-CLU-CMLO"
+      ],
+      "sources": [
+        {
+          "title": "Cartels - DEA",
+          "url": "https://www.dea.gov/cartels",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Treasury Sanctions Cartel de Jalisco Nueva Generacion Leaders Under Counterterrorism Authorities",
+          "url": "https://home.treasury.gov/news/press-releases/sb0169",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-CLU-CMLO",
+      "name": "Chinese money laundering organisations in the Americas",
+      "aliases": [
+        "CMLO",
+        "Chinese underground banking networks"
+      ],
+      "actor_class": "network",
+      "primary_motivation": "profit",
+      "categories": [
+        "money_laundering_physical",
+        "insider_recruitment"
+      ],
+      "status": "active",
+      "active_since": "2012",
+      "regions": [
+        "Americas",
+        "Global"
+      ],
+      "countries": [
+        "US",
+        "MX",
+        "CA",
+        "PE",
+        "BR",
+        "CN"
+      ],
+      "description": "Broker networks that buy cartel drug cash in North America at a discount and settle the value in China through mirror transfers, using Chinese nationals seeking to move capital out of China as the counterparty. Their competitive advantage is that no cross-border movement of funds is required. Physical cash pickup crews are the visible component and the point at which the networks intersect with banking.",
+      "financial_sector_relevance": "The dominant laundering methodology now servicing Mexican cartels, and directly relevant to US and Canadian retail banking through structured cash deposits, funnel accounts and trade-account misuse. Physical cash pickups create real robbery and violence risk in branch car parks and around business customers handling the cash.",
+      "targets": [
+        "money_service_business",
+        "customers",
+        "insiders",
+        "corporate_premises"
+      ],
+      "ttps": [
+        "Street-level cash pickup crews collecting drug proceeds in US cities",
+        "Structured cash deposits into funnel accounts across many branches",
+        "Mirror transfers settling value in China without cross-border movement",
+        "Use of Chinese nationals' capital flight demand as the settlement counterparty",
+        "Trade-based settlement through goods purchase and export"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "US DOJ prosecutions and FinCEN advisories."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Individual networks prosecuted; the sector is broad and fluid."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Banking rails are integral to the business model."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Funnel account patterns with deposits across many geographically dispersed branches",
+        "Cash deposits shortly after known pickup activity in the same metro area",
+        "Trade accounts with counterparties inconsistent with stated business"
+      ],
+      "linked_actors": [
+        "AM-GRP-SINALOA",
+        "APAC-NET-LONGRIVER"
+      ],
+      "sources": [
+        {
+          "title": "FinCEN Warns US Financial Institutions of Bulk Cash Smuggling Risks from Mexico-Based Cartels",
+          "url": "https://www.gtlaw.com/en/insights/2025/4/fincen-warns-us-financial-institutions-of-bulk-cash-smuggling-risks-from-mexico-based-cartels",
+          "type": "industry",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-CLU-MXEXTORTION",
+      "name": "Mexican cobro de piso extortion cluster",
+      "aliases": [
+        "cobro de piso",
+        "derecho de piso",
+        "floor tax"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "extortion_protection",
+        "customer_predation",
+        "arson_sabotage"
+      ],
+      "status": "active",
+      "active_since": "2006",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "MX"
+      ],
+      "description": "Systematic extortion of businesses by cartels, splinter groups and freelance criminals across most of Mexico, enforced by arson, kidnapping and murder. Extortion has become a more reliable revenue stream than drug trafficking for many local cells, and it reaches every business type including banking correspondents, ATM operators, armoured transport and fuel retailers.",
+      "financial_sector_relevance": "Creates two hard problems for institutions in Mexico: physical inability to service correspondent agents and ATMs in extorted areas, and account-level patterns of coerced regular cash withdrawals by SME customers that look like laundering but are victimisation. The two require opposite responses, and distinguishing them is a genuine analytical challenge.",
+      "targets": [
+        "correspondent_agents",
+        "customers",
+        "atm_estate",
+        "cit_vehicle",
+        "corporate_premises"
+      ],
+      "ttps": [
+        "Periodic demands enforced by arson, shooting and kidnapping",
+        "Targeting of businesses with visible cash turnover including correspondents",
+        "Telephone extortion from prisons using leaked customer data",
+        "Blockade and denial of access to service and replenishment crews",
+        "Escalation against non-payers to establish credibility across the locality"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Mexican national victimisation surveys and extensive reporting."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Perpetrators range from cartels to freelance actors invoking cartel names."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Financial service points are extorted as businesses, not selected for their financial function."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Correspondent agent attrition concentrated in specific municipalities",
+        "SME customers making regular identical cash withdrawals with no business rationale",
+        "Arson or shooting at a customer's premises followed by new withdrawal patterns"
+      ],
+      "linked_actors": [
+        "AM-GRP-CJNG",
+        "AM-GRP-SINALOA"
+      ],
+      "sources": [
+        {
+          "title": "Transnational Organized Crime in Mexico and the Government's Response",
+          "url": "https://gordoninstitute.fiu.edu/news-events/the-policy-spotlight/2025/transnational-organized-crime-in-mexico-and-the-governments-response.html",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Hybrid Violence in Mexico: Cartel Attacks, Tactical Evolution, and the Impact of 2025 Terrorist Designations",
+          "url": "https://smallwarsjournal.com/2026/07/16/hybrid-violence-in-mexico-cartel-attacks-tactical-evolution-and-the-impact-of-2025-terrorist-designations/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-GRP-TDA",
+      "name": "Tren de Aragua",
+      "aliases": [
+        "TdA"
+      ],
+      "actor_class": "named_group",
+      "primary_motivation": "profit",
+      "categories": [
+        "extortion_protection",
+        "kidnap_for_ransom",
+        "customer_predation",
+        "money_laundering_physical"
+      ],
+      "status": "active",
+      "active_since": "2014",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "VE",
+        "CO",
+        "PE",
+        "CL",
+        "EC",
+        "BO",
+        "BR",
+        "US"
+      ],
+      "description": "A Venezuelan prison-origin organisation that built a transnational network across Colombia, Peru and Chile between 2018 and 2023, following migration corridors. Designated a transnational criminal organisation by the US Treasury in July 2024 and a Foreign Terrorist Organization in early 2025. Its revenue mix, extortion, migrant smuggling, kidnapping and gota a gota loan sharking, is unusually predatory toward ordinary consumers.",
+      "financial_sector_relevance": "The primary driver of the regional spread of gota a gota informal lending, which is enforced by violence and which competes directly with regulated consumer credit while generating coerced repayment flows through bank accounts and wallets. Extortion of small businesses across Peru, Chile and Colombia produces the same coerced-withdrawal analytical problem as in Mexico.",
+      "targets": [
+        "customers",
+        "corporate_premises",
+        "money_service_business",
+        "correspondent_agents"
+      ],
+      "ttps": [
+        "Gota a gota daily-repayment loan sharking enforced by violence",
+        "Extortion of small businesses and market traders",
+        "Kidnapping and hostage taking for ransom",
+        "Checkpoint extortion of migrants along informal border crossings",
+        "Contract killings to enforce discipline and deter reporting",
+        "Retail drug trafficking and human trafficking as complementary revenue"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "US designations, InSight Crime and regional law enforcement documentation."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Structure is decentralised; local cells sometimes claim the name opportunistically."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Consumer credit substitution and small-business extortion are core; institutions are not attacked directly."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2024-07",
+          "location": "US",
+          "summary": "US Treasury designated Tren de Aragua a transnational criminal organisation."
+        },
+        {
+          "date": "2025-01",
+          "location": "US",
+          "summary": "Designated a Foreign Terrorist Organization following an executive order."
+        }
+      ],
+      "watch_indicators": [
+        "Clusters of small-value daily repayments to individual accounts from many payers",
+        "Customer reports of intimidation over informal loans",
+        "Migration-corridor cities showing sudden extortion complaint increases"
+      ],
+      "linked_actors": [
+        "AM-CLU-GOTAGOTA",
+        "AM-CLU-SATG",
+        "AM-GRP-CLANGOLFO"
+      ],
+      "sources": [
+        {
+          "title": "Tren de Aragua Explained",
+          "url": "https://insightcrime.org/venezuela-organized-crime-news/tren-de-aragua/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Crossing Borders: The Evolution and Impact of Tren de Aragua",
+          "url": "https://smallwarsjournal.com/2025/06/12/crossing-borders-the-evolution-and-impact-of-tren-de-aragua/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Tren de Aragua - OpenSanctions",
+          "url": "https://www.opensanctions.org/entities/NK-miEUmUwNfuBqErCC5VCSY4/",
+          "type": "reference",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-CLU-GOTAGOTA",
+      "name": "Gota a gota violent informal lending cluster",
+      "aliases": [
+        "gota a gota",
+        "drop by drop",
+        "paga diario"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "extortion_protection",
+        "customer_predation"
+      ],
+      "status": "active",
+      "active_since": "2000",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "CO",
+        "PE",
+        "CL",
+        "EC",
+        "BO",
+        "AR",
+        "MX",
+        "ES"
+      ],
+      "description": "Daily-repayment informal lending, originally Colombian, now exported across Latin America and into Spain by Colombian and Venezuelan networks. Interest rates are extreme and enforcement is physical: beatings, arson, kidnapping and killings of defaulters. It fills the gap left by limited formal credit access for informal-sector workers.",
+      "financial_sector_relevance": "The most important consumer-protection-adjacent physical threat in Latin American retail banking. Borrowers frequently use bank accounts, wallets and correspondent agents to make coerced daily repayments, which produces a recognisable transaction signature. It is also a competitive and reputational issue for institutions serving the same segment.",
+      "targets": [
+        "customers",
+        "correspondent_agents",
+        "money_service_business"
+      ],
+      "ttps": [
+        "Daily collection rounds by motorcycle-mounted collectors",
+        "Retention of borrower identity documents and family details as leverage",
+        "Escalating violence against defaulters, including arson and killing",
+        "Recruitment of borrowers at markets, transport hubs and migrant communities",
+        "Collection via wallets and correspondent agents to reduce street cash risk"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Documented across multiple Latin American jurisdictions and in Spain."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Highly fragmented; some cells linked to TdA and Colombian groups, many independent."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Uses banking rails for collection; targets consumers rather than institutions."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Many small identical daily credits to a single personal account",
+        "Customers reporting document retention by a lender",
+        "Correspondent agents processing repetitive small deposits for the same beneficiary"
+      ],
+      "linked_actors": [
+        "AM-GRP-TDA",
+        "APAC-CLU-AHLONG"
+      ],
+      "sources": [
+        {
+          "title": "Tren de Aragua Explained",
+          "url": "https://insightcrime.org/venezuela-organized-crime-news/tren-de-aragua/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-GRP-CLANGOLFO",
+      "name": "Clan del Golfo / Ejercito Gaitanista de Colombia",
+      "aliases": [
+        "AGC",
+        "Autodefensas Gaitanistas de Colombia",
+        "Los Urabenos",
+        "EGC"
+      ],
+      "actor_class": "named_group",
+      "primary_motivation": "profit",
+      "categories": [
+        "extortion_protection",
+        "armed_insurgency",
+        "arson_sabotage",
+        "money_laundering_physical"
+      ],
+      "status": "active",
+      "active_since": "2006",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "CO",
+        "VE",
+        "PA",
+        "EC"
+      ],
+      "description": "Colombia's largest neo-paramilitary organisation, designated a terrorist organisation by the United States in December 2025. It exercises territorial control across northern Colombia, imposes armed strikes (paros armados) that shut down commerce for days, and taxes almost all economic activity in its areas including transport, mining and retail.",
+      "financial_sector_relevance": "Armed strikes force branch closures and halt cash logistics across whole departments, a business-continuity event with days of notice at best. Extortion reaches banking correspondents and merchants, and the 2025 terrorist designation adds sanctions and material-support considerations for Colombian exposure.",
+      "targets": [
+        "bank_branch",
+        "correspondent_agents",
+        "cit_vehicle",
+        "customers",
+        "corporate_premises"
+      ],
+      "ttps": [
+        "Armed strikes closing commerce and transport across regions for days",
+        "Systematic extortion of businesses, transport and mining operations",
+        "Targeted attacks on police and security forces",
+        "Use of explosives and IEDs in territorial conflict",
+        "Laundering through gold, land and commerce"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Colombian and US government documentation; FTO designation."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Formally designated and structurally documented."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Bank operations are disrupted by armed strikes and agents extorted; branches are not the primary target."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025-06 to 2025-08",
+          "location": "Sur de Bolivar, CO",
+          "summary": "Four villages placed under armed strike by ELN and Clan del Golfo forces."
+        },
+        {
+          "date": "2025-12-16",
+          "location": "US/CO",
+          "summary": "United States formally designated the EGC a terrorist organisation."
+        }
+      ],
+      "watch_indicators": [
+        "Announcement of a paro armado in a department with branch presence",
+        "Correspondent agent closures clustered geographically",
+        "Escalation in attacks on security forces preceding wider disruption"
+      ],
+      "linked_actors": [
+        "AM-GRP-ELN",
+        "AM-GRP-FARCDISS",
+        "AM-GRP-TDA"
+      ],
+      "sources": [
+        {
+          "title": "US officially labels Colombia's EGC group a 'terrorist organization'",
+          "url": "https://www.aljazeera.com/news/2025/12/16/us-officially-labels-colombias-egc-group-a-terrorist-organization",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Clan del Golfo",
+          "url": "https://en.wikipedia.org/wiki/Clan_del_Golfo",
+          "type": "reference",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "FARC Dissidents, ELN, Gulf Clan: Colombia's Armed Groups Explained",
+          "url": "https://thehuman-rights.com/farc-dissidents-eln-gulf-clan-colombia-armed-groups-explained/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-GRP-ELN",
+      "name": "Ejercito de Liberacion Nacional",
+      "aliases": [
+        "ELN",
+        "National Liberation Army"
+      ],
+      "actor_class": "insurgent_group",
+      "primary_motivation": "ideological",
+      "categories": [
+        "armed_insurgency",
+        "ied_explosive_attack",
+        "extortion_protection",
+        "kidnap_for_ransom",
+        "infrastructure_sabotage"
+      ],
+      "status": "active",
+      "active_since": "1964",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "CO",
+        "VE"
+      ],
+      "description": "Colombia's oldest active guerrilla organisation, still conducting armed strikes, infrastructure sabotage, kidnapping for ransom and extortion. It historically attacked bank branches and ATMs in rural municipalities as symbolic and funding targets, and it retains explosive capability that it uses against pipelines, electricity pylons and security forces.",
+      "financial_sector_relevance": "Retains both the intent and the capability to attack physical bank infrastructure in areas of operation, and its kidnapping economy directly affects bank and corporate personnel in Arauca, Catatumbo and Choco. Armed strikes produce the same branch-closure continuity impact as Clan del Golfo operations.",
+      "targets": [
+        "bank_branch",
+        "atm_estate",
+        "executives_hnwi",
+        "corporate_premises",
+        "customers"
+      ],
+      "ttps": [
+        "IED and explosive attacks on infrastructure and security forces",
+        "Kidnapping for ransom of business people and their families",
+        "Extortion of companies operating in areas of influence",
+        "Armed strikes halting regional commerce",
+        "Attacks on electricity and pipeline infrastructure"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Six decades of documented insurgency; state and international designations."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Group claims operations."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Financial premises historically attacked; current activity concentrates on infrastructure, extortion and kidnapping."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025-01",
+          "location": "Catatumbo, CO",
+          "summary": "Major offensive and displacement crisis prompting a military counter-offensive."
+        }
+      ],
+      "watch_indicators": [
+        "Armed strike declarations affecting departments with branch presence",
+        "Kidnapping incidents involving corporate personnel in operating areas",
+        "Explosives seizures in the department"
+      ],
+      "linked_actors": [
+        "AM-GRP-CLANGOLFO",
+        "AM-GRP-FARCDISS"
+      ],
+      "sources": [
+        {
+          "title": "Colombia: Military Launches Offensive Against ELN in Catatumbo",
+          "url": "https://ackermangroup.com/colombia-military-launches-offensive-against-eln-in-catatumbo/",
+          "type": "industry",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "FARC Dissidents, ELN, Gulf Clan: Colombia's Armed Groups Explained",
+          "url": "https://thehuman-rights.com/farc-dissidents-eln-gulf-clan-colombia-armed-groups-explained/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-GRP-FARCDISS",
+      "name": "FARC dissident structures",
+      "aliases": [
+        "Estado Mayor Central",
+        "EMC",
+        "Segunda Marquetalia",
+        "FARC-EP dissidents"
+      ],
+      "actor_class": "insurgent_group",
+      "primary_motivation": "hybrid",
+      "categories": [
+        "armed_insurgency",
+        "extortion_protection",
+        "ied_explosive_attack",
+        "kidnap_for_ransom"
+      ],
+      "status": "active",
+      "active_since": "2016",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "CO",
+        "VE",
+        "EC"
+      ],
+      "description": "Successor structures formed by FARC members who rejected or abandoned the 2016 peace agreement, now fragmented into competing blocs. They combine insurgent framing with straightforward criminal economics: coca, illegal mining, extortion and kidnapping.",
+      "financial_sector_relevance": "Extortion and kidnapping in operating departments affect corporate customers and their staff, and periodic attacks on municipal infrastructure disrupt branch and ATM availability. Institutions with agricultural and mining exposure in these regions face both credit and personnel risk.",
+      "targets": [
+        "corporate_premises",
+        "customers",
+        "executives_hnwi",
+        "bank_branch"
+      ],
+      "ttps": [
+        "Extortion of agricultural, transport and mining businesses",
+        "Kidnapping for ransom",
+        "IED attacks on infrastructure and security forces",
+        "Control of illicit mining and coca economies",
+        "Recruitment of minors in areas of control"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Colombian government and international documentation."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Fragmentation makes bloc-level attribution of individual acts difficult."
+        },
+        "financial_targeting": {
+          "confidence": "low",
+          "basis": "No systematic targeting of financial institutions; exposure is via customers and regional disruption."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Kidnapping incidents affecting corporate staff in operating departments",
+        "Extortion complaints from agricultural and mining customers"
+      ],
+      "linked_actors": [
+        "AM-GRP-ELN",
+        "AM-GRP-CLANGOLFO"
+      ],
+      "sources": [
+        {
+          "title": "FARC Dissidents, ELN, Gulf Clan: Colombia's Armed Groups Explained",
+          "url": "https://thehuman-rights.com/farc-dissidents-eln-gulf-clan-colombia-armed-groups-explained/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "The Debrief: Colombia's narco battleground",
+          "url": "https://blog.factal.com/2025/09/the-debrief-colombias-narco-battleground/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-GRP-CHONEROS",
+      "name": "Los Choneros",
+      "aliases": [
+        "Choneros"
+      ],
+      "actor_class": "named_group",
+      "primary_motivation": "profit",
+      "categories": [
+        "extortion_protection",
+        "kidnap_for_ransom",
+        "arson_sabotage",
+        "money_laundering_physical"
+      ],
+      "status": "active",
+      "active_since": "1990",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "EC",
+        "CO",
+        "MX"
+      ],
+      "description": "Ecuador's most prominent criminal organisation, designated a Foreign Terrorist Organization by the United States in September 2025, with links to the Sinaloa Cartel. It has attacked and threatened public officials, judges, prosecutors and journalists, and extortion of businesses is a core revenue line in coastal cities.",
+      "financial_sector_relevance": "Extortion has become pervasive in Guayaquil and coastal Ecuador, reaching merchants, transport operators and financial service agents. The FTO designation created immediate sanctions screening obligations for institutions with Ecuadorian exposure, and gang-driven violence has repeatedly disrupted branch operations in Guayas and Manabi.",
+      "targets": [
+        "customers",
+        "corporate_premises",
+        "correspondent_agents",
+        "bank_branch"
+      ],
+      "ttps": [
+        "Systematic extortion of businesses enforced by grenade attacks and shootings",
+        "Kidnapping for ransom",
+        "Targeting of judges, prosecutors and officials to secure impunity",
+        "Prison-based command and control",
+        "Laundering through commerce and real estate"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "US FTO designation and Ecuadorian prosecutions."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Formally designated; leadership publicly identified."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Financial service points extorted as businesses; institutions not directly attacked."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025-09-04",
+          "location": "US/EC",
+          "summary": "United States designated Los Choneros and Los Lobos as Foreign Terrorist Organizations."
+        }
+      ],
+      "watch_indicators": [
+        "Extortion complaint clusters in Guayaquil and coastal cities",
+        "Grenade or shooting attacks on commercial premises near branches",
+        "New OFAC listings of linked individuals and companies"
+      ],
+      "linked_actors": [
+        "AM-GRP-LOBOS",
+        "AM-GRP-SINALOA",
+        "AM-GRP-CJNG"
+      ],
+      "sources": [
+        {
+          "title": "Terrorist Designations of Los Choneros and Los Lobos",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2025/09/terrorist-designations-of-los-choneros-and-los-lobos",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Foreign Terrorist Organization Designation of Los Choneros and Los Lobos",
+          "url": "https://www.federalregister.gov/documents/2025/09/05/2025-17067/foreign-terrorist-organization-designation-of-los-choneros-and-los-lobos",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Terrorist Syndicates in Ecuador: The Shadow of Los Choneros and Los Lobos",
+          "url": "https://dialogo-americas.com/articles/terrorist-syndicates-in-ecuador-the-shadow-of-los-choneros-and-los-lobos/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-GRP-LOBOS",
+      "name": "Los Lobos",
+      "aliases": [
+        "Lobos"
+      ],
+      "actor_class": "named_group",
+      "primary_motivation": "profit",
+      "categories": [
+        "extortion_protection",
+        "kidnap_for_ransom",
+        "money_laundering_physical"
+      ],
+      "status": "active",
+      "active_since": "2020",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "EC",
+        "CO",
+        "PE"
+      ],
+      "description": "Ecuador's largest gang by membership, designated an FTO alongside Los Choneros in September 2025, with links to CJNG. It controls illegal gold mining in parts of Ecuador, which gives it a distinct laundering profile centred on bullion rather than cash.",
+      "financial_sector_relevance": "Illegal gold is a laundering channel that intersects directly with regulated bullion trading and precious metals financing, and the group's extortion reach affects merchant and agent networks. Gold-linked laundering typologies are the specific exposure to flag for institutions with Andean precious metals exposure.",
+      "targets": [
+        "customers",
+        "corporate_premises",
+        "gold_jewellery_dealer",
+        "correspondent_agents"
+      ],
+      "ttps": [
+        "Control and taxation of illegal gold mining",
+        "Extortion of businesses and transport",
+        "Kidnapping and contract killing",
+        "Laundering through gold export and trade misinvoicing"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "US FTO designation and Ecuadorian documentation."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Formally designated."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Exposure is through gold laundering channels and agent extortion."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025-09-04",
+          "location": "US/EC",
+          "summary": "Designated a Foreign Terrorist Organization by the United States."
+        }
+      ],
+      "watch_indicators": [
+        "Gold export volumes inconsistent with declared mining production",
+        "Precious metals customers with Ecuadorian sourcing and opaque supply chains"
+      ],
+      "linked_actors": [
+        "AM-GRP-CHONEROS",
+        "AM-GRP-CJNG"
+      ],
+      "sources": [
+        {
+          "title": "Terrorist Designations of Los Choneros and Los Lobos",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2025/09/terrorist-designations-of-los-choneros-and-los-lobos",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Terrorist Syndicates in Ecuador",
+          "url": "https://dialogo-americas.com/articles/terrorist-syndicates-in-ecuador-the-shadow-of-los-choneros-and-los-lobos/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-GRP-VIVANSANM",
+      "name": "Viv Ansanm",
+      "aliases": [
+        "Living Together",
+        "G-9 and G-Pep alliance"
+      ],
+      "actor_class": "named_group",
+      "primary_motivation": "hybrid",
+      "categories": [
+        "extortion_protection",
+        "kidnap_for_ransom",
+        "armed_insurgency",
+        "arson_sabotage"
+      ],
+      "status": "active",
+      "active_since": "2023",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "HT"
+      ],
+      "description": "The alliance formed in September 2023 between Haiti's two main gang federations, G-9 and G-Pep, designated a transnational terrorist organisation by the United States in May 2025 and listed by the UN Security Council. Its principal revenue is systematic extortion and kidnapping for ransom, and it controls most of Port-au-Prince including the routes to the port and airport.",
+      "financial_sector_relevance": "Haiti's banking system operates under gang control of the physical environment. Branch access, cash movement, staff commuting and ATM replenishment are all subject to gang permission or attack, and kidnapping of bank employees and customers is a routine risk. This is the clearest case in the Americas of an actor that effectively taxes and constrains a national financial system without needing to attack banks directly.",
+      "targets": [
+        "bank_branch",
+        "cit_vehicle",
+        "bank_staff",
+        "customers",
+        "corporate_premises",
+        "cash_centre"
+      ],
+      "ttps": [
+        "Systematic extortion of businesses, transport and port operations",
+        "Kidnapping for ransom as a primary revenue line",
+        "Control of road access to ports, airport and commercial districts",
+        "Mass-casualty attacks on communities to enforce territorial control",
+        "Arson and destruction of institutions and infrastructure"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "US designation, UN Security Council listing, extensive NGO documentation."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Formally designated; leadership publicly identified."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Financial operations are constrained and taxed through territorial control and kidnapping; direct bank attacks are not the documented signature."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025-01-26 to 2025-01-29",
+          "location": "Kenscoff, HT",
+          "summary": "Multiple attacks with an estimated 90 to 150 people killed."
+        },
+        {
+          "date": "2025-05",
+          "location": "US/HT",
+          "summary": "United States designated Viv Ansanm and Gran Grif as transnational terrorist organisations."
+        },
+        {
+          "date": "2025-09-11",
+          "location": "Labodrie, HT",
+          "summary": "Armed gangs attacked the village, killing at least 50 people."
+        }
+      ],
+      "watch_indicators": [
+        "Route closures affecting branch and cash centre access",
+        "Kidnapping incidents affecting financial sector staff",
+        "Port and airport access disruption affecting currency shipments"
+      ],
+      "linked_actors": [
+        "AM-GRP-GRANGRIF"
+      ],
+      "sources": [
+        {
+          "title": "Viv Ansanm and Gran Grif - Rewards For Justice",
+          "url": "https://rewardsforjustice.net/rewards/viv-ansanm-and-gran-grif/",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Viv Ansanm - NCTC",
+          "url": "https://www.dni.gov/nctc/terrorist_groups/viv_ansanm.html",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Undoing Haiti's Deadly Gang Alliance",
+          "url": "https://www.crisisgroup.org/rpt/latin-america-caribbean/haiti/110-undoing-haitis-deadly-gang-alliance",
+          "type": "ngo",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Gang violence in Haiti: The first anniversary of Viv Ansanm",
+          "url": "https://riskbulletins.globalinitiative.net/ht-obs-003/03-gang-violence-haiti-first-anniversary-viv-ansanm.html",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-GRP-GRANGRIF",
+      "name": "Gran Grif",
+      "aliases": [
+        "Grand Grif"
+      ],
+      "actor_class": "named_group",
+      "primary_motivation": "profit",
+      "categories": [
+        "extortion_protection",
+        "kidnap_for_ransom",
+        "armed_insurgency"
+      ],
+      "status": "active",
+      "active_since": "2020",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "HT"
+      ],
+      "description": "The dominant armed group in Haiti's Artibonite department, designated a transnational terrorist organisation by the United States in May 2025 alongside Viv Ansanm. It controls the main national road corridor through the country's agricultural heartland and taxes all movement along it.",
+      "financial_sector_relevance": "Controls the road link between Port-au-Prince and the north, which is the physical route for cash movement, agricultural payments and branch supply outside the capital. Any Haitian banking continuity plan that assumes overland movement has to account for this group specifically.",
+      "targets": [
+        "cit_vehicle",
+        "bank_branch",
+        "customers",
+        "corporate_premises"
+      ],
+      "ttps": [
+        "Roadblock extortion on the national road corridor",
+        "Kidnapping of travellers and commercial drivers",
+        "Massacres to enforce control of agricultural communities",
+        "Taxation of agricultural production and transport"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "US designation and UN reporting."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Formally designated."
+        },
+        "financial_targeting": {
+          "confidence": "low",
+          "basis": "Financial impact is a consequence of corridor control, not deliberate targeting."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025-05",
+          "location": "US/HT",
+          "summary": "Designated a transnational terrorist organisation by the United States."
+        }
+      ],
+      "watch_indicators": [
+        "Roadblock activity on the Artibonite corridor",
+        "Cash movement failures to northern branches"
+      ],
+      "linked_actors": [
+        "AM-GRP-VIVANSANM"
+      ],
+      "sources": [
+        {
+          "title": "Viv Ansanm and Gran Grif - Rewards For Justice",
+          "url": "https://rewardsforjustice.net/rewards/viv-ansanm-and-gran-grif/",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "U.S. DOS Offers Reward for Information on Haitian Criminal Orgs Viv Ansanm and Gran Grif",
+          "url": "https://ht.usembassy.gov/u-s-dos-offers-reward-for-information-on-haitian-criminal-orgs-viv-ansanm-and-gran-grif/",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-CLU-ATMEXPL-CL",
+      "name": "Chilean ATM gas and explosive attack crews",
+      "aliases": [
+        "bandas de cajeros automaticos"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "atm_physical_attack",
+        "ied_explosive_attack"
+      ],
+      "status": "active",
+      "active_since": "2012",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "CL",
+        "CO",
+        "PE"
+      ],
+      "description": "Crews attacking ATMs in Chile using gas saturation and controlled explosion, a technique that resurged after roughly a decade of suppression. Chile recorded 19 ATM robbery cases in 2024 with 14 concentrated in a single month. The tradecraft has since been observed being exported by Chilean nationals to Colombia, which makes this a genuinely transnational cluster rather than a national one.",
+      "financial_sector_relevance": "Directly relevant to Chilean and Andean ATM estates, and a clear illustration of how removing a control invites the attack back: Chilean banks had abandoned dye staining as ineffective before the resurgence. Cross-border export of the technique means neighbouring markets should treat Chilean incidence as a leading indicator.",
+      "targets": [
+        "atm_estate",
+        "bank_branch"
+      ],
+      "ttps": [
+        "Hose inserted through the dispenser slot to saturate the safe cavity with a gas and oxygen mixture",
+        "Remote ignition producing a controlled explosion to open the safe",
+        "Targeting of standalone and off-premises machines with minimal guarding",
+        "Cross-border export of technique and personnel to neighbouring countries"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Chilean police operations and national regulatory response."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Several crews dismantled and leaders arrested; cluster is not a single organisation."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "ATMs are the sole target."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2024",
+          "location": "CL",
+          "summary": "19 ATM robbery cases recorded, 14 in a single month, marking a resurgence after a decade of low incidence; a government working group with the Banking Association and BancoEstado was convened."
+        },
+        {
+          "date": "2025-06",
+          "location": "Copacabana, CO",
+          "summary": "Chilean nationals attempted to rob an ATM using explosives, with authorities not ruling out an international ATM-attack network."
+        }
+      ],
+      "watch_indicators": [
+        "Purchase or theft of oxygen and fuel gas cylinders near the estate",
+        "Failed attempts leaving drill or hose marks",
+        "Chilean-linked crews detected in neighbouring markets"
+      ],
+      "linked_actors": [
+        "EU-CLU-ATMEXPL-GAS",
+        "AM-CLU-SATG"
+      ],
+      "sources": [
+        {
+          "title": "Despues de 10 anos rebrotan robos a cajeros automaticos",
+          "url": "https://www.ciperchile.cl/2024/10/30/despues-de-10-anos-rebrotan-robos-a-cajeros-automaticos-bancos-dejaron-de-usar-entintado-de-billetes-porque-no-lo-consideran-efectivo/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "OS9 y Fiscalia Occidente detienen a lider de banda dedicada al robo de cajeros automaticos",
+          "url": "https://www.seguridadpublica.cl/noticia/os9-y-fiscalia-occidente-logran-detener-a-lider-de-banda-dedicada-al-robo-de-cajeros-automaticos-en-la-rm/",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Chilenos le pusieron explosivos a un cajero en Copacabana",
+          "url": "https://www.elcolombiano.com/antioquia/chilenos-intentaron-robar-122-millones-de-un-cajero-en-copacabana-con-explosivos-IE27898275",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-CLU-SATG",
+      "name": "South American Theft Groups",
+      "aliases": [
+        "SATG",
+        "crime tourists",
+        "Chilean burglary tourism crews"
+      ],
+      "actor_class": "network",
+      "primary_motivation": "profit",
+      "categories": [
+        "vault_burglary",
+        "customer_predation"
+      ],
+      "status": "active",
+      "active_since": "2015",
+      "regions": [
+        "Americas",
+        "Europe"
+      ],
+      "countries": [
+        "US",
+        "CL",
+        "CO",
+        "PE",
+        "EC",
+        "ES"
+      ],
+      "description": "Organised crews, predominantly Chilean but also Colombian, Peruvian and Ecuadorian, that travel to the United States and Europe on visa waiver or tourist entry specifically to commit high-end residential and commercial burglary and follow-home robbery, then depart. US law enforcement has investigated them in at least 25 states, and their use of the Visa Waiver Program has become a live policy issue.",
+      "financial_sector_relevance": "The dominant contemporary threat to high-net-worth clients' residential security in the United States, which makes it a private banking and family office concern rather than a branch security one. Crews conduct follow-home robberies from jewellers, banks and casinos, and use signal jamming and counter-surveillance that ordinary residential alarm systems do not defeat.",
+      "targets": [
+        "executives_hnwi",
+        "customers",
+        "corporate_premises",
+        "gold_jewellery_dealer"
+      ],
+      "ttps": [
+        "Entry on visa waiver or tourist status with no criminal background check",
+        "Multi-day surveillance of affluent residences to establish absence patterns",
+        "Wi-Fi and cellular jamming to defeat alarm and camera reporting",
+        "Follow-home robbery from banks, jewellers and high-end retail",
+        "Rapid interstate movement and departure before local investigation matures",
+        "Fencing of proceeds through established South American channels"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "ICE arrests, congressional testimony, multi-state investigations."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Crews are identified and prosecuted; the category is a law enforcement classification rather than a single organisation."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Targets are wealthy individuals and their homes, including bank customers; institutions are not attacked."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025-09",
+          "location": "New Jersey, US",
+          "summary": "ICE arrested nine Chilean nationals linked to a South American Theft Group."
+        },
+        {
+          "date": "2025-03",
+          "location": "US",
+          "summary": "Bipartisan congressional letter urged DHS to suspend Chile's Visa Waiver Program participation over burglary tourism."
+        }
+      ],
+      "watch_indicators": [
+        "Follow-home robbery reports originating at branches or private banking offices",
+        "Client reports of jamming, camera outage or surveillance at residences",
+        "Regional law enforcement alerts on active crews"
+      ],
+      "linked_actors": [
+        "AM-CLU-ATMEXPL-CL",
+        "AM-CLU-JUGGING",
+        "EU-NET-GEORGIAN"
+      ],
+      "sources": [
+        {
+          "title": "ICE arrests 9 Chilean nationals linked to South American Theft Group in New Jersey",
+          "url": "https://www.ice.gov/news/releases/ice-arrests-9-chilean-nationals-linked-south-american-theft-group-new-jersey",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "South American theft groups (Anchorage Police reference document)",
+          "url": "https://cms5.revize.com/revize/anchorage/Document%20Center/Services/Police/South%20American%20theft%20groups.pdf",
+          "type": "law_enforcement",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Rep. Young Kim urges DHS to suspend Chile's Visa Waiver Program status due to rising burglary tourism",
+          "url": "https://youngkim.house.gov/2025/03/17/rep-young-kim-urges-dhs-to-suspend-chiles-visa-waiver-program-status-due-to-rising-burglary-tourism/",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-CLU-SALIDERA",
+      "name": "Argentine salidera bancaria motochorro crews",
+      "aliases": [
+        "salidera bancaria",
+        "motochorros"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "customer_predation"
+      ],
+      "status": "active",
+      "active_since": "2008",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "AR",
+        "UY"
+      ],
+      "description": "Crews that mark customers inside bank branches, then intercept them on motorcycles at gunpoint after they leave. Argentine cases show a consistent division of labour, with women commonly performing the in-branch marking role and men executing the robbery. Crews use motorcycles, cars and even electric scooters for approach and escape.",
+      "financial_sector_relevance": "The Argentine analogue of Brazilian saidinha, and a principal driver of Argentine branch-design regulation on privacy screens, cash-counting areas and exit sightlines. High cash usage and periodic currency instability keep large physical withdrawals routine, which sustains the pattern.",
+      "targets": [
+        "customers",
+        "bank_branch"
+      ],
+      "ttps": [
+        "In-branch marker identifying customers making large withdrawals",
+        "Communication to motorcycle-mounted attackers outside",
+        "Armed interception at the customer's vehicle or first stop",
+        "Mixed vehicle fleet including motorcycles, cars and scooters for egress",
+        "Repeat targeting of branches with adjacent street parking"
+      ],
+      "capability": "low",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Argentine Federal Police operations and prosecutions."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Specific crews dismantled and charged."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Victim selection occurs inside bank branches."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025-06",
+          "location": "CABA/AMBA, AR",
+          "summary": "Federal Police dismantled a salidera crew, arresting three and identifying 18 further individuals, following a series of robberies begun in April 2024."
+        },
+        {
+          "date": "2025",
+          "location": "Buenos Aires, AR",
+          "summary": "Four motochorros robbed three million pesos from a customer leaving a downtown branch."
+        }
+      ],
+      "watch_indicators": [
+        "Non-transacting individuals loitering in branch queues",
+        "Motorcycles idling on branch approach roads at peak withdrawal times",
+        "Robbery reports clustered within a short radius of the same branch"
+      ],
+      "linked_actors": [
+        "AM-CLU-SAIDINHA",
+        "AM-CLU-JUGGING"
+      ],
+      "sources": [
+        {
+          "title": "PFA desmantelo una banda de motochorros que cometia salideras bancarias",
+          "url": "https://www.argentina.gob.ar/noticias/pfa-desmantelo-una-banda-de-motochorros-que-cometia-salideras-bancarias",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Cayo una banda de motochorros que hacia salideras bancarias en CABA",
+          "url": "https://www.infobae.com/sociedad/policiales/2025/06/04/cayo-una-banda-de-motochorros-que-hacia-salideras-bancarias-en-caba-hay-tres-detenidos/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Salideras bancarias: la logistica de una banda para atacar a sus victimas",
+          "url": "https://www.lanacion.com.ar/seguridad/salideras-bancarias-motos-autos-y-hasta-un-monopatin-electrico-la-logistica-de-una-banda-para-atacar-nid07062025/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-CLU-JUGGING",
+      "name": "US jugging crews",
+      "aliases": [
+        "jugging",
+        "Hiram Clarke Money Team",
+        "bank follow-out crews"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "customer_predation",
+        "branch_robbery"
+      ],
+      "status": "active",
+      "active_since": "2015",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "US"
+      ],
+      "description": "Crews, heavily associated with Houston-based street gangs but operating across state lines, that surveil banks and cash-heavy businesses, identify a customer or technician carrying cash, follow them and rob them. The mature form of the pattern targets ATM service technicians rather than retail customers, because a technician's vehicle carries cassette-level sums. Federal prosecutions in the Eastern and Northern Districts of Texas have established the model in detail.",
+      "financial_sector_relevance": "The most operationally significant physical threat to US cash servicing personnel. A technician can be followed across three or four cities before being robbed, meaning the attack happens far from the surveilled branch and outside its security perimeter. Sums involved reach a quarter of a million dollars per event, and the crews travel interstate specifically to defeat local pattern recognition.",
+      "targets": [
+        "customers",
+        "bank_branch",
+        "atm_estate",
+        "insiders",
+        "cit_vehicle"
+      ],
+      "ttps": [
+        "Static surveillance of bank car parks, ATM sites and cash-heavy businesses",
+        "Selection of victims observed carrying bags or servicing machines",
+        "Multi-vehicle mobile surveillance of ATM technicians across several cities",
+        "Armed robbery at a location remote from the observation point",
+        "Interstate travel by crews to defeat local intelligence and pattern analysis",
+        "Vandalising ATMs with adhesive to force a technician callout, then robbing the responder"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Multiple federal convictions and DOJ press releases."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Named crews charged and convicted, including the Hiram Clarke Money Team."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Banks, ATMs and cash-servicing personnel are the observation and selection point."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2026-03-05",
+          "location": "Eastern District of Texas, US",
+          "summary": "Four Houston gang members convicted of conspiracy and bank robbery over a string of ATM robberies and juggings."
+        },
+        {
+          "date": "2025",
+          "location": "Midlothian, TX, US",
+          "summary": "A Houston crew tailed an ATM technician from Irving through Grand Prairie and Arlington before robbing him of roughly USD 250,000 outside a bank."
+        },
+        {
+          "date": "2025-07",
+          "location": "US",
+          "summary": "Two Texas men charged over a national robbery ring that disabled ATMs with adhesive and robbed the responding technicians."
+        }
+      ],
+      "watch_indicators": [
+        "Vehicles parked with occupants for extended periods at branch and ATM sites",
+        "Adhesive or deliberate damage to ATMs generating unscheduled callouts",
+        "Technician route repetition and predictable servicing schedules",
+        "Alerts of Houston-linked crews operating in the region"
+      ],
+      "linked_actors": [
+        "AM-CLU-ATMTECH",
+        "AM-CLU-SALIDERA",
+        "AM-CLU-SAIDINHA"
+      ],
+      "sources": [
+        {
+          "title": "Four Houston gang members guilty of conspiracy to commit bank robberies and juggings",
+          "url": "https://www.justice.gov/usao-edtx/pr/four-houston-gang-members-guilty-conspiracy-commit-bank-robberies-and-juggings",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Houston man sentenced to 120 months in federal prison for jugging robbery of ATM technician",
+          "url": "https://www.justice.gov/usao-ndtx/pr/houston-man-sentenced-120-months-federal-prison-jugging-robbery-atm-technician",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Two leaders of jugging crew sentenced in federal court",
+          "url": "https://www.justice.gov/usao-ndtx/pr/two-leaders-jugging-crew-sentenced-federal-court",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-CLU-ATMTECH",
+      "name": "ATM technician ambush and induced-callout crews",
+      "aliases": [
+        "glue and wait crews",
+        "technician robbery rings"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "atm_physical_attack",
+        "insider_recruitment",
+        "customer_predation"
+      ],
+      "status": "active",
+      "active_since": "2020",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "description": "A refinement of jugging in which the crew deliberately disables an ATM, typically by injecting adhesive into the card reader or dispenser, waits for the servicing technician to arrive and open the safe, and then robs them at the open machine. It inverts the defender's assumption that the vulnerable moment is unscheduled; here the attacker chooses the timing.",
+      "financial_sector_relevance": "Turns the maintenance process itself into the attack vector, and defeats controls built around unpredictable replenishment schedules. Mitigation is procedural rather than physical: dual attendance on induced callouts, delay before opening a machine reported as tampered, and treating adhesive faults as a security event rather than a maintenance one.",
+      "targets": [
+        "atm_estate",
+        "insiders",
+        "cit_vehicle"
+      ],
+      "ttps": [
+        "Injection of adhesive or foreign objects to force a service callout",
+        "Observation of the site until the technician arrives",
+        "Armed robbery at the moment the safe is opened",
+        "Repeat targeting of the same operator's estate once the response time is known",
+        "Nationwide operation by mobile crews"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Federal charges and multiple state prosecutions."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Individual crews charged; the technique is widely copied."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "ATM servicing is the entire premise of the attack."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025-07",
+          "location": "US",
+          "summary": "Two Texas men charged with conspiracy to commit robbery as part of a national ring that disabled ATMs with a glue-like substance and threatened responding technicians into surrendering cash containers."
+        }
+      ],
+      "watch_indicators": [
+        "Cluster of adhesive or foreign-object faults across an estate",
+        "Faults reported shortly before scheduled replenishment",
+        "Technician reports of vehicles present on arrival at multiple sites"
+      ],
+      "linked_actors": [
+        "AM-CLU-JUGGING",
+        "EU-CLU-INSIDER"
+      ],
+      "sources": [
+        {
+          "title": "Robbers who vandalized ATMs so they could steal cash when repair technicians opened them",
+          "url": "https://www.justice.gov/usao-wdwa/pr/robbers-who-vandalized-atms-so-they-could-steal-cash-when-repair-technicians-opened",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "'Low risk, high reward': Gangs target repairmen to rob ATMs",
+          "url": "https://www.wuft.org/fresh-take-florida/2024-03-05/low-risk-high-reward-gangs-target-repairmen-to-rob-atms",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-CLU-ATMHOOK",
+      "name": "US hook-and-chain and smash-and-grab ATM removal crews",
+      "aliases": [
+        "chain gangs",
+        "ATM ripouts"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "atm_physical_attack"
+      ],
+      "status": "active",
+      "active_since": "2018",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "description": "Crews that back a pickup truck or SUV to an ATM, attach a chain, and pull the machine out of the ground or the storefront, loading it for later opening. Chicago documented an eleven-location spree in a single campaign. The technique is crude, high-volume and increasingly conducted by large loosely organised groups of eight to twenty who cross state lines.",
+      "financial_sector_relevance": "The most common destructive attack on the US ATM estate, and a substantial property damage and business interruption cost for host merchants as well as deployers. Anti-ram protection and floor anchoring are the primary controls, and the crews reliably migrate to the softest estate in a region.",
+      "targets": [
+        "atm_estate",
+        "corporate_premises"
+      ],
+      "ttps": [
+        "Chain or tow strap attached to the ATM and pulled by a truck or SUV",
+        "Night-time and early-morning attacks on standalone and in-store machines",
+        "Multi-site sprees within a single metropolitan area",
+        "Stolen vehicles used and abandoned",
+        "Interstate movement by larger crews"
+      ],
+      "capability": "low",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Police documentation and prosecutions across multiple states."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Crews are transient and often unidentified."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "ATMs are the sole target."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2026-01",
+          "location": "Chicago, US",
+          "summary": "Burglary crew recorded ripping an ATM from a storefront using a chain and SUV as part of an eleven-location spree."
+        }
+      ],
+      "watch_indicators": [
+        "Attacks on other operators' machines in the same metro area",
+        "Removal or absence of bollards at in-store and forecourt sites",
+        "Vehicle theft reports matching known attack vehicle profiles"
+      ],
+      "linked_actors": [
+        "EU-CLU-ATMRAM",
+        "APAC-CLU-RAMRAID"
+      ],
+      "sources": [
+        {
+          "title": "Video shows burglary crew ripping ATM from Chicago store with SUV and chain",
+          "url": "https://cwbchicago.com/2026/01/video-shows-burglary-crew-ripping-atm-from-chicago-store-with-suv-and-chain/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Spike in 'Chain Gang' Destructive Attacks on ATMs",
+          "url": "https://tagteam.harvard.edu/hub_feeds/4281/feed_items/3115211",
+          "type": "industry",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Preventing ATM Robbery and Technician Theft in 2025",
+          "url": "https://atmtrader.com/blogs/news/keep-your-atm-safe-from-robbery",
+          "type": "industry",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-CLU-EBTSKIM",
+      "name": "US benefit-card and ATM skimming deployment cluster",
+      "aliases": [
+        "EBT skimming crews",
+        "SNAP skimmers"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "card_skimming_tampering",
+        "customer_predation"
+      ],
+      "status": "active",
+      "active_since": "2021",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "description": "Deployment crews, predominantly linked to Romanian organised crime, that fit overlay skimmers and pinhole cameras to point-of-sale terminals and ATMs at convenience stores and groceries, targeting magnetic-stripe benefit cards that lack EMV protection. Federal and state cases have produced multi-year sentences and mass arrests, and the technique has spread to states as they roll out benefit programmes.",
+      "financial_sector_relevance": "A direct demonstration that legacy magnetic-stripe rails attract organised physical attack regardless of the issuer. For banks the read-across is unattended terminal estates and any product still relying on stripe fallback. It also generates significant volumes of victim complaints handled through bank branches even when the issuer is a state agency.",
+      "targets": [
+        "pos_terminals",
+        "atm_estate",
+        "customers"
+      ],
+      "ttps": [
+        "Overlay skimmers fitted to POS terminals in convenience stores and groceries",
+        "Pinhole cameras positioned to capture PIN entry",
+        "Deep-insert shimmers at ATMs",
+        "Bulk export of harvested card data to cash-out cells",
+        "Rapid rotation of deployment personnel across states"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Secret Service, DOJ and state prosecutions."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Romanian OC linkage established judicially in multiple districts."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Payment cards and terminals are the exclusive target."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025-08",
+          "location": "US",
+          "summary": "Romanian national sentenced to 120 months for skimming tens of thousands of EBT cards in California and New York, having transmitted over 36,000 stolen card numbers in three years."
+        },
+        {
+          "date": "2025",
+          "location": "California, US",
+          "summary": "48 people tied to Romanian organised crime arrested over skimming California public assistance programmes."
+        }
+      ],
+      "watch_indicators": [
+        "Common-point-of-purchase concentration on a single merchant or terminal",
+        "Terminal tamper indicators discovered during merchant servicing",
+        "Batch cash-out attempts from a distant state"
+      ],
+      "linked_actors": [
+        "EU-CLU-SKIM-RO"
+      ],
+      "sources": [
+        {
+          "title": "Romanian Man Sentenced to 10 Years in Federal Prison for Skimming Tens of Thousands of Welfare Cards at ATMs",
+          "url": "https://www.secretservice.gov/newsroom/releases/2025/08/romanian-man-sentenced-10-years-federal-prison-skimming-tens-thousands",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Two Illegal Aliens from Romania Sentenced for Credit Card Skimmer Scheme in Alabama and Mississippi",
+          "url": "https://www.justice.gov/usao-mdal/pr/two-illegal-aliens-romania-sentenced-credit-card-skimmer-scheme-alabama-and",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Romanian mob tied to Southern California card skimming scheme",
+          "url": "https://ktla.com/news/local-news/romanian-organized-crime-ring-busted-for-stealing-from-californias-welfare-programs-through-card-skimming-scheme/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-NET-THECOM",
+      "name": "The Com / IRL Com",
+      "aliases": [
+        "The Community",
+        "Com networks",
+        "764-adjacent networks"
+      ],
+      "actor_class": "network",
+      "primary_motivation": "hybrid",
+      "categories": [
+        "crypto_coercion",
+        "kidnap_for_ransom",
+        "staff_targeting",
+        "insider_recruitment"
+      ],
+      "status": "active",
+      "active_since": "2019",
+      "regions": [
+        "Americas",
+        "Europe",
+        "Global"
+      ],
+      "countries": [
+        "US",
+        "CA",
+        "GB",
+        "AU",
+        "NL",
+        "PL"
+      ],
+      "description": "A primarily English-speaking online ecosystem of interconnected networks, many of whose members are minors, engaged in SIM swapping, intrusion, cryptocurrency theft and extortion. The FBI has issued public warnings about it and estimates thousands of current or recent members. Its critical feature for this database is IRL Com: subgroups that convert online disputes into real-world violence, offering swatting for hire, kidnapping and physical extortion, usually over cryptocurrency.",
+      "financial_sector_relevance": "The clearest example anywhere of a cyber-native community that has grown a physical violence arm. It directly threatens crypto holders, exchange staff, telecom retail employees recruited for SIM swaps, and increasingly any employee whose credentials give access to customer wealth data. Twelve defendants were sentenced federally over SIM swaps combined with home invasions, which establishes the pattern judicially.",
+      "targets": [
+        "crypto_holders",
+        "customers",
+        "insiders",
+        "bank_staff",
+        "executives_hnwi"
+      ],
+      "ttps": [
+        "SIM swapping via bribed or socially engineered telecom retail staff",
+        "Home invasion and kidnapping of cryptocurrency holders identified through intrusion data",
+        "Swatting for hire, doxxing and violence-for-hire against rivals and victims",
+        "Recruitment and coercion of minors as both perpetrators and victims",
+        "Insider recruitment at telecoms, exchanges and support providers",
+        "Rapid laundering of stolen crypto through mixers and exchanges"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "FBI IC3 public service announcements and federal prosecutions."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Individuals are prosecuted; the ecosystem has no membership boundary and subgroups fracture constantly."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Cryptocurrency theft and extortion are the core activity."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025-07-23",
+          "location": "US",
+          "summary": "FBI IC3 public service announcement on The Com, describing theft, extortion and violence as a rising threat to youth online."
+        },
+        {
+          "date": "2025",
+          "location": "US",
+          "summary": "Twelve defendants sentenced federally over crypto theft combining SIM swaps and home invasions."
+        }
+      ],
+      "watch_indicators": [
+        "SIM swap events on high-value customer accounts",
+        "Telecom or support staff exhibiting unexplained affluence",
+        "Customers reporting doxxing or swatting before a theft attempt",
+        "Exchange and custody staff appearing in leaked target lists"
+      ],
+      "linked_actors": [
+        "EU-CLU-CRYPTOWRENCH",
+        "AM-CLU-CRYPTOHOMEINV"
+      ],
+      "sources": [
+        {
+          "title": "The Com: Theft, Extortion, and Violence are a Rising Threat to Youth Online (IC3 PSA)",
+          "url": "https://www.ic3.gov/PSA/2025/PSA250723-3",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "FBI alerts tie together threats of cybercrime, physical violence from The Com",
+          "url": "https://cyberscoop.com/fbi-warning-the-com-cybercrime-extortion-violence/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Feds sentence 12 crypto thieves behind SIM swaps, home invasions",
+          "url": "https://therecord.media/feds-sentence-12-crypto-theives-home-invasion",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-CLU-CRYPTOHOMEINV",
+      "name": "North American crypto home-invasion and coercion crews",
+      "aliases": [
+        "US wrench attack crews"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "crypto_coercion",
+        "kidnap_for_ransom",
+        "customer_predation"
+      ],
+      "status": "active",
+      "active_since": "2021",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "description": "Crews that invade the homes of cryptocurrency holders identified through breach data, blockchain analysis or online boasting, and coerce transfers under threat or torture. Frequently overlapping with The Com, but also including conventional armed robbery crews that have adopted the target set because the proceeds are portable, irreversible and non-reportable to a bank.",
+      "financial_sector_relevance": "The reason self-custody guidance now has to include personal security guidance. For institutions offering custody, wealth management or crypto services, the exposure includes clients, staff with operational key access, and any customer data set that identifies holdings and home addresses.",
+      "targets": [
+        "crypto_holders",
+        "customers",
+        "executives_hnwi",
+        "insiders"
+      ],
+      "ttps": [
+        "Target identification from breach data, chain analysis and social media",
+        "Forced entry or impersonation of delivery and utility personnel",
+        "Restraint and threat, including violence against family members",
+        "Compelled transfers from hardware wallets and exchange accounts",
+        "Immediate laundering through mixers and cross-chain swaps"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Federal prosecutions and documented incident datasets."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Crews form per job; overlap with The Com is partial."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Digital asset holdings determine victim selection."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025",
+          "location": "US",
+          "summary": "Twelve defendants sentenced federally in a scheme combining SIM swapping with home invasions to steal cryptocurrency."
+        }
+      ],
+      "watch_indicators": [
+        "Breach or scrape of customer records containing holdings and addresses",
+        "Client public disclosure of large holdings",
+        "Reports of impersonated delivery approaches at client residences"
+      ],
+      "linked_actors": [
+        "AM-NET-THECOM",
+        "EU-CLU-CRYPTOWRENCH"
+      ],
+      "sources": [
+        {
+          "title": "Feds sentence 12 crypto thieves behind SIM swaps, home invasions",
+          "url": "https://therecord.media/feds-sentence-12-crypto-theives-home-invasion",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Justice Department seeks forfeiture of over $5 million in bitcoin stolen in SIM swapping scams",
+          "url": "https://www.justice.gov/usao-dc/pr/justice-department-seeks-forfeiture-over-5-million-bitcoin-stolen-sim-swapping-scams",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-CLU-CRYPTOATM",
+      "name": "Crypto kiosk-directed victim cluster",
+      "aliases": [
+        "bitcoin ATM scam pipeline"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "customer_predation",
+        "fraud_enabled_physical"
+      ],
+      "status": "active",
+      "active_since": "2020",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "description": "Networks that direct scam victims, overwhelmingly older adults, to withdraw cash from their bank and deposit it into cryptocurrency kiosks under detailed instruction. The physical element is deliberate: cash withdrawal and kiosk deposit place the irreversible step outside the banking system. FBI IC3 recorded more than 13,400 complaints and over USD 388 million in losses in 2025, with 86 percent of losses among victims aged 60 and over.",
+      "financial_sector_relevance": "Places the bank branch and ATM at the centre of the intervention opportunity, because the withdrawal precedes the irreversible deposit. Several US states have now banned or capped kiosks, which is a direct regulatory consequence. Institutions offering kiosk operators banking services also carry reputational and AML exposure.",
+      "targets": [
+        "customers",
+        "crypto_atm",
+        "bank_branch"
+      ],
+      "ttps": [
+        "Impersonation of government, bank or technical support to establish urgency",
+        "Step-by-step coaching through bank withdrawal, kiosk location and deposit",
+        "Instruction to conceal the purpose from bank staff",
+        "Use of kiosks with weak identity verification and high transaction limits",
+        "Immediate onward transfer from the receiving wallet"
+      ],
+      "capability": "low",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "FBI IC3 annual reporting and state legislative response."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Perpetrators are largely offshore and unidentified."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Bank withdrawals and crypto kiosks are integral to the method."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025",
+          "location": "US",
+          "summary": "FBI IC3 recorded over 13,400 crypto kiosk complaints with losses exceeding USD 388 million; adults 60 and over accounted for 86 percent of reported losses."
+        },
+        {
+          "date": "2025-2026",
+          "location": "US",
+          "summary": "Minnesota banned crypto kiosks statewide following similar restrictions in Indiana and Tennessee."
+        }
+      ],
+      "watch_indicators": [
+        "Older customer withdrawing an atypical cash sum with a rehearsed explanation",
+        "Customer on a live call during the withdrawal",
+        "Withdrawal followed by travel to a known kiosk location"
+      ],
+      "linked_actors": [
+        "EU-CLU-COURIERFRAUD",
+        "APAC-CLU-SCAMCOMPOUND"
+      ],
+      "sources": [
+        {
+          "title": "FBI: Americans lost over $388 million to scams using crypto ATMs in 2025",
+          "url": "https://www.bleepingcomputer.com/news/security/fbi-americans-lost-over-388-million-to-scams-using-crypto-atms-in-2025/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "How States Are Taking Aim at Combating Crypto ATM Fraud",
+          "url": "https://www.aarp.org/advocacy/crypto-atm-fraud-protections/",
+          "type": "ngo",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-NET-FELONYLANE",
+      "name": "Felony Lane Gang",
+      "aliases": [
+        "FLG"
+      ],
+      "actor_class": "network",
+      "primary_motivation": "profit",
+      "categories": [
+        "fraud_enabled_physical",
+        "customer_predation",
+        "branch_robbery"
+      ],
+      "status": "active",
+      "active_since": "2005",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "description": "A loosely affiliated network, originating in Florida, that burglarises vehicles at gyms, parks and daycare centres to steal handbags containing chequebooks and identity documents, then uses disguised female couriers to cash the cheques at the outermost drive-through lane of bank branches, chosen because it is furthest from the teller's view. The name derives from that lane.",
+      "financial_sector_relevance": "A rare example of a physical crime pattern engineered specifically around a bank's own service channel design. It exploits drive-through identity verification weakness at scale across state lines, and it remains a persistent cheque fraud and branch procedure problem in the United States and Canada.",
+      "targets": [
+        "bank_branch",
+        "customers"
+      ],
+      "ttps": [
+        "Vehicle burglary at gyms, parks, daycare centres and trailheads",
+        "Theft of chequebooks, identity documents and debit cards",
+        "Use of wigs and disguises by couriers to match stolen identity documents",
+        "Presentation at the outermost drive-through lane to exploit poor visual verification",
+        "Interstate travel in rented vehicles, hitting many branches per day"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Extensive US and Canadian police reporting and prosecutions."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "A method and affiliation label rather than a hierarchical organisation."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Bank drive-through channels are the designed exploitation point."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Cluster of vehicle burglaries at recreational sites preceding cheque presentations",
+        "Multiple drive-through cheque presentations by disguised individuals across branches in one day",
+        "Out-of-state rental vehicles used repeatedly at drive-through lanes"
+      ],
+      "linked_actors": [
+        "AM-CLU-JUGGING"
+      ],
+      "sources": [
+        {
+          "title": "Bank Robbery News - FBI",
+          "url": "https://www.fbi.gov/investigate/violent-crime/bank-robbery/bank-robbery-news",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-CLU-BULLIONCARGO",
+      "name": "Air cargo and bullion insider-facilitated theft cluster",
+      "aliases": [
+        "Pearson gold heist pattern",
+        "airside bullion theft"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "insider_recruitment",
+        "vault_burglary",
+        "cash_in_transit_attack"
+      ],
+      "status": "active",
+      "active_since": "2015",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "CA",
+        "US"
+      ],
+      "description": "Theft of high-value cargo, principally bullion and foreign currency, from airport cargo facilities using insider access and forged documentation rather than force. The April 2023 Toronto Pearson theft of over CAD 20 million in gold and foreign currency, executed with a fraudulent airway bill and the cooperation of airline employees, is the reference case; ten people were charged, including current and former airline staff.",
+      "financial_sector_relevance": "Bullion and currency shipments are a core banking logistics function and the weakest link is documentary control at the cargo handover, not the vault. It is also a striking insider case: the theft required no weapons, only a plausible document and someone willing to accept it. Recovered proceeds were minimal because the gold was melted down within days.",
+      "targets": [
+        "armoured_air_cargo",
+        "insiders",
+        "gold_jewellery_dealer"
+      ],
+      "ttps": [
+        "Fraudulent airway bills presented to cargo handling staff",
+        "Recruitment of current and former airline employees",
+        "Rapid removal by truck before reconciliation",
+        "Immediate melting of bullion to defeat serial identification",
+        "Laundering of proceeds through jewellery businesses"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Canadian charges against ten individuals and subsequent civil litigation."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Named defendants including airline employees."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Bank-consigned bullion and currency shipments were the target."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2023-04-17",
+          "location": "Toronto Pearson, CA",
+          "summary": "Over CAD 20 million in gold (6,600 bars) and about CAD 2.5 million in foreign currency removed using a fraudulent airway bill; ten charged including current and former Air Canada employees. Only melted-down remnants worth CAD 89,000 recovered."
+        },
+        {
+          "date": "2025-01",
+          "location": "CA",
+          "summary": "Federal Court ordered Air Canada to pay Brink's just over CAD 18,000 for the shipment, illustrating the contractual liability gap."
+        }
+      ],
+      "watch_indicators": [
+        "Cargo release without matching consignee verification",
+        "Employee access to shipment manifests outside role requirements",
+        "Reconciliation delays between consignment and receipt confirmation"
+      ],
+      "linked_actors": [
+        "EU-CLU-INSIDER"
+      ],
+      "sources": [
+        {
+          "title": "Toronto Pearson International Airport heist",
+          "url": "https://en.wikipedia.org/wiki/Toronto_Pearson_International_Airport_heist",
+          "type": "reference",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Air Canada ordered to pay Brink's over $18K for $20M gold stolen at Toronto Pearson",
+          "url": "https://www.cp24.com/local/peel/2025/01/25/air-canada-ordered-to-pay-brinks-over-18k-for-20m-gold-stolen-at-toronto-pearson/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-GRP-MS13",
+      "name": "MS-13 and Barrio 18",
+      "aliases": [
+        "Mara Salvatrucha",
+        "18th Street",
+        "Pandilla 18"
+      ],
+      "actor_class": "named_group",
+      "primary_motivation": "profit",
+      "categories": [
+        "extortion_protection",
+        "customer_predation",
+        "money_laundering_physical"
+      ],
+      "status": "degraded",
+      "active_since": "1980",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "SV",
+        "GT",
+        "HN",
+        "MX",
+        "US"
+      ],
+      "description": "Central American street gangs whose economic base is neighbourhood extortion of businesses, transport operators and residents. El Salvador's state of exception since 2022 has severely degraded their operational capacity there, displacing activity toward Guatemala and Honduras. In the United States they remain a local violent crime problem rather than a financial one.",
+      "financial_sector_relevance": "Extortion of small businesses and transport is collected largely in cash and increasingly through mobile wallets and bank transfers, producing recognisable coerced-payment patterns. Remittance agents and microfinance branches in affected neighbourhoods face both extortion and robbery risk, and the customer base's ability to repay loans is directly affected by extortion load.",
+      "targets": [
+        "customers",
+        "correspondent_agents",
+        "money_service_business",
+        "corporate_premises"
+      ],
+      "ttps": [
+        "Neighbourhood extortion (renta) of businesses, transport and residents",
+        "Enforcement by murder and arson against non-payers",
+        "Collection via cash, mobile wallets and third-party accounts",
+        "Territorial control restricting access for service providers",
+        "Prison-based coordination of collection"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Extensive US and Central American designations and prosecutions."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Well-defined gang identities."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Extortion reaches financial service agents and customers; institutions are not attacked directly."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Microfinance and remittance agents reporting extortion demands",
+        "Repetitive small transfers from many customers to a single beneficiary",
+        "Loan performance deterioration concentrated in specific neighbourhoods"
+      ],
+      "linked_actors": [
+        "AM-CLU-MXEXTORTION",
+        "AM-GRP-TDA"
+      ],
+      "sources": [
+        {
+          "title": "InSight Crime",
+          "url": "https://insightcrime.org/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-CLU-USDOMEXT",
+      "name": "US anti-government and anti-corporate extremist cluster targeting financial institutions",
+      "aliases": [
+        "sovereign citizen actors",
+        "anti-capitalist direct action cells"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "ideological",
+      "categories": [
+        "arson_sabotage",
+        "protest_direct_action",
+        "staff_targeting"
+      ],
+      "status": "active",
+      "active_since": "1990",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "description": "A heterogeneous set of US ideological actors whose grievances converge on financial institutions: sovereign citizen adherents who file fraudulent liens and instruments and occasionally threaten bank staff, anti-capitalist and anti-development direct action cells that attack branches associated with disfavoured projects, and lone actors motivated by debt or foreclosure grievance. Attacks are typically arson, vandalism or threats rather than organised campaigns.",
+      "financial_sector_relevance": "Produces the majority of ideologically motivated physical incidents at US bank premises, most of them low severity, plus a persistent stream of paper terrorism (bogus liens, fictitious instruments) that consumes legal and operations resource. Threats to named staff, particularly in foreclosure and collections roles, are the main personnel safety concern.",
+      "targets": [
+        "bank_branch",
+        "bank_staff",
+        "corporate_premises"
+      ],
+      "ttps": [
+        "Arson and window breakage at branches associated with a targeted project or policy",
+        "Filing of fraudulent liens and fictitious financial instruments against staff and institutions",
+        "Threats and harassment directed at named employees in collections and foreclosure",
+        "Occupation and disruption of branch lobbies",
+        "Vandalism during broader civil unrest events"
+      ],
+      "capability": "low",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "FBI and state reporting on sovereign citizen activity; documented direct action incidents."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Predominantly lone actors or anonymous cells."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Financial institutions are a recurring but not exclusive target category."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Receipt of fictitious instruments or liens naming employees",
+        "Branch association with a publicly contested project or policy",
+        "Escalating correspondence from a customer in foreclosure or collections"
+      ],
+      "linked_actors": [
+        "EU-MOV-CLIMATEBANK"
+      ],
+      "sources": [
+        {
+          "title": "Bank Robbery News - FBI",
+          "url": "https://www.fbi.gov/investigate/violent-crime/bank-robbery/bank-robbery-news",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-CLU-USARMORED",
+      "name": "US armoured car and cash-logistics robbery cluster",
+      "aliases": [
+        "armored car crews"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "cash_in_transit_attack",
+        "insider_recruitment"
+      ],
+      "status": "active",
+      "active_since": "1990",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "US"
+      ],
+      "description": "Crews that attack armoured car crews at the pavement transfer point, the moment when cash or valuables are outside the vehicle and the guard is exposed. Unlike the Italian or Brazilian pattern there is little use of explosives or heavy weapons; the US pattern is ambush at the point of transfer, frequently with inside information about the run. High-value jewellery and bullion loads have also been targeted at rest stops during long-haul movements.",
+      "financial_sector_relevance": "The principal armed threat to US cash logistics. The consistent finding across cases is that the transfer point and the predictable stop, not the vehicle, is the vulnerability, and that insider knowledge of load value features in the largest events.",
+      "targets": [
+        "cit_vehicle",
+        "cash_centre",
+        "insiders",
+        "gold_jewellery_dealer"
+      ],
+      "ttps": [
+        "Ambush at the pavement transfer point during ATM or branch servicing",
+        "Targeting of predictable rest stops on long-haul high-value runs",
+        "Insider tipping on load composition and value",
+        "Rapid vehicle switch and dispersal",
+        "Occasional use of impersonation to approach the crew"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Sustained FBI and federal prosecution record."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Crews are transient; few persistent organisations."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Cash and valuables in transit are the sole target."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Observation of crews at transfer points reported by guards",
+        "Route and stop predictability on high-value runs",
+        "Insider access to load manifests outside role requirements"
+      ],
+      "linked_actors": [
+        "AM-CLU-JUGGING",
+        "AM-CLU-BULLIONCARGO",
+        "EU-CLU-INSIDER"
+      ],
+      "sources": [
+        {
+          "title": "Bank Robbery News - FBI",
+          "url": "https://www.fbi.gov/investigate/violent-crime/bank-robbery/bank-robbery-news",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-CLU-PERUEXT",
+      "name": "Peruvian extortion networks",
+      "aliases": [
+        "Los Injertos",
+        "extorsion networks Lima",
+        "Trujillo extortion cells"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "extortion_protection",
+        "ied_explosive_attack",
+        "customer_predation"
+      ],
+      "status": "active",
+      "active_since": "2010",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "PE"
+      ],
+      "description": "Fragmented Peruvian extortion cells, concentrated in Lima, Trujillo and northern coastal cities, that target transport operators, construction firms and small businesses. Enforcement uses grenades and improvised explosives against premises and vehicles, and Venezuelan networks including TdA-linked cells have entered the same market. Peru declared states of emergency in response.",
+      "financial_sector_relevance": "Extortion payment demands are increasingly made through bank transfers and wallets rather than cash, which puts institutions in the position of processing the payment leg of a violent crime. Small business customers under extortion show characteristic repeated transfers to individual accounts, and their creditworthiness is affected directly.",
+      "targets": [
+        "customers",
+        "corporate_premises",
+        "correspondent_agents",
+        "money_service_business"
+      ],
+      "ttps": [
+        "Telephone and messaging extortion demands supported by threat imagery",
+        "Grenade and IED attacks on non-paying businesses and transport vehicles",
+        "Contract killing of resistant business owners",
+        "Collection via bank transfer, wallet and money service business",
+        "Prison-based coordination of extortion campaigns"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Peruvian government emergency declarations and extensive reporting."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Highly fragmented; names are frequently appropriated by unrelated cells."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Banking rails are used for collection; institutions are not directly attacked."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "SME customers making repeated transfers to unrelated personal accounts",
+        "Explosive or grenade attacks on commercial premises in the customer's district",
+        "Transport sector customers reporting protection demands"
+      ],
+      "linked_actors": [
+        "AM-GRP-TDA",
+        "AM-CLU-GOTAGOTA"
+      ],
+      "sources": [
+        {
+          "title": "Tren de Aragua: A Regional Threat and Challenge for Peru",
+          "url": "https://dialogo-americas.com/articles/tren-de-aragua-a-regional-threat-and-challenge-for-peru/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "InSight Crime",
+          "url": "https://insightcrime.org/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    }
+  ]
+}

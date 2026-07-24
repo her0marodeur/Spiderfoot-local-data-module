@@ -1,0 +1,3476 @@
+{
+  "region_file": "Europe",
+  "last_reviewed": "2026-07-24",
+  "actors": [
+    {
+      "id": "EU-CLU-ATMEXPL-NL",
+      "name": "Netherlands-origin ATM solid-explosive attack crews",
+      "aliases": [
+        "plofkraak crews",
+        "Dutch ATM bombers",
+        "Utrecht/Amsterdam plofkrakers"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "atm_physical_attack",
+        "ied_explosive_attack"
+      ],
+      "status": "active",
+      "active_since": "2010",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "NL",
+        "DE",
+        "CH",
+        "FR",
+        "BE",
+        "PL",
+        "AT"
+      ],
+      "description": "Loosely federated crews, predominantly Dutch nationals from the greater Utrecht and Amsterdam areas, who attack through-the-wall and lobby ATMs with solid explosive charges. Dutch banks hardened their estate with ink/glue neutralisation and night-time cash withdrawal from machines, so the crews exported the tradecraft into North Rhine-Westphalia, Switzerland and eastern France. Crews are small (4-10), recruit young drivers via encrypted messaging, and use stolen high-powered vehicles for cross-border egress. Eurojust and Europol have run repeated joint actions against them; the model reconstitutes because the knowledge is commoditised and distributed as tutorials.",
+      "financial_sector_relevance": "Highest-frequency destructive physical attack on the European ATM estate. Attacks cause collateral structural damage to branch buildings and residential premises above them, drive up insurance and remediation cost far beyond cash loss, and create third-party fatality risk that carries direct liability for the deploying bank.",
+      "targets": [
+        "atm_estate",
+        "bank_branch"
+      ],
+      "ttps": [
+        "Pre-attack reconnaissance of ATM model, anchoring and escape routes, often by moped or rental car days ahead",
+        "Solid explosive charges, increasingly aluminium-powder-based mixtures replacing acetylene/oxygen gas",
+        "Insertion of charge via the dispenser slot or card reader aperture",
+        "Stolen premium vehicles (frequently Audi/BMW) staged for relay-style egress across borders",
+        "Deployment of caltrops and blocked side roads to defeat pursuit",
+        "Attack windows between 02:00 and 04:30 local, targeting sites with delayed police response times",
+        "Cross-border operating pattern exploiting jurisdictional seams (NL-DE, DE-CH, FR-DE)",
+        "Distribution of attack tutorials and target lists as a service to other crews"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Multiple Europol/Eurojust joint actions and national prosecutions naming the cohort."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Individual crews are attributable through prosecutions; the cluster as a whole is a behavioural grouping, not a single command structure."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "ATMs are the exclusive target set; EAST loss statistics corroborate scale."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2023-2025",
+          "location": "DE, CH",
+          "summary": "Nine Dutch men arrested in April 2026 for approximately ten ATM explosions in North Rhine-Westphalia and Swiss cities near the French-German border, using an aluminium-powder explosive mixture."
+        },
+        {
+          "date": "2024",
+          "location": "NL, DE",
+          "summary": "Europol-supported Dutch-German action arrested 18 members of a Netherlands-based group specialising in ATM explosive attacks in Germany."
+        },
+        {
+          "date": "2025",
+          "location": "EU-wide",
+          "summary": "EAST reported ATM physical-attack losses of EUR 12 million, 71 percent of it from explosive attacks, up 60 percent year-on-year to EUR 8.56 million."
+        }
+      ],
+      "watch_indicators": [
+        "Repeat short-dwell reconnaissance visits to lobby ATMs outside transaction hours",
+        "Theft of high-powered vehicles within 100km of the estate in the preceding 72 hours",
+        "Test detonations or trial charges at low-value machines in the same police district",
+        "Sudden displacement of attacks after a neighbouring country hardens its estate"
+      ],
+      "linked_actors": [
+        "EU-OCG-MOCRO",
+        "EU-CLU-ATMEXPL-GAS"
+      ],
+      "sources": [
+        {
+          "title": "Nine arrests connected to ATM bombings across Europe",
+          "url": "https://www.eurojust.europa.eu/news/nine-arrests-connected-atm-bombings-across-europe",
+          "type": "law_enforcement",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "18 arrested in series of strikes against cash machine robbers",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/18-arrested-in-series-of-strikes-against-cash-machine-robbers",
+          "type": "law_enforcement",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Nine Dutch men arrested for 10 ATM explosions in Germany and Switzerland",
+          "url": "https://nltimes.nl/2026/04/25/nine-dutch-men-arrested-10-atm-explosions-germany-switzerland",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "ATM explosive attack criminals arrested in coordinated Police action",
+          "url": "https://www.association-secure-transactions.eu/atm-explosive-attack-criminals-arrested-in-coordinated-police-action/",
+          "type": "industry",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Nine taken into custody over ATM attack tutorials and string of explosive attacks",
+          "url": "https://www.eurojust.europa.eu/news/nine-taken-custody-over-atm-attack-tutorials-and-string-explosive-attacks",
+          "type": "law_enforcement",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-CLU-ATMEXPL-GAS",
+      "name": "Southern and Eastern European gas-mixture ATM attack crews",
+      "aliases": [
+        "gas attack crews",
+        "oxyacetylene ATM crews"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "atm_physical_attack",
+        "ied_explosive_attack"
+      ],
+      "status": "active",
+      "active_since": "2008",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "ES",
+        "PT",
+        "IT",
+        "GR",
+        "RO",
+        "BG",
+        "PL",
+        "CZ",
+        "HR",
+        "RS"
+      ],
+      "description": "Crews that saturate the ATM safe cavity with an oxygen-fuel gas mixture and detonate it, a cheaper and more widely available method than solid explosive. Composition of these crews varies by country: Romanian and Bulgarian nationals feature heavily in Iberian and Central European cases, local groups dominate in Italy and Greece. The technique persists because gas is legally purchasable and the required skill floor is low, but yields are lower and misfire rates higher than solid-charge attacks.",
+      "financial_sector_relevance": "Sustains a baseline of destructive ATM attacks across markets where explosive precursors are harder to source. Drives ATM estate hardening cost (gas suppression, gas detection, seismic sensors) in southern and eastern Europe, and is the primary reason many operators have withdrawn through-the-wall units from unattended rural sites.",
+      "targets": [
+        "atm_estate",
+        "bank_branch"
+      ],
+      "ttps": [
+        "Drilling or prising of dispenser shutter to admit a hose",
+        "Oxygen-acetylene or oxygen-propane mixture injected then remotely ignited",
+        "Preference for standalone, off-premises and rural machines with no on-site guarding",
+        "Frequent secondary attempt at the same site within weeks where the first attempt failed",
+        "Use of vans rather than performance cars, reflecting lower counter-pursuit sophistication",
+        "Migration of crews between countries following successful national hardening programmes"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Continuous national prosecution record and EAST industry statistics."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Highly fragmented; national cases rarely link to a persistent named structure."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Exclusive focus on cash-holding terminals."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025",
+          "location": "EU-wide",
+          "summary": "EAST 2025 reporting shows explosive and gas attacks accounting for the large majority of the EUR 12 million in ATM physical attack losses."
+        }
+      ],
+      "watch_indicators": [
+        "Purchase or theft of industrial gas cylinders reported near the estate",
+        "Failed attack attempts leaving hose or drill marks on dispenser shutters",
+        "Clustering of attempts along a single motorway corridor"
+      ],
+      "linked_actors": [
+        "EU-CLU-ATMEXPL-NL"
+      ],
+      "sources": [
+        {
+          "title": "EAST European Payment Terminal Crime Report 2025",
+          "url": "https://www.association-secure-transactions.eu/data-relay-attacks-drive-up-european-terminal-related-fraud-incidents/",
+          "type": "industry",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Criminal Gangs in Europe Are Blowing Up ATMs - and the Cash Inside",
+          "url": "https://www.vice.com/en/article/europe-atms-blown-up/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-CLU-ATMRAM",
+      "name": "Ram-raid and plant-machinery ATM removal crews",
+      "aliases": [
+        "digger gangs",
+        "telehandler ATM thefts",
+        "ATM ram raiders"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "atm_physical_attack"
+      ],
+      "status": "active",
+      "active_since": "2005",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "IE",
+        "GB",
+        "FR",
+        "DE",
+        "PL"
+      ],
+      "description": "Crews that steal agricultural or construction plant, most often telehandlers and excavators, and use it to rip through-the-wall ATMs and their safes out of building fabric, loading the whole unit into a waiting flatbed or 4x4. The Northern Ireland and Republic of Ireland border region has been the persistent European centre of gravity, with links to established rural criminal families and, historically, to paramilitary-adjacent networks. The method survives because it defeats gas suppression and dye staining entirely by removing the safe intact for later opening.",
+      "financial_sector_relevance": "Causes disproportionate building damage relative to cash at risk, and repeatedly removes ATM services from rural communities. Directly relevant to site-selection and anchoring standards for through-the-wall estates, and to plant-theft intelligence sharing between banks and agricultural insurers.",
+      "targets": [
+        "atm_estate",
+        "bank_branch",
+        "corporate_premises"
+      ],
+      "ttps": [
+        "Theft of telehandler or excavator from a farm or construction site 24-72 hours before the attack",
+        "Physical extraction of the entire ATM or its safe, defeating in-machine cash degradation",
+        "Rapid transfer to a flatbed truck or agricultural trailer, then cutting open the safe at a remote site",
+        "Preference for isolated rural branches and forecourt machines near cross-border escape routes",
+        "Vehicle burning post-attack to destroy forensic traces"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Sustained PSNI/An Garda Síochána case record over two decades."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Attributable to identified rural criminal networks in specific cases; not a single organisation."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "ATM and safe removal is the definitional activity."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Reported plant theft within the catchment of a rural branch",
+        "Removal or damage to bollards and anti-ram protection at forecourt sites",
+        "Recent CCTV or lighting outages at isolated ATM locations"
+      ],
+      "linked_actors": [
+        "EU-GRP-NEWIRA"
+      ],
+      "sources": [
+        {
+          "title": "EAST European Payment Terminal Crime Report 2025",
+          "url": "https://www.association-secure-transactions.eu/data-relay-attacks-drive-up-european-terminal-related-fraud-incidents/",
+          "type": "industry",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-CLU-SKIM-RO",
+      "name": "Romanian card-skimming and ATM-tampering networks",
+      "aliases": [
+        "Craiova clans",
+        "Riviera network",
+        "Romanian skimming OCGs"
+      ],
+      "actor_class": "network",
+      "primary_motivation": "profit",
+      "categories": [
+        "card_skimming_tampering",
+        "fraud_enabled_physical"
+      ],
+      "status": "active",
+      "active_since": "2000",
+      "regions": [
+        "Europe",
+        "Americas",
+        "Global"
+      ],
+      "countries": [
+        "RO",
+        "GB",
+        "DE",
+        "IT",
+        "ES",
+        "FR",
+        "US",
+        "MX",
+        "AU"
+      ],
+      "description": "Kin-based Romanian networks, historically anchored in Craiova, Ramnicu Valcea and surrounding towns, that manufacture and deploy skimming overlays, deep-insert shimmers and pinhole cameras on ATMs and unattended payment terminals. The same networks have exported operations to North America, where they now dominate benefit-card (EBT/SNAP) skimming, and to Australia and Latin America. Device manufacture, deployment, cash-out and laundering are compartmentalised across separate cells, which is why arrests of installers rarely disrupt the network.",
+      "financial_sector_relevance": "Primary driver of physical terminal compromise on the European and North American ATM estate. Generates card-present counterfeit fraud, chargeback exposure, and reputational damage where the compromise occurs on bank-owned hardware. The migration into benefit cards shows the networks follow the weakest authentication rail rather than a particular institution.",
+      "targets": [
+        "atm_estate",
+        "pos_terminals",
+        "customers"
+      ],
+      "ttps": [
+        "Overlay skimmers and bezel-mounted card readers on ATM fascias",
+        "Deep-insert shimmers reading chip data from inside the card slot",
+        "Pinhole cameras and false keypad overlays to capture PINs",
+        "Compromise of unattended terminals at fuel forecourts and convenience stores",
+        "Rapid international courier of harvested track data for cloning and cash-out",
+        "Rotation of installers on short-stay travel to defeat pattern-of-life detection",
+        "Targeting of magnetic-stripe-only rails such as US benefit cards where EMV is absent"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Extensive US DOJ, Secret Service, ICE and European prosecutions."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Judicially established in multiple jurisdictions; kin and geographic linkage documented."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Payment instruments are the sole target."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025-08",
+          "location": "US",
+          "summary": "Romanian national sentenced to 10 years for skimming tens of thousands of welfare cards at ATMs; more than 36,000 stolen card numbers transmitted over three years."
+        },
+        {
+          "date": "2022-2025",
+          "location": "US (San Diego)",
+          "summary": "48 people tied to Romanian organised crime arrested over overlay skimmers and pinhole cameras placed on stores and ATMs across San Diego County."
+        }
+      ],
+      "watch_indicators": [
+        "Common-point-of-purchase clustering on a single ATM or forecourt",
+        "Fascia tamper alarms without an accompanying cash attack",
+        "Short-stay foreign nationals repeatedly transacting low-value amounts across an estate"
+      ],
+      "linked_actors": [
+        "AM-CLU-EBTSKIM",
+        "EU-CLU-RELAY"
+      ],
+      "sources": [
+        {
+          "title": "Romanian Man Sentenced to 10 Years for Skimming Tens of Thousands of Welfare Cards at ATMs",
+          "url": "https://www.secretservice.gov/newsroom/releases/2025/08/romanian-man-sentenced-10-years-federal-prison-skimming-tens-thousands",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Romanians Charged in San Diego EBT Card Skimming Scheme",
+          "url": "https://www.cbs8.com/article/news/investigations/how-romanian-gangs-allegedly-stole-food-aid-from-low-income-families-in-san-diego/509-9e54ad2d-e5f1-40fa-a7be-76f6d5c70928",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Romanian national sentenced for bank fraud after HSI Los Angeles disrupts transnational criminal organization",
+          "url": "https://www.ice.gov/news/releases/romanian-national-sentenced-bank-fraud-after-hsi-los-angeles-disrupts-transnational",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-CLU-TRAPPING",
+      "name": "Card- and cash-trapping crews",
+      "aliases": [
+        "Lebanese loop crews",
+        "cash claw crews"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "card_skimming_tampering",
+        "customer_predation"
+      ],
+      "status": "active",
+      "active_since": "1998",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "GB",
+        "FR",
+        "DE",
+        "IT",
+        "ES",
+        "BE",
+        "NL",
+        "PL"
+      ],
+      "description": "Low-technology crews that physically trap either the customer's card or the dispensed cash inside the ATM, then recover it after the customer leaves. Cash trapping is now the single highest-volume ATM attack type in Europe by incident count. Operators frequently work in pairs, one to fit the device and shoulder-surf the PIN, one to 'help' the confused customer and steal the card.",
+      "financial_sector_relevance": "Cash trapping alone exceeded 10,500 incidents across Europe in the most recent EAST reporting year, making it the most common physical interference with the ATM estate. Losses per event are small but the volume, the direct customer harm, and the complaint handling burden are significant.",
+      "targets": [
+        "atm_estate",
+        "customers"
+      ],
+      "ttps": [
+        "Insertion of a claw, comb or adhesive strip into the cash dispenser to retain notes",
+        "Lebanese loop and similar retention devices in the card slot",
+        "Social engineering of the victim at the machine, posing as a helpful bystander",
+        "Shoulder surfing or overlay keypads to capture the PIN before the card is trapped",
+        "Rapid recovery of the trapped card or cash within minutes of the victim leaving"
+      ],
+      "capability": "low",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "EAST incident counts and routine national prosecutions."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Predominantly itinerant small crews with no durable identity."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Attacks are performed only on payment terminals."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025",
+          "location": "EU-wide",
+          "summary": "EAST reported 10,574 cash-trapping incidents (up 8 percent) and 2,500 card-trapping incidents (down 8 percent)."
+        }
+      ],
+      "watch_indicators": [
+        "Spike in 'cash not dispensed' disputes concentrated on individual machines",
+        "Repeat customer reports of a helpful stranger present at the machine",
+        "Foreign objects recovered during first-line maintenance"
+      ],
+      "linked_actors": [
+        "EU-CLU-SKIM-RO"
+      ],
+      "sources": [
+        {
+          "title": "EAST: Data relay attacks drive up European terminal related fraud incidents",
+          "url": "https://www.association-secure-transactions.eu/data-relay-attacks-drive-up-european-terminal-related-fraud-incidents/",
+          "type": "industry",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-CLU-RELAY",
+      "name": "NFC data-relay and terminal-proximity fraud cluster",
+      "aliases": [
+        "ghost tap crews",
+        "NFC relay mules"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "card_skimming_tampering",
+        "fraud_enabled_physical"
+      ],
+      "status": "active",
+      "active_since": "2023",
+      "regions": [
+        "Europe",
+        "Global"
+      ],
+      "countries": [
+        "GB",
+        "DE",
+        "FR",
+        "PL",
+        "IT",
+        "ES",
+        "NL"
+      ],
+      "description": "The fastest-growing physical-adjacent attack on European payment terminals. Compromised card credentials are provisioned into a wallet on an operator-controlled handset; a mule then presents that handset at a genuine terminal, with relay software bridging the NFC exchange to a device held elsewhere. It converts remote credential theft into card-present transactions at physical merchants, which is why it belongs in a physical threat model rather than a purely cyber one.",
+      "financial_sector_relevance": "EAST recorded a 1,811 percent rise in data relay attacks in a single year, from 381 to 7,282 incidents, making it the dominant driver of the 40 percent overall increase in European terminal-related fraud. It defeats controls predicated on the assumption that a card-present transaction implies physical possession of the card.",
+      "targets": [
+        "pos_terminals",
+        "atm_estate",
+        "customers"
+      ],
+      "ttps": [
+        "Provisioning of phished or malware-harvested card data into attacker-controlled mobile wallets",
+        "NFC relay malware bridging a victim device and a mule handset in real time",
+        "Recruitment of low-level mules to present handsets at high-value merchants",
+        "Cash-out through contactless ATM withdrawal and resaleable high-value goods",
+        "Geographic dispersal of taps to stay under velocity thresholds"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "EAST industry incident data and multiple European law enforcement actions."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Service-based ecosystem; tooling providers and mule crews are largely separate and unnamed."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Entirely aimed at payment acceptance infrastructure."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025",
+          "location": "EU-wide",
+          "summary": "Data relay attacks rose from 381 to 7,282 incidents year on year, a 1,811 percent increase, per EAST."
+        }
+      ],
+      "watch_indicators": [
+        "Wallet provisioning immediately followed by first use in a distant geography",
+        "Repeat contactless taps of similar value at a small merchant set",
+        "Devices presenting many distinct tokenised PANs at the same terminal"
+      ],
+      "linked_actors": [
+        "EU-CLU-DEVICETHEFT"
+      ],
+      "sources": [
+        {
+          "title": "EAST: Data relay attacks drive up European terminal related fraud incidents",
+          "url": "https://www.association-secure-transactions.eu/data-relay-attacks-drive-up-european-terminal-related-fraud-incidents/",
+          "type": "industry",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-CLU-JACKPOT",
+      "name": "ATM jackpotting and black-box attack crews",
+      "aliases": [
+        "black box crews",
+        "logical attack crews"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "atm_logical_physical_attack"
+      ],
+      "status": "degraded",
+      "active_since": "2013",
+      "regions": [
+        "Europe",
+        "Americas",
+        "Global"
+      ],
+      "countries": [
+        "DE",
+        "ES",
+        "IT",
+        "FR",
+        "GB",
+        "PL",
+        "MX",
+        "US"
+      ],
+      "description": "Crews that open the ATM top box, disconnect the dispenser from the core, attach an unauthorised controller (black box) or install malware, and command a full cash-out. This is the archetypal hybrid attack: physical access is the enabler, software is the payload. European incidence has fallen sharply with dispenser-authentication and hard-disk encryption rollouts, but the technique persists against legacy estates and re-emerges wherever an operator defers firmware upgrades.",
+      "financial_sector_relevance": "Directly demonstrates why ATM physical security and endpoint security cannot be governed separately. A successful jackpot empties every cassette without any building damage, so it is often detected only at reconciliation.",
+      "targets": [
+        "atm_estate"
+      ],
+      "ttps": [
+        "Forced or key-based opening of the ATM upper cabinet",
+        "Disconnection of the dispenser and attachment of an unauthorised controller",
+        "Deployment of dispenser-targeting malware via USB or exposed ports",
+        "Insider or ex-insider provision of service keys and cabinet access codes",
+        "Use of money mules to collect dispensed cash within a short window"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Long-running EAST reporting and vendor advisories."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Toolkits circulate commercially; crews are transient."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "ATM cash-out is the sole objective."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Top-box open alarms outside scheduled maintenance windows",
+        "Unexplained dispenser resets or firmware version mismatches",
+        "Cash-out events with no corresponding authorised transaction record"
+      ],
+      "linked_actors": [
+        "EU-CLU-INSIDER"
+      ],
+      "sources": [
+        {
+          "title": "ATM malware and logical attacks fall in Europe",
+          "url": "https://www.finextra.com/pressarticle/80191/atm-malware-and-logical-attacks-fall-in-europe",
+          "type": "industry",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "EAST European Payment Terminal Crime Report",
+          "url": "https://www.association-secure-transactions.eu/data-relay-attacks-drive-up-european-terminal-related-fraud-incidents/",
+          "type": "industry",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-OCG-MOCRO",
+      "name": "Mocro Maffia / Taghi-lineage networks",
+      "aliases": [
+        "Mocro Mafia",
+        "Angels of Death",
+        "Taghi network"
+      ],
+      "actor_class": "network",
+      "primary_motivation": "profit",
+      "categories": [
+        "extortion_protection",
+        "staff_targeting",
+        "money_laundering_physical",
+        "kidnap_for_ransom"
+      ],
+      "status": "active",
+      "active_since": "2012",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "NL",
+        "BE",
+        "ES",
+        "MA",
+        "DE",
+        "AE"
+      ],
+      "description": "A cluster of Dutch-Moroccan cocaine trafficking networks controlling import logistics through Rotterdam and Antwerp, notorious for extreme instrumental violence against the justice system. Ridouan Taghi received a life sentence in February 2024 in the Marengo trial; the network's defining characteristic is not hierarchy but its willingness to commission murders of lawyers, journalists and witnesses. Successor cells continue port corruption, extortion and laundering operations.",
+      "financial_sector_relevance": "The dominant source of trade-based and cash-intensive laundering demand in the Benelux, and the principal reason Dutch and Belgian institutions face coercion risk against compliance staff, port-adjacent corporate customers and professional service providers. Violence against lawyers and journalists establishes credible intent to target individuals who obstruct financial flows, which extends to bank investigators and RM staff handling their front companies.",
+      "targets": [
+        "bank_staff",
+        "corporate_premises",
+        "insiders",
+        "executives_hnwi"
+      ],
+      "ttps": [
+        "Contract violence commissioned via encrypted messaging and paid in cryptocurrency",
+        "Corruption and coercion of port, customs and logistics insiders",
+        "Cash-intensive front companies and hawala-style value transfer for laundering",
+        "Intimidation and targeted killing of witnesses, lawyers and journalists",
+        "Recruitment of very young perpetrators for violent tasks to limit sentencing exposure",
+        "Kidnapping and torture of rivals and debtors in improvised containers"
+      ],
+      "capability": "advanced",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Marengo and related Dutch prosecutions."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Judicial findings including life sentence for the principal."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Financial institutions are exposure surfaces (laundering, coerced staff) rather than primary attack targets."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2019-09-18",
+          "location": "Amsterdam, NL",
+          "summary": "Lawyer Derk Wiersum, representing a state witness in the Marengo case, shot dead outside his home."
+        },
+        {
+          "date": "2021-07",
+          "location": "Amsterdam, NL",
+          "summary": "Crime journalist Peter R. de Vries shot and fatally wounded."
+        },
+        {
+          "date": "2024-02-27",
+          "location": "NL",
+          "summary": "Ridouan Taghi convicted and sentenced to life imprisonment for leading a murder organisation."
+        }
+      ],
+      "watch_indicators": [
+        "Approach or grooming of branch, KYC or port-facing staff",
+        "Sudden withdrawal of a corporate customer's cooperation after an information request",
+        "Unexplained personal security incidents affecting investigators or external counsel"
+      ],
+      "linked_actors": [
+        "EU-CLU-ATMEXPL-NL",
+        "EU-OCG-KINAHAN",
+        "EU-CLU-INSIDER"
+      ],
+      "sources": [
+        {
+          "title": "Marengo trial",
+          "url": "https://en.wikipedia.org/wiki/Marengo_trial",
+          "type": "reference",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Organised crime in the Netherlands",
+          "url": "https://en.wikipedia.org/wiki/Organized_crime_in_the_Netherlands",
+          "type": "reference",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Murder of Derk Wiersum",
+          "url": "https://en.wikipedia.org/wiki/Murder_of_Derk_Wiersum",
+          "type": "reference",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "The Rise of the 'Mocro-Mafia' in Europe",
+          "url": "https://dspace.cuni.cz/bitstream/handle/20.500.11956/207272/120515298.pdf?sequence=1&isAllowed=y",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-OCG-KINAHAN",
+      "name": "Kinahan Organised Crime Group",
+      "aliases": [
+        "Kinahan cartel",
+        "KOCG"
+      ],
+      "actor_class": "network",
+      "primary_motivation": "profit",
+      "categories": [
+        "money_laundering_physical",
+        "extortion_protection",
+        "staff_targeting"
+      ],
+      "status": "degraded",
+      "active_since": "1990",
+      "regions": [
+        "Europe",
+        "Global"
+      ],
+      "countries": [
+        "IE",
+        "GB",
+        "ES",
+        "AE",
+        "NL"
+      ],
+      "description": "An Irish-origin transnational network sanctioned by the US Treasury in 2022, with leadership relocated to the UAE. Members and affiliates have convictions spanning murders, firearms offences, drug trafficking and money laundering. Its post-sanctions behaviour is instructive: rather than collapsing, it re-plumbed its finances through Russian-speaking laundering networks and, in one documented case, an associate acquired a controlling stake in a Kyrgyz bank weeks after being designated.",
+      "financial_sector_relevance": "A case study in sanctions-evasion architecture reaching into regulated banking. Institutions face exposure via correspondent relationships in Central Asia and the Gulf, crypto-to-cash conversion networks (Smart and TGR, named by the UK NCA), and intimidation risk for staff in Irish and UK branches where the group retains street-level presence.",
+      "targets": [
+        "money_service_business",
+        "correspondent_agents",
+        "bank_staff",
+        "insiders"
+      ],
+      "ttps": [
+        "Layering through professional laundering networks specialising in crypto-to-cash conversion",
+        "Acquisition of, or influence over, small foreign banks to obtain compliant rails",
+        "Use of UAE and Spanish corporate structures to hold assets",
+        "Sanctions evasion via nominee ownership and rapid restructuring after designation",
+        "Localised intimidation and feud violence in Dublin and the UK"
+      ],
+      "capability": "advanced",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "OFAC designation, Irish and UK prosecutions."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Named in US sanctions and NCA/Garda joint operations."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Documented penetration of banking and remittance rails; NCA-named laundering networks."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2022-04",
+          "location": "US/IE",
+          "summary": "US Treasury sanctions the Kinahan network; USD 5 million reward offered for information on its leadership."
+        },
+        {
+          "date": "2025-11",
+          "location": "IE/GB",
+          "summary": "Garda and NCA reporting exposes Russian-speaking Smart and TGR laundering networks servicing the group; a sanctioned associate bought a controlling share in a bank three weeks after designation. Coordinated operations produced 84 arrests and over GBP 20 million seized."
+        }
+      ],
+      "watch_indicators": [
+        "Correspondent exposure to newly acquired small banks in Central Asia",
+        "OTC crypto desks with unexplained cash settlement volumes in Dublin, London or Dubai",
+        "Rapid post-designation ownership changes in linked corporate structures"
+      ],
+      "linked_actors": [
+        "EU-GRP-NEWIRA",
+        "EU-OCG-MOCRO"
+      ],
+      "sources": [
+        {
+          "title": "Money-laundering network used by Kinahans and Kremlin bought bank after US sanction",
+          "url": "https://www.irishtimes.com/crime-law/2025/11/21/money-laundering-network-used-by-kinahans-and-kremlin-bought-bank-after-us-sanction/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Gardai identify Irish group helping launder cash for Russian sanction dodgers and Kinahans",
+          "url": "https://www.irishtimes.com/crime-law/2025/11/21/international-investigation-targets-billion-dollar-networks-laundering-money-for-kinahans/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Irish Crime Group Hit With US Financial Sanctions",
+          "url": "https://www.occrp.org/en/news/irish-crime-group-hit-with-us-financial-sanctions",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-NET-FOXTROT",
+      "name": "Foxtrot Network",
+      "aliases": [
+        "Foxtrot",
+        "Rawa Majid network",
+        "Kurdish Fox network"
+      ],
+      "actor_class": "network",
+      "primary_motivation": "hybrid",
+      "categories": [
+        "extortion_protection",
+        "ied_explosive_attack",
+        "arson_sabotage",
+        "staff_targeting"
+      ],
+      "status": "active",
+      "active_since": "2015",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "SE",
+        "DK",
+        "NO",
+        "TR",
+        "NL"
+      ],
+      "description": "A Swedish criminal network led by fugitive Rawa Majid, sanctioned by the US Treasury in March 2025 and assessed by Washington to have carried out an attack on the Israeli embassy in Stockholm on behalf of the Iranian government. Foxtrot pioneered the Nordic model of outsourcing bombings and shootings to recruited minors through encrypted apps, at prices low enough to make explosive attacks a routine debt-collection tool. It is the clearest European example of a profit-motivated network that also accepts state tasking.",
+      "financial_sector_relevance": "Extortion of businesses enforced by hand grenades and IEDs against commercial premises is now a mainstream Swedish crime pattern, and business banking customers are among the victims. Institutions face threat-to-staff risk at branches in affected neighbourhoods, credit and insurance exposure across bombed SME portfolios, and an unusual convergence risk where an organised crime customer relationship also carries a state-proxy dimension.",
+      "targets": [
+        "corporate_premises",
+        "customers",
+        "bank_staff",
+        "bank_branch"
+      ],
+      "ttps": [
+        "Commissioning of bombings and shootings via encrypted apps, executed by recruited minors",
+        "Hand grenades and improvised explosive charges against business and residential entrances",
+        "Extortion of business owners and their families, enforced by demonstrative violence",
+        "Fixed-object attacks (staircases, storefronts) to intimidate without direct confrontation",
+        "Acceptance of contract tasking from a foreign state service alongside criminal revenue"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Swedish police reporting and US Treasury designation."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "OFAC named the network and its leader."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Businesses and premises are targeted for extortion; financial institutions are affected as service providers and by proximity."
+        },
+        "state_tasking": {
+          "confidence": "moderate",
+          "basis": "US Treasury attributed the 2024 Israeli embassy attack to Foxtrot acting for Iran; the tasking relationship is opportunistic rather than institutional."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2024-01",
+          "location": "Stockholm, SE",
+          "summary": "Attack on the Israeli embassy attributed by the US Treasury to Foxtrot acting on behalf of the Iranian government."
+        },
+        {
+          "date": "2025-01",
+          "location": "SE",
+          "summary": "Swedish police recorded over 30 bombings nationwide in a single month, averaging nearly one per day, many linked to extortion of businesses."
+        },
+        {
+          "date": "2025-03",
+          "location": "US",
+          "summary": "US Treasury sanctions the Foxtrot Network and Rawa Majid."
+        }
+      ],
+      "watch_indicators": [
+        "Explosive incidents at SME premises in a bank's local lending book",
+        "Business customers making abrupt unexplained cash withdrawals under duress patterns",
+        "Recruitment advertisements for 'jobs' on Swedish-language encrypted channels"
+      ],
+      "linked_actors": [
+        "EU-NET-RUMBA",
+        "EU-CLU-VIOLENCESERV"
+      ],
+      "sources": [
+        {
+          "title": "Treasury Sanctions Swedish Gang and Leader Serving Iranian Regime",
+          "url": "https://www.globalsecurity.org/wmd/library/news/iran/2025/iran-250312-treasury01.htm",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Foxtrot (criminal network)",
+          "url": "https://en.wikipedia.org/wiki/Foxtrot_(criminal_network)",
+          "type": "reference",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "An Explosion a Day in Sweden: What is Going On?",
+          "url": "https://nct-cbnw.com/an-explosion-a-day-in-sweden-what-is-going-on/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Sweden Country Security Report",
+          "url": "https://www.osac.gov/Country/Sweden/Content/Detail/Report/32a06063-3351-4cfe-9d62-1e642fba07f5",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-NET-RUMBA",
+      "name": "Rumba network",
+      "aliases": [
+        "Ismail Abdo network",
+        "Strawberry network"
+      ],
+      "actor_class": "network",
+      "primary_motivation": "profit",
+      "categories": [
+        "extortion_protection",
+        "ied_explosive_attack",
+        "arson_sabotage"
+      ],
+      "status": "active",
+      "active_since": "2023",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "SE",
+        "DK",
+        "TR"
+      ],
+      "description": "The principal rival faction to Foxtrot, formed after a split within the same Swedish network. The Foxtrot-Rumba feud is the immediate driver of much of the Swedish and Danish explosion wave, including attacks displaced into Denmark. Operationally it mirrors Foxtrot: contract violence brokered online and executed by juveniles.",
+      "financial_sector_relevance": "Same exposure profile as Foxtrot: extortion of SME banking customers, explosive damage to commercial premises, and staff safety risk in affected districts. The feud dynamic matters because it makes attack location a function of rivalry geography rather than victim selection, which weakens conventional target-hardening logic.",
+      "targets": [
+        "corporate_premises",
+        "customers",
+        "bank_branch"
+      ],
+      "ttps": [
+        "Contract bombings and shootings brokered through encrypted platforms",
+        "Recruitment of minors from Sweden and, increasingly, from Denmark",
+        "Extortion of business owners with escalating demonstrative attacks",
+        "Cross-border displacement of violence to evade Swedish enforcement pressure"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Swedish and Danish police reporting on the feud."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Leadership publicly identified; individual attack attribution often contested."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Commercial premises targeted for extortion; banks affected indirectly."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Escalation markers in the Foxtrot-Rumba feud preceding attack clusters",
+        "Recruitment of Danish minors for Sweden-tasked attacks"
+      ],
+      "linked_actors": [
+        "EU-NET-FOXTROT",
+        "EU-CLU-VIOLENCESERV"
+      ],
+      "sources": [
+        {
+          "title": "The Rise of Organised Crime in Sweden",
+          "url": "https://bisi.org.uk/reports/the-rise-of-organised-crime-in-sweden",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "An Explosion a Day in Sweden: What is Going On?",
+          "url": "https://nct-cbnw.com/an-explosion-a-day-in-sweden-what-is-going-on/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-CLU-VIOLENCESERV",
+      "name": "Nordic violence-as-a-service brokerage cluster",
+      "aliases": [
+        "contract violence marketplaces",
+        "app-brokered attacks"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "extortion_protection",
+        "arson_sabotage",
+        "ied_explosive_attack",
+        "staff_targeting"
+      ],
+      "status": "active",
+      "active_since": "2022",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "SE",
+        "DK",
+        "NO",
+        "FI"
+      ],
+      "description": "The market layer beneath named Nordic networks: brokers who advertise beatings, arson, bombings and shootings at fixed prices on encrypted channels, and recruit juveniles as executors. The significance is structural. Because the executor has no relationship with the commissioner and often no knowledge of the target's identity, conventional attribution and deterrence both fail, and any actor with modest funds can buy a physical attack against a named individual or premises.",
+      "financial_sector_relevance": "Lowers the cost of a physical attack against a bank employee, branch or corporate customer to a few thousand euros. This is the single most important development for executive protection and branch security planning in the Nordics, and the model is being observed in the Netherlands, Belgium and Germany.",
+      "targets": [
+        "bank_staff",
+        "executives_hnwi",
+        "corporate_premises",
+        "bank_branch",
+        "customers"
+      ],
+      "ttps": [
+        "Fixed-price advertisements for violence on Telegram, Signal and Snapchat channels",
+        "Recruitment of minors below the age of criminal responsibility",
+        "Compartmentalisation so executors never learn the commissioner's identity",
+        "Payment in cryptocurrency or via mule accounts",
+        "Target packages (address, photograph, vehicle) supplied to the executor by the broker"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Swedish, Danish and Norwegian police reporting; multiple prosecutions of juvenile executors."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Deliberate compartmentalisation defeats attribution beyond the executor."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Targets are selected by the paying customer; financial-sector individuals are within scope, not systematically prioritised."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Employee reports of unexplained surveillance or photography at home addresses",
+        "Leakage of staff home addresses following a data breach or insider incident",
+        "Local juvenile arrests for attacks with no apparent motive"
+      ],
+      "linked_actors": [
+        "EU-NET-FOXTROT",
+        "EU-NET-RUMBA",
+        "EU-PROXY-RU-DISPOSABLE"
+      ],
+      "sources": [
+        {
+          "title": "Nordic Counter Terrorism Network: Sweden 2025",
+          "url": "https://www.iacsp-nctn.org/sweden-2025",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "The Rise of Organised Crime in Sweden",
+          "url": "https://bisi.org.uk/reports/the-rise-of-organised-crime-in-sweden",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-STATE-GRU29155",
+      "name": "GRU Unit 29155 / Department of Special Tasks",
+      "aliases": [
+        "Unit 29155",
+        "SSD",
+        "Cadre 29155"
+      ],
+      "actor_class": "state_proxy_program",
+      "primary_motivation": "state_directed",
+      "categories": [
+        "arson_sabotage",
+        "infrastructure_sabotage",
+        "ied_explosive_attack"
+      ],
+      "status": "active",
+      "active_since": "2009",
+      "regions": [
+        "Europe",
+        "Global"
+      ],
+      "countries": [
+        "RU",
+        "PL",
+        "DE",
+        "GB",
+        "CZ",
+        "LT",
+        "LV",
+        "EE",
+        "BG"
+      ],
+      "description": "The Russian military intelligence element responsible for assassination, sabotage and destabilisation operations in Europe, expanded after 2023 into a broader Department of Special Tasks. Western agencies have documented its targeting of government, finance, transportation, energy and healthcare sectors, and its scanning of web domains across at least 26 NATO and EU states more than 14,000 times. Its defining current method is not direct action but remote tasking of disposable local recruits.",
+      "financial_sector_relevance": "The finance sector is explicitly within its documented target set. Realistic scenarios are not branch attacks but sabotage of the physical substrate finance depends on: power feeds, fibre routes, data centre supply chains and logistics nodes. Institutions should treat it as a business-continuity and single-point-of-failure problem rather than a guarding problem.",
+      "targets": [
+        "data_centre",
+        "telecom_subsea_cable",
+        "corporate_premises",
+        "armoured_air_cargo"
+      ],
+      "ttps": [
+        "Remote recruitment of local proxies via Telegram, paid in cryptocurrency",
+        "Arson against warehouses, logistics depots and defence-linked industry",
+        "Incendiary devices concealed in parcels routed through commercial air cargo",
+        "Reconnaissance and pre-positioning against critical infrastructure",
+        "Cyber operations against critical infrastructure conducted alongside physical sabotage",
+        "Assassination and abduction planning against designated individuals"
+      ],
+      "capability": "advanced",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Joint NCSC/allied advisories and multiple European indictments."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Formally attributed by UK NCSC, FBI and European prosecutors."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Finance is named among targeted sectors in official advisories, but observed physical attacks have concentrated on logistics, defence industry and transport."
+        },
+        "state_tasking": {
+          "confidence": "high",
+          "basis": "Unit is an organic element of Russian military intelligence."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2024",
+          "location": "DE, GB, PL",
+          "summary": "Plot to place incendiary devices concealed in consumer goods aboard DHL cargo aircraft, including flights bound for North America."
+        },
+        {
+          "date": "2024-09",
+          "location": "Multiple",
+          "summary": "Allied advisories detail Unit 29155 targeting of government, finance, transportation, energy and healthcare critical infrastructure."
+        }
+      ],
+      "watch_indicators": [
+        "Arson or intrusion at a logistics provider handling the institution's cash, cards or hardware",
+        "Physical reconnaissance reported at data centre or fibre landing sites",
+        "Anomalous parcels or packages entering the corporate mail stream"
+      ],
+      "linked_actors": [
+        "EU-PROXY-RU-DISPOSABLE",
+        "EU-CLU-SHADOWFLEET",
+        "EU-CLU-UAS"
+      ],
+      "sources": [
+        {
+          "title": "UK and allies uncover Russian military unit carrying out cyber attacks and digital sabotage",
+          "url": "https://www.ncsc.gov.uk/news/uk-allies-uncover-russian-military-carrying-out-cyber-attacks-digital-sabotage",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Revealed: How Russia's GRU Plotted Europe's Parcel Explosions",
+          "url": "https://vsquare.org/revealed-how-russia-gru-plotted-europe-parcel-explosions/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Russia-linked GRU Unit 29155 targeted critical infrastructure",
+          "url": "https://securityaffairs.com/168095/cyber-warfare-2/russia-gru-unit-29155-critical-infrastructure.html",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-PROXY-RU-DISPOSABLE",
+      "name": "Russia-tasked disposable saboteur cluster",
+      "aliases": [
+        "Telegram saboteurs",
+        "low-level agents",
+        "gig saboteurs"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "hybrid",
+      "categories": [
+        "arson_sabotage",
+        "infrastructure_sabotage"
+      ],
+      "status": "active",
+      "active_since": "2023",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "PL",
+        "LT",
+        "LV",
+        "EE",
+        "DE",
+        "GB",
+        "CZ",
+        "RO",
+        "UA"
+      ],
+      "description": "Individuals with no prior intelligence relationship, recruited over Telegram and messaging apps and paid in cryptocurrency to conduct arson, reconnaissance, package placement and rail sabotage on behalf of Russian services. They are cheap, deniable and expendable, and are typically arrested quickly, which is acceptable to the tasking service. Poland's November 2025 rail sabotage, attributed to two Ukrainians working for Russian services, is the template case.",
+      "financial_sector_relevance": "Creates a realistic pathway for an anonymous, low-cost physical attack on any accessible European site, including bank premises, cash centres, data centres and their power and fibre feeds. Because recruits are unvetted and untrained, target selection follows accessibility and the tasker's brief, not strategic logic, so ordinary commercial sites are in scope.",
+      "targets": [
+        "corporate_premises",
+        "data_centre",
+        "telecom_subsea_cable",
+        "cash_centre"
+      ],
+      "ttps": [
+        "Recruitment through Telegram job advertisements offering cryptocurrency payment",
+        "Arson of warehouses, depots, shopping centres and transport infrastructure",
+        "Placement of explosive or incendiary devices at tasked coordinates",
+        "Photographic reconnaissance of infrastructure delivered back to the handler",
+        "Physical interference with rail signalling and track"
+      ],
+      "capability": "low",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Numerous arrests and prosecutions across Poland, the Baltics, Germany and the UK."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Executors are identified; the tasking chain is established in some cases (Poland rail) and inferred in others."
+        },
+        "financial_targeting": {
+          "confidence": "low",
+          "basis": "No observed pattern of deliberate financial-sector targeting; risk arises from indiscriminate accessibility-driven selection."
+        },
+        "state_tasking": {
+          "confidence": "moderate",
+          "basis": "Established judicially in leading cases; contested or unproven in others."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025-11-16",
+          "location": "PL",
+          "summary": "Explosion destroyed track on the Warsaw-Lublin line near Mika; a second sabotage attempt occurred near Pulawy. Polish prosecutors accused two Ukrainians working for Russian services, who fled to Belarus."
+        },
+        {
+          "date": "2025-10",
+          "location": "PL",
+          "summary": "Polish authorities arrested eight people suspected of spying or planning attacks for Russia."
+        }
+      ],
+      "watch_indicators": [
+        "Unexplained photography of perimeter, plant rooms or cable routes",
+        "Small fires or attempted fires at adjacent commercial premises",
+        "Local recruitment advertising for 'simple, well paid, one-off tasks'"
+      ],
+      "linked_actors": [
+        "EU-STATE-GRU29155",
+        "EU-CLU-VIOLENCESERV"
+      ],
+      "sources": [
+        {
+          "title": "2025 Russian railway sabotage in Poland",
+          "url": "https://en.wikipedia.org/wiki/2025_Russian_railway_sabotage_in_Poland",
+          "type": "reference",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Poland arrests suspected saboteurs amid fears of Russian 'hybrid warfare'",
+          "url": "https://www.aljazeera.com/news/2025/10/21/poland-detains-suspected-saboteurs-amid-fears-of-russian-hybrid",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Russian Sabotage Operations Across Europe",
+          "url": "https://www.prevail-partners.com/russian-sabotage-operations-across-europe/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-CLU-SHADOWFLEET",
+      "name": "Shadow-fleet subsea cable interference cluster",
+      "aliases": [
+        "Baltic cable incidents",
+        "anchor-dragging vessels"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "state_directed",
+      "categories": [
+        "infrastructure_sabotage"
+      ],
+      "status": "active",
+      "active_since": "2023",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "FI",
+        "EE",
+        "SE",
+        "LT",
+        "DE",
+        "DK",
+        "NO"
+      ],
+      "description": "Repeated damage to subsea telecommunications and power cables in the Baltic and North Sea, associated with vessels of Russia's sanctions-evasion shadow fleet and, in at least one case, a Chinese-registered ship. At least eleven Baltic cables have been damaged since October 2023. Attribution is deliberately ambiguous: anchor dragging is plausibly deniable as poor seamanship, which is precisely its utility.",
+      "financial_sector_relevance": "Financial messaging, market data and inter-datacentre replication ride the same subsea fibre. Cable cuts do not usually take a bank offline because of route diversity, but they degrade latency-sensitive trading, expose concentration in supposedly diverse routes, and are a stated concern of the EU's 2025 Action Plan on Cable Security. Nordic and Baltic institutions should treat this as a live continuity scenario, not a theoretical one.",
+      "targets": [
+        "telecom_subsea_cable",
+        "data_centre"
+      ],
+      "ttps": [
+        "Prolonged anchor dragging across known cable corridors",
+        "AIS manipulation, dark periods and flag-of-convenience registration",
+        "Loitering in shallow chokepoints where cables are concentrated",
+        "Exploitation of the evidentiary difficulty of distinguishing accident from intent"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Eleven-plus documented incidents, vessel detentions by Finnish and Estonian authorities."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Vessel identification is firm; intent and state tasking remain contested and largely unproven in court."
+        },
+        "financial_targeting": {
+          "confidence": "low",
+          "basis": "Cables are shared infrastructure; no evidence of finance-specific selection."
+        },
+        "state_tasking": {
+          "confidence": "low",
+          "basis": "Circumstantial pattern; deniability is intact by design."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2024-12",
+          "location": "Gulf of Finland",
+          "summary": "Shadow fleet vessel Eagle S suspected of cutting four subsea data cables and the Estlink 2 power interconnector between Finland and Estonia."
+        },
+        {
+          "date": "2025-12-31",
+          "location": "EE EEZ",
+          "summary": "Cargo ship suspected of damaging an undersea cable in Estonia's exclusive economic zone; detained by Finnish authorities."
+        },
+        {
+          "date": "2025-01",
+          "location": "Baltic",
+          "summary": "NATO launched Baltic Sentry; the EU published an Action Plan on Cable Security in February 2025."
+        }
+      ],
+      "watch_indicators": [
+        "Cable fault notifications from carriers on routes carrying financial traffic",
+        "Vessel loitering alerts published by Baltic Sentry and national coastguards",
+        "Discovery that nominally diverse circuits share a physical corridor"
+      ],
+      "linked_actors": [
+        "EU-STATE-GRU29155",
+        "EU-CLU-UAS"
+      ],
+      "sources": [
+        {
+          "title": "The Baltic Sea at a Boil: Connecting the Shadow Fleet and Episodes of Subsea Infrastructure Sabotage",
+          "url": "https://carnegieendowment.org/research/2025/06/baltic-russia-maritime-cable-sabotage",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Russia's shadow fleet presents a sustained hybrid war threat at sea",
+          "url": "https://acleddata.com/report/russias-shadow-fleet-presents-sustained-hybrid-war-threat-sea",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Shallow seas and 'shadow fleets': Europe's undersea infrastructure is dangerously vulnerable",
+          "url": "https://ecfr.eu/article/shallow-seas-and-shadow-fleets-europes-undersea-infrastructure-is-dangerously-vulnerable/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-CLU-UAS",
+      "name": "Unattributed UAS incursion cluster over European critical sites",
+      "aliases": [
+        "mystery drones",
+        "drone incursions"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "hybrid",
+      "categories": [
+        "uas_incursion",
+        "infrastructure_sabotage"
+      ],
+      "status": "active",
+      "active_since": "2024",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "BE",
+        "DE",
+        "DK",
+        "NO",
+        "SE",
+        "NL",
+        "PL",
+        "ES",
+        "LV"
+      ],
+      "description": "A sustained pattern of unidentified drone flights over airports, military sites, ports and industrial infrastructure across Europe, with incidents near critical infrastructure quadrupling between 2024 and 2025. Very few incursions are ever attributed. Airports have borne the visible cost, but the operational lesson generalises: most sites can detect a drone and do nothing about it.",
+      "financial_sector_relevance": "Data centres, cash centres, printing works and headquarters campuses are all overflight-vulnerable. The realistic near-term harms are reconnaissance of rooftop plant and perimeter layouts, disruption of site operations, and denial of access to staff and cash movements. Counter-UAS is legally constrained for private operators in most European jurisdictions, so mitigation is largely procedural.",
+      "targets": [
+        "data_centre",
+        "cash_centre",
+        "corporate_premises"
+      ],
+      "ttps": [
+        "Repeat night-time overflight of sensitive sites without payload delivery",
+        "Coordinated multi-drone activity causing operational shutdowns",
+        "Reconnaissance of rooftop plant, perimeter and access control layouts",
+        "Exploitation of the legal grey zone limiting private counter-UAS response"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "National aviation authority and police records across multiple states."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "The overwhelming majority of incursions remain unattributed; hobbyist, criminal and state hypotheses all remain live."
+        },
+        "financial_targeting": {
+          "confidence": "low",
+          "basis": "No confirmed finance-sector-specific incursion campaign; risk is inferred from the observed target breadth."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025-09",
+          "location": "DK, NO",
+          "summary": "Copenhagen and Oslo airports closed after large drones forced 109 cancellations and 51 reroutes."
+        },
+        {
+          "date": "2025",
+          "location": "BE",
+          "summary": "A single evening of drone disruption at Brussels Airport was estimated to cost EUR 2 million."
+        },
+        {
+          "date": "2025",
+          "location": "DK",
+          "summary": "107 illegal drone flights reported near Danish airports, up from 92 in 2024."
+        }
+      ],
+      "watch_indicators": [
+        "Staff or contractor reports of drones over site perimeters or rooftops",
+        "Repeat sightings at the same time of night across consecutive days",
+        "Correlation with public reporting of incursions in the same metropolitan area"
+      ],
+      "linked_actors": [
+        "EU-STATE-GRU29155",
+        "EU-CLU-SHADOWFLEET"
+      ],
+      "sources": [
+        {
+          "title": "2025 European drone sightings",
+          "url": "https://en.wikipedia.org/wiki/2025_European_drone_sightings",
+          "type": "reference",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "CoESS calls for urgent EU action on Counter-UAS amid rising drone incursions",
+          "url": "https://www.coess.org/newsroom.php?news=CoESS-calls-for-urgent-EU-action-on-Counter-UAS-amid-rising-drone-incursions",
+          "type": "industry",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Drone threat to Europe's infrastructure is surging",
+          "url": "https://www.aerotime.aero/articles/drone-threat-to-europe-infrastructure-is-surging",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-NET-PINKPANTHERS",
+      "name": "Pink Panthers",
+      "aliases": [
+        "Pink Panther network",
+        "Balkan jewel thieves"
+      ],
+      "actor_class": "network",
+      "primary_motivation": "profit",
+      "categories": [
+        "vault_burglary",
+        "branch_robbery"
+      ],
+      "status": "active",
+      "active_since": "1993",
+      "regions": [
+        "Europe",
+        "Global"
+      ],
+      "countries": [
+        "RS",
+        "ME",
+        "HR",
+        "BA",
+        "GR",
+        "FR",
+        "CH",
+        "AE",
+        "JP"
+      ],
+      "description": "A transnational Balkan network, many of whose members served in Serbian special forces during the wars of the 1990s, specialising in fast, high-value armed robberies of jewellery retailers and, historically, safe deposit facilities. Rather than a single organisation it is a recruiting pool: crews form for a job, disperse, and reform. Reconnaissance quality, false identities and disciplined egress distinguish it from ordinary armed robbery.",
+      "financial_sector_relevance": "Directly relevant to safe deposit box operations, private banking premises with vault facilities, bullion dealers and the insurers behind them. The tradecraft, extended in-country reconnaissance under false identity, vehicle plate swapping, sub-two-minute entries, is the benchmark against which high-value premises security should be tested.",
+      "targets": [
+        "gold_jewellery_dealer",
+        "vault_safe_deposit",
+        "corporate_premises",
+        "executives_hnwi"
+      ],
+      "ttps": [
+        "Multi-week in-country reconnaissance using false identities and rented accommodation",
+        "Rented vehicles with swapped licence plates staged for egress",
+        "Fast armed entry, typically under two minutes, with firearm threat rather than discharge",
+        "Immediate cross-border exfiltration to jurisdictions with weak extradition",
+        "Disposal via established Balkan and Gulf fencing routes"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Decades of Interpol and Europol casework, multiple convictions."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Individual members identified; the 'organisation' is best understood as a recruiting milieu."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Primary targets are jewellery retail; financial premises are targeted where vault contents justify it."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025-09-02",
+          "location": "Halkidiki, GR",
+          "summary": "EUR 580,000 armed jewellery robbery at a hotel complex; four members present in Greece from 20 August using false identities, rented vehicles and swapped plates. Two Serbian nationals later arrested in Bulgaria and Croatia."
+        },
+        {
+          "date": "2024-11",
+          "location": "Balkans",
+          "summary": "Europol-coordinated operation across three Balkan countries arrested 11 suspects including an alleged Pink Panthers leader."
+        }
+      ],
+      "watch_indicators": [
+        "Repeat short-stay foreign visitors viewing vault or high-value premises",
+        "Vehicle plate anomalies in car parks adjacent to the premises",
+        "Enquiries about safe deposit access procedures from prospective customers who do not proceed"
+      ],
+      "linked_actors": [
+        "EU-NET-GEORGIAN",
+        "EU-CLU-VAULTBURG"
+      ],
+      "sources": [
+        {
+          "title": "Pink Panther Gang Behind EUR 580,000 Jewellery Heist",
+          "url": "https://greekcitytimes.com/2026/01/06/pink-panther-gang-behind-e580000-jewellery-heist/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Balkan Operation Nets Pink Panther Boss, Cocaine Kingpin",
+          "url": "https://www.occrp.org/en/news/balkan-operation-nets-pink-panther-boss-cocaine-kingpin",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Member of Serbian Pink Panthers gang arrested in Bulgaria",
+          "url": "https://jewelerssecurity.org/member-of-serbian-pink-panthers-gang-arrested-in-bulgaria-for-robbing-jewelry-store-in-halkidiki-of-e580000/",
+          "type": "industry",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-NET-GEORGIAN",
+      "name": "Georgian thieves-in-law burglary and extortion networks",
+      "aliases": [
+        "vory v zakone",
+        "kanonieri qurdebi",
+        "Georgian mafia"
+      ],
+      "actor_class": "network",
+      "primary_motivation": "profit",
+      "categories": [
+        "vault_burglary",
+        "extortion_protection",
+        "money_laundering_physical"
+      ],
+      "status": "active",
+      "active_since": "1995",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "GE",
+        "ES",
+        "FR",
+        "IT",
+        "AT",
+        "DE",
+        "GR",
+        "PL"
+      ],
+      "description": "Hierarchical networks operating under the thieves-in-law code, exporting high-volume residential and commercial burglary crews into Western Europe while sustaining extortion, dispute arbitration and money laundering. Spanish, French and Italian authorities have run repeated large-scale operations, including a Europol-supported action arresting 61 members of a burglary-specialised Georgian group. Interpol treats thieves-in-law as a priority under Project Millennium.",
+      "financial_sector_relevance": "Two exposures. First, industrial-scale burglary of premises and safes, including business premises holding takings and safe deposit facilities. Second, the arbitration and laundering function: these networks hold and move criminal capital across Europe and into the South Caucasus, generating correspondent and private-banking exposure.",
+      "targets": [
+        "corporate_premises",
+        "vault_safe_deposit",
+        "customers",
+        "money_service_business"
+      ],
+      "ttps": [
+        "High-tempo burglary crews rotated on short stays across multiple countries",
+        "Safe attacks by cutting and prising rather than explosives",
+        "Hierarchical tasking with a share of proceeds remitted to an obshchak common fund",
+        "Enforcement of debts and disputes through intimidation and violence",
+        "Laundering through cash couriers, hospitality businesses and South Caucasus banking"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Europol and Interpol operations, national prosecutions across Spain, France and Italy."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Structure and membership documented in judicial proceedings and GI-TOC research."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Financial institutions are exposed via burglary of customer premises and via laundering, not as primary attack targets."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2023-07",
+          "location": "ES",
+          "summary": "Spanish National Police, supported by Europol and French and Georgian authorities, arrested 61 members of a Georgian organised crime group specialising in burglaries; associated fraud, theft, smuggling and asset laundering."
+        }
+      ],
+      "watch_indicators": [
+        "Clustered burglary reports across a metropolitan area within a short window",
+        "Short-stay nationals opening accounts with immediate high cash turnover",
+        "Cash courier detections on Georgia and Turkey routes"
+      ],
+      "linked_actors": [
+        "EU-NET-PINKPANTHERS",
+        "EU-CLU-VAULTBURG"
+      ],
+      "sources": [
+        {
+          "title": "Arrest of Georgian Organised Crime Group - Europol supports Spanish, French and Georgian authorities",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/arrest-of-georgian-organised-crime-group-europol-successfully-supports-spanish-french-and-georgian-authorities",
+          "type": "law_enforcement",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Den of Thieves: Mapping Organized Crime in the South Caucasus",
+          "url": "https://globalinitiative.net/wp-content/uploads/2025/08/Alexander-Kupatadze-Den-of-thieves-Mapping-organized-crime-in-the-South-Caucasus-GI-TOC-August-2025-1.pdf",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Interpol Project Millennium",
+          "url": "https://www.interpol.int/en/Crimes/Organized-crime/Projects/Project-Millennium",
+          "type": "law_enforcement",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-CLU-CIT-IT",
+      "name": "Italian assalto al portavalori crews",
+      "aliases": [
+        "Foggia CIT gangs",
+        "Puglia highway bandits",
+        "Società Foggiana-linked crews"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "cash_in_transit_attack",
+        "ied_explosive_attack"
+      ],
+      "status": "active",
+      "active_since": "1990",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "description": "Paramilitary-style crews, predominantly from the Foggia and wider Puglia area, that ambush armoured cash-in-transit vehicles on motorways and trunk roads. Operations involve ten or more armed participants, multiple stolen vehicles used to block both carriageways, caltrops, burning vehicles to seal the scene, and explosive or thermal breaching of the vault. They constitute the most militarily capable CIT threat in Western Europe.",
+      "financial_sector_relevance": "The defining severity scenario for European cash logistics. Even failed attacks, and several recent ones have failed, produce crew injury, vehicle write-offs, motorway closures and route compromise. Attack frequency clusters seasonally and geographically, which makes route randomisation and covert escort economically assessable.",
+      "targets": [
+        "cit_vehicle",
+        "cash_centre"
+      ],
+      "ttps": [
+        "Motorway interdiction using stolen HGVs and cars to block both directions",
+        "Caltrops and burning vehicles to prevent police and civilian interference",
+        "Automatic weapons used for suppression rather than to kill",
+        "Explosive or thermal-lance breaching of the CIT vault",
+        "Multiple pre-staged switch vehicles and rural dispersal routes",
+        "Insider or observer tipping on high-value runs"
+      ],
+      "capability": "advanced",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Continuous Italian prosecution record and repeated incidents."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Regional origin of crews is well established; individual attack attribution varies."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Cash-in-transit is the exclusive target."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025-12-01",
+          "location": "Calabria, IT",
+          "summary": "EUR 2 million taken in a tunnel ambush on a cash-in-transit vehicle."
+        },
+        {
+          "date": "2026-01-05",
+          "location": "A14 near Ortona, IT",
+          "summary": "EUR 400,000 robbery of a CIT vehicle on the A14 in Abruzzo."
+        },
+        {
+          "date": "2026",
+          "location": "SS613 near Tuturano, IT",
+          "summary": "Around ten masked assailants in jumpsuits blocked the Brindisi-Lecce highway with stolen vehicles; the vault was breached but no money taken. Two suspects from the Foggia area arrested within hours."
+        }
+      ],
+      "watch_indicators": [
+        "HGV or plant theft along a CIT route corridor in the preceding week",
+        "Observation of CIT timings at pavement level near cash centres",
+        "Caltrop or debris finds on habitual route segments"
+      ],
+      "linked_actors": [
+        "EU-CLU-CIT-FRBE",
+        "EU-OCG-NDRANGHETA"
+      ],
+      "sources": [
+        {
+          "title": "Highway Bandits, An Ever Increasing Trend In European Armed Robbery",
+          "url": "https://covertaccessteam.substack.com/p/highway-bandits-an-ever-increasing",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Armed robbers hit cash truck in daring heist on highway in southern Italy",
+          "url": "https://www.wantedinrome.com/news/armed-robbers-hit-cash-truck-in-daring-heist-on-highway-in-southern-italy.html",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-CLU-CIT-FRBE",
+      "name": "Franco-Belgian cash-in-transit and cash-centre attack crews",
+      "aliases": [
+        "braquage fourgon crews"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "cash_in_transit_attack",
+        "cash_centre_attack"
+      ],
+      "status": "active",
+      "active_since": "1995",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "FR",
+        "BE",
+        "LU"
+      ],
+      "description": "Crews operating across the French-Belgian border that plan armed attacks on cash transports and cash-handling premises. Cross-border judicial cooperation, coordinated by Eurojust, has produced pre-emptive arrests, including twelve suspects detained in February before a planned CIT robbery. The cross-border element is deliberate: preparation, weapons storage and egress are distributed across jurisdictions.",
+      "financial_sector_relevance": "Ongoing armed threat to CIT crews and cash centres in two major European cash markets. The pattern of pre-emptive disruption shows these plots are typically detected during preparation, which places a premium on sharing route-observation and reconnaissance indicators with police early.",
+      "targets": [
+        "cit_vehicle",
+        "cash_centre",
+        "bank_branch"
+      ],
+      "ttps": [
+        "Cross-border distribution of preparation, weapons caching and escape routes",
+        "Reconnaissance of CIT depot departure timings",
+        "Armed interception at chokepoints and depot approaches",
+        "Stolen vehicles burned after use"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Eurojust-coordinated arrests and national prosecutions."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Case-by-case; no single durable structure."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Cash transports and cash centres are the target set."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2026-02-26",
+          "location": "FR/BE",
+          "summary": "Eurojust-coordinated French and Belgian action arrested 12 gang members suspected of preparing to rob bank cash transports, stopped before the robbery."
+        }
+      ],
+      "watch_indicators": [
+        "Static observation of depot gates at shift-change times",
+        "Reports of stolen vehicles matching known switch-vehicle profiles",
+        "Unusual interest in CIT schedules from third-party contractors"
+      ],
+      "linked_actors": [
+        "EU-CLU-CIT-IT"
+      ],
+      "sources": [
+        {
+          "title": "Eurojust: robbery case coordination",
+          "url": "https://www.eurojust.europa.eu/term/robbery",
+          "type": "law_enforcement",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Suspected bank robbers arrested in Belgium",
+          "url": "https://www.eurojust.europa.eu/news/suspected-bank-robbers-arrested-belgium",
+          "type": "law_enforcement",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-CLU-TIGERKIDNAP",
+      "name": "Tiger kidnapping crews",
+      "aliases": [
+        "tiger kidnap gangs",
+        "hostage-coercion robbery crews"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "tiger_kidnap_coercion",
+        "staff_targeting",
+        "cash_centre_attack"
+      ],
+      "status": "dormant",
+      "active_since": "1972",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "IE",
+        "GB",
+        "BE",
+        "NL",
+        "FR"
+      ],
+      "description": "Crews that abduct or hold the family of a bank, cash centre or CIT employee overnight, then compel that employee to remove cash the following morning. Ireland, the UK and Belgium saw the technique peak in the 2000s, with Irish political commentary at one point describing a rate approaching one per week. Incidence has fallen sharply with dual-control, delayed-access and duress-code protocols, but the tradecraft is well documented and reusable, particularly against smaller institutions and independent ATM operators.",
+      "financial_sector_relevance": "The archetypal attack that defeats physical security by attacking the human control point rather than the vault. It remains the reference scenario for duress procedures, family-address confidentiality, key-holder rotation and out-of-hours verification, and its decline is a direct consequence of control design rather than reduced criminal intent.",
+      "targets": [
+        "bank_staff",
+        "cash_centre",
+        "bank_branch",
+        "insiders"
+      ],
+      "ttps": [
+        "Pattern-of-life surveillance to identify a keyholder and their home address",
+        "Overnight home invasion and detention of family members",
+        "Coercion of the employee to remove cash under threat to the hostages",
+        "Handover at a pre-arranged location with a countdown to hostage release",
+        "Rapid dispersal of cash through multiple couriers"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Extensive Irish, UK and Belgian prosecutions."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Individual crews prosecuted; some historical cases linked to paramilitary-adjacent networks."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "The method exists specifically to defeat financial-institution cash controls."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2009-02-26",
+          "location": "Dublin, IE",
+          "summary": "Bank of Ireland employee Shane Travers coerced into removing EUR 7.6 million after his girlfriend and two family members were held overnight at gunpoint. Seven arrests followed; around EUR 4 million recovered."
+        }
+      ],
+      "watch_indicators": [
+        "Employee reports of vehicles or persons observed near their home",
+        "Attempts to elicit keyholder identity through social engineering of colleagues",
+        "Exposure of staff home addresses in a data breach"
+      ],
+      "linked_actors": [
+        "EU-GRP-NEWIRA",
+        "EU-CLU-INSIDER"
+      ],
+      "sources": [
+        {
+          "title": "2009 Bank of Ireland robbery",
+          "url": "https://en.wikipedia.org/wiki/2009_Bank_of_Ireland_robbery",
+          "type": "reference",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Tiger Kidnappings: A crime within a crime",
+          "url": "https://axaxl.com/fast-fast-forward/articles/tiger-kidnapping",
+          "type": "industry",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Bank of Ireland Tiger Kidnapping",
+          "url": "https://www.crimemuseum.org/crime-library/kidnappings/bank-of-ireland-tiger-kidnapping/",
+          "type": "reference",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-CLU-DEVICETHEFT",
+      "name": "UK device-theft to account-takeover networks",
+      "aliases": [
+        "phone snatching gangs",
+        "e-bike snatchers",
+        "London device theft OCGs"
+      ],
+      "actor_class": "network",
+      "primary_motivation": "profit",
+      "categories": [
+        "device_theft_account_takeover",
+        "customer_predation",
+        "crypto_coercion"
+      ],
+      "status": "active",
+      "active_since": "2019",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "GB",
+        "FR",
+        "ES",
+        "NL"
+      ],
+      "description": "Organised crews, concentrated in London but replicated in Paris, Barcelona and Amsterdam, that steal unlocked smartphones in the street and immediately exploit the open banking, payment and crypto apps on them. This is the most consequential contemporary example of a street crime that is really a financial crime: the handset resale value is trivial compared with what can be drained from the accounts behind it in the first thirty minutes.",
+      "financial_sector_relevance": "Converts a physical street offence directly into authorised-looking account takeover, defeating device-binding and possession-based authentication because the attacker genuinely possesses the enrolled device and the observed passcode. UK reporting shows over GBP 7,000 a day defrauded following phone theft, and GBP 641,208 reported to the national fraud centre in a single three-month window.",
+      "targets": [
+        "customers",
+        "crypto_holders"
+      ],
+      "ttps": [
+        "Three-role street teams: distractor, passcode observer, snatcher",
+        "Targeting of intoxicated victims outside licensed premises, sometimes persuading them to unlock the device",
+        "Use of e-bikes and e-scooters for snatch and rapid egress",
+        "Immediate in-app changes: passcode reset, recovery contact substitution, card provisioning",
+        "Account draining, high-value purchases, loan drawdown and crypto wallet emptying inside the first hour",
+        "Onward export of locked handsets through established resale channels"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "City of London Police and Met operations, multiple OCG prosecutions."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Specific OCGs identified and charged; the wider ecosystem is diffuse."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Banking and crypto apps are the explicit objective, not the hardware."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2026-02",
+          "location": "London, GB",
+          "summary": "City of London Police dawn raids arrested four members of an OCG suspected of stealing more than GBP 300,000 through phone-snatching offences, including cryptocurrency theft, by persuading intoxicated victims to unlock devices."
+        },
+        {
+          "date": "2024-12 to 2025-02",
+          "location": "GB",
+          "summary": "GBP 641,208 in phone-theft fraud reported to the national fraud reporting centre in a three-month period."
+        }
+      ],
+      "watch_indicators": [
+        "Passcode change followed within minutes by payee addition and maximum-limit transfer",
+        "New device provisioning of cards immediately after an app login from a known-good device",
+        "Geographic clustering of first fraudulent transactions around nightlife districts"
+      ],
+      "linked_actors": [
+        "EU-CLU-RELAY",
+        "EU-CLU-CRYPTOWRENCH",
+        "APAC-CLU-SNATCH-MY"
+      ],
+      "sources": [
+        {
+          "title": "Four men arrested by City of London Police for targeting pubgoers to snatch phones and steal from bank accounts",
+          "url": "https://www.cityoflondon.police.uk/news/city-of-london/news/2026/february/four-men-arrested-by-city-of-london-police-for-targeting-pubgoers-to-snatch-phones-and-steal-from-bank-accounts/",
+          "type": "law_enforcement",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "City of London Police launch new initiatives to tackle phone snatching",
+          "url": "https://www.cityoflondon.police.uk/news/city-of-london/news/2025/april/city-of-london-police-launch-new-initiatives-to-tackle-phone-snatching-as-new-three-year-policing-plan-published/",
+          "type": "law_enforcement",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "The invasion of the phone snatchers",
+          "url": "https://unherd.com/2025/07/the-invasion-of-the-phone-snatchers/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-CLU-COURIERFRAUD",
+      "name": "Courier fraud gangs",
+      "aliases": [
+        "bank runner scams",
+        "police impersonation courier crews"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "customer_predation",
+        "fraud_enabled_physical",
+        "staff_targeting"
+      ],
+      "status": "active",
+      "active_since": "2010",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "GB",
+        "IE",
+        "NL",
+        "DE",
+        "FR"
+      ],
+      "description": "Crews that telephone elderly victims posing as police or bank fraud teams, persuade them that their account is compromised, and then dispatch a physical courier to collect cards, PINs, cash or gold from the doorstep. It is a hybrid by construction: the deception is remote, but the value extraction requires a person to attend an address, which is also the point at which the crews are most detectable. UK losses exceed GBP 21 million a year.",
+      "financial_sector_relevance": "Places a criminal physically at the customer's door on the strength of an impersonated bank identity, and frequently walks the victim into a branch to make a withdrawal the branch has no obvious reason to refuse. It is therefore both a fraud problem and a branch-floor intervention problem, and the primary reason banking protocol schemes exist.",
+      "targets": [
+        "customers",
+        "bank_branch",
+        "bank_staff"
+      ],
+      "ttps": [
+        "Cold calling from fake call centres impersonating police or bank security",
+        "Instruction to withdraw cash or buy gold as part of a fictitious investigation",
+        "Dispatch of a courier to collect cards, PINs, cash or bullion from the doorstep",
+        "Coaching the victim to mislead branch staff about the purpose of the withdrawal",
+        "Recruitment of disposable local couriers who do not know the wider structure",
+        "Rapid cash-out and layering before the victim realises"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Sustained UK police prosecutions across multiple forces in 2025."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Couriers are prosecuted; organisers frequently are not identified."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Bank customers and bank identity are integral to the method."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025-03",
+          "location": "Lancashire, GB",
+          "summary": "Six offenders jailed for a combined 25+ years for defrauding 14 vulnerable elderly victims of over GBP 1 million, cold-calling from a fake call centre in Blackburn while impersonating police and bank security."
+        },
+        {
+          "date": "2025",
+          "location": "GB",
+          "summary": "Multiple further custodial sentences across Suffolk, Hampshire, Hertfordshire and Northamptonshire; national losses exceeding GBP 21 million in a year."
+        }
+      ],
+      "watch_indicators": [
+        "Elderly customer making an atypical large cash withdrawal with a rehearsed explanation",
+        "Customer on a live phone call while at the counter or ATM",
+        "Repeat requests to purchase bullion or high-value gift cards by a customer with no such history"
+      ],
+      "linked_actors": [
+        "EU-CLU-DEVICETHEFT"
+      ],
+      "sources": [
+        {
+          "title": "Six jailed for more than 25 years after GBP 1 million courier fraud",
+          "url": "https://www.lancashire.police.uk/news/2025/march/six-jailed-for-more-than-25-years-after-1-million-courier-fraud/",
+          "type": "law_enforcement",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Man jailed for nine years for courier fraud offences",
+          "url": "https://www.suffolk.police.uk/news/suffolk/news/news/2025/march/man-jailed-for-nine-years-for-courier-fraud-offences/",
+          "type": "law_enforcement",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Three in prison after courier fraud investigation",
+          "url": "https://www.rocu.police.uk/news/2025/june/three-in-prison-after-courier-fraud-investigation/",
+          "type": "law_enforcement",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-CLU-CRYPTOWRENCH",
+      "name": "European crypto wrench-attack crews",
+      "aliases": [
+        "crypto kidnapping crews",
+        "$5 wrench attackers"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "crypto_coercion",
+        "kidnap_for_ransom"
+      ],
+      "status": "active",
+      "active_since": "2021",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "FR",
+        "BE",
+        "NL",
+        "ES",
+        "GB",
+        "CH"
+      ],
+      "description": "Crews that abduct, restrain or invade the homes of cryptocurrency holders and executives and coerce transfers of keys or funds. France has become the global epicentre: at least 41 crypto-related kidnappings and home invasions were reported in a single year, and prosecutors charged 88 people, including minors, in a coordinated crackdown. Globally, 72 verified physical-coercion incidents were recorded in 2025, a 75 percent year-on-year increase against a dataset of 188 attacks since 2014.",
+      "financial_sector_relevance": "The definitive proof that self-custody converts a cyber-security problem into a personal-security problem. It is directly relevant to any institution serving crypto-wealthy customers, to exchanges whose staff and executives hold operational keys, and to private banks whose client lists are themselves the targeting data. Crew composition is notably unprofessional, which raises rather than lowers the risk of serious injury.",
+      "targets": [
+        "crypto_holders",
+        "executives_hnwi",
+        "customers"
+      ],
+      "ttps": [
+        "Target identification from public wealth signalling, conference attendance and leaked customer data",
+        "Home invasion or street abduction with restraint of family members",
+        "Mutilation and filmed threats used to compel transfers or ransom payment",
+        "Forced transfers from hardware wallets and exchange accounts under duress",
+        "Use of young, loosely organised crews recruited for individual jobs",
+        "Rapid laundering through mixers and OTC conversion"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "French judicial proceedings, 88 people charged; independent incident datasets."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Individual crews prosecuted; no persistent organisation across incidents."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Victim selection is driven entirely by holdings of digital assets."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025-01",
+          "location": "FR",
+          "summary": "Ledger co-founder David Balland and his partner kidnapped; one of his fingers severed and sent with a USD 10 million ransom demand. Both rescued in two successive GIGN operations over 48 hours."
+        },
+        {
+          "date": "2025-2026",
+          "location": "FR",
+          "summary": "At least 41 crypto kidnappings and home invasions reported; French authorities charged 88 people, including minors."
+        },
+        {
+          "date": "2025",
+          "location": "Global",
+          "summary": "72 verified physical-coercion incidents recorded worldwide, up 75 percent year on year."
+        }
+      ],
+      "watch_indicators": [
+        "Customer or executive publicly identified as a large holder",
+        "Leak or scrape of exchange or hardware wallet customer records including addresses",
+        "Reported surveillance or attempted delivery-driver approaches at a client residence"
+      ],
+      "linked_actors": [
+        "AM-CLU-CRYPTOHOMEINV",
+        "AM-NET-THECOM",
+        "EU-CLU-DEVICETHEFT"
+      ],
+      "sources": [
+        {
+          "title": "Inside the rise of wrench attacks against crypto holders, and how France has become the focus",
+          "url": "https://www.coindesk.com/business/2026/04/19/inside-the-rise-of-wrench-attacks-against-crypto-holders-and-how-france-has-become-the-focus",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "France Charges 88, Including Minors, in Crypto 'Wrench Attack' Crackdown",
+          "url": "https://decrypt.co/365596/france-charges-88-including-minors-in-crypto-wrench-attack-crackdown",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "The $100M Wrench Attack: How Crypto Millionaires Became Crime Targets",
+          "url": "https://www.forbes.com/sites/boazsobrado/2025/01/25/the-100m-wrench-attack-how-crypto-millionaires-became-crime-targets/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-CLU-VAULTBURG",
+      "name": "Safe deposit and vault burglary crews",
+      "aliases": [
+        "Hatton Garden-style crews",
+        "vault tunnellers"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "vault_burglary"
+      ],
+      "status": "active",
+      "active_since": "1970",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "GB",
+        "FR",
+        "BE",
+        "ES",
+        "IT",
+        "DE"
+      ],
+      "description": "Small specialist crews that defeat vaults and safe deposit rooms over long holiday weekends using core drilling, thermal lances and, in some cases, tunnelling from adjacent premises. The archetype is Hatton Garden, but the pattern recurs across Europe, usually against independent safe deposit operators and private banks rather than clearing bank vaults, because those targets combine concentrated value with lighter alarm response.",
+      "financial_sector_relevance": "Safe deposit operations sit awkwardly between banking and storage regulation, and losses are often uninsured or under-insured on the customer side, generating disproportionate reputational and litigation exposure. The persistent control failure is alarm response, not vault construction: in most successful cases an alarm activated and was not acted on.",
+      "targets": [
+        "vault_safe_deposit",
+        "bank_branch",
+        "gold_jewellery_dealer"
+      ],
+      "ttps": [
+        "Attacks timed to long public holiday weekends for maximum working time",
+        "Core drilling of reinforced concrete, thermal lances and hydraulic spreaders",
+        "Entry through adjacent premises, lift shafts or basements to avoid monitored perimeters",
+        "Defeat or exploitation of poor alarm escalation procedures",
+        "Long lead-time reconnaissance including legitimate box rental to survey the interior"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Extensive European prosecution record."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Crews are ad hoc and specialist; no persistent organisation."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Vaults and safe deposit rooms are the definitional target."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Box rental by a new customer followed by repeated long-dwell visits",
+        "Unexplained works, scaffolding or occupancy in adjacent premises",
+        "Alarm activations dismissed as faults in the weeks before a holiday period"
+      ],
+      "linked_actors": [
+        "EU-NET-PINKPANTHERS",
+        "EU-NET-GEORGIAN"
+      ],
+      "sources": [
+        {
+          "title": "Eurojust: robbery casework",
+          "url": "https://www.eurojust.europa.eu/term/robbery",
+          "type": "law_enforcement",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-GRP-CCF",
+      "name": "Conspiracy of Cells of Fire",
+      "aliases": [
+        "CCF",
+        "SPF",
+        "Conspiracy of Fire Nuclei",
+        "Synomosia Pyrinon tis Fotias"
+      ],
+      "actor_class": "named_group",
+      "primary_motivation": "ideological",
+      "categories": [
+        "ied_explosive_attack",
+        "arson_sabotage",
+        "protest_direct_action"
+      ],
+      "status": "degraded",
+      "active_since": "2008",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "GR"
+      ],
+      "description": "A Greek anarchist urban guerrilla organisation that emerged in January 2008 with a wave of eleven firebombings against luxury car dealerships and banks in Athens and Thessaloniki, subsequently escalating to time bombs and parcel bombs addressed to embassies and EU institutions. Successive arrests from 2009 onwards degraded the group, but its ideology, cell model and target logic continue to circulate in the wider insurrectionary anarchist milieu.",
+      "financial_sector_relevance": "Banks were among its founding target set, chosen as symbols of capital rather than for cash. Attacks are conducted out of hours against branch frontages with incendiary devices, so the risk profile is property damage, business interruption and, where devices are placed in occupied buildings, injury. Its parcel bomb campaign is directly relevant to corporate mail screening.",
+      "targets": [
+        "bank_branch",
+        "corporate_premises",
+        "executives_hnwi"
+      ],
+      "ttps": [
+        "Incendiary devices and gas canister IEDs placed at branch frontages out of hours",
+        "Time-delay explosive devices at symbolic targets",
+        "Parcel bombs addressed to embassies, EU institutions and named individuals",
+        "Communiques published to anarchist counter-information sites claiming responsibility",
+        "Autonomous cell structure with no central command"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Greek prosecutions and academic study."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Group claims responsibility explicitly; members convicted."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Banks named and attacked as a designated target category from inception."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2008-01",
+          "location": "Athens/Thessaloniki, GR",
+          "summary": "Eleven firebombings against luxury car dealerships and banks marked the group's emergence."
+        },
+        {
+          "date": "2010-11",
+          "location": "GR",
+          "summary": "Two suspects arrested attempting to mail parcel bombs to embassies and EU leaders and organisations."
+        }
+      ],
+      "watch_indicators": [
+        "Publication of communiques signalling a new campaign phase",
+        "Incendiary attacks on adjacent symbolic targets in the same district",
+        "Anniversary dates associated with the Greek anarchist movement"
+      ],
+      "linked_actors": [
+        "EU-GRP-ROUVIKONAS",
+        "EU-NET-FAI"
+      ],
+      "sources": [
+        {
+          "title": "Conspiracy of Fire Nuclei",
+          "url": "https://en.wikipedia.org/wiki/Conspiracy_of_Fire_Nuclei",
+          "type": "reference",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Greece: Extremism and Terrorism",
+          "url": "https://www.counterextremism.com/countries/greece-extremism-and-terrorism/report",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Greece's New Generation of Terrorists, Part 2: The Conspiracy of Cells of Fire",
+          "url": "https://www.tandfonline.com/doi/abs/10.1080/1057610X.2012.702670",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-GRP-ROUVIKONAS",
+      "name": "Rouvikonas",
+      "aliases": [
+        "Rubicon",
+        "Rouvikonas Anarchist Collective"
+      ],
+      "actor_class": "movement",
+      "primary_motivation": "ideological",
+      "categories": [
+        "protest_direct_action",
+        "arson_sabotage"
+      ],
+      "status": "active",
+      "active_since": "2013",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "GR"
+      ],
+      "description": "A Greek anarchist collective that conducts publicly claimed, deliberately non-lethal direct actions against banks, corporate offices, ministries, embassies and the homes of executives and politicians. Unlike CCF it does not use explosives; it uses mass entry, paint, leaflets and property damage, filmed and published. That distinction matters operationally: the intent is disruption and publicity, and the harm is to premises, staff wellbeing and continuity rather than life.",
+      "financial_sector_relevance": "Banks are a recurring named target. Realistic impacts are branch and head office invasions during working hours, facade damage, staff distress and forced temporary closure. Because actions are announced and filmed, the reputational dimension is managed alongside the physical one.",
+      "targets": [
+        "bank_branch",
+        "corporate_premises",
+        "executives_hnwi"
+      ],
+      "ttps": [
+        "Rapid mass entry into premises during opening hours, typically 10-30 participants",
+        "Paint, leaflets and disruption rather than fire or explosives",
+        "Filming and same-day publication of the action for propaganda effect",
+        "Targeting of executives' and politicians' home addresses",
+        "Public claim of responsibility, no attempt to conceal identity of the collective"
+      ],
+      "capability": "low",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Openly operating collective; extensive Greek reporting and self-publication."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Actions are publicly claimed by the collective."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Banks explicitly named among its standing target categories."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Announcements or campaign framing on collective-aligned media",
+        "Actions against peer institutions in the same city",
+        "Labour disputes or policy decisions creating a triggering grievance"
+      ],
+      "linked_actors": [
+        "EU-GRP-CCF",
+        "EU-MOV-CLIMATEBANK"
+      ],
+      "sources": [
+        {
+          "title": "Passing the Point of No Return: Interview with Rouvikonas Anarchist Collective",
+          "url": "https://unicornriot.ninja/2019/rouvikonas-anarchist-collective/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Anarchist attacks on the rise in Greece",
+          "url": "https://pulitzercenter.org/stories/anarchist-attacks-rise-greece",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-NET-FAI",
+      "name": "Informal Anarchist Federation / International Revolutionary Front",
+      "aliases": [
+        "FAI",
+        "FAI-IRF",
+        "Federazione Anarchica Informale"
+      ],
+      "actor_class": "network",
+      "primary_motivation": "ideological",
+      "categories": [
+        "ied_explosive_attack",
+        "arson_sabotage"
+      ],
+      "status": "degraded",
+      "active_since": "2003",
+      "regions": [
+        "Europe",
+        "Global"
+      ],
+      "countries": [
+        "IT",
+        "GR",
+        "ES",
+        "DE",
+        "CL",
+        "MX"
+      ],
+      "description": "A brand rather than an organisation: autonomous insurrectionary anarchist cells claim actions under the FAI or FAI-IRF banner without central coordination. Historic campaigns include parcel bombs to banks, financial institutions and named executives, and incendiary attacks on bank branches and corporate premises across Italy, Greece and Spain, with echoes in Chile and Mexico.",
+      "financial_sector_relevance": "Its most distinctive financial-sector threat is the letter and parcel device addressed to a named executive or to a bank's head office mailroom, which is a low-probability, high-consequence event that mail screening controls exist specifically to catch. Branch frontage incendiary attacks are the higher-frequency, lower-severity manifestation.",
+      "targets": [
+        "bank_branch",
+        "corporate_premises",
+        "executives_hnwi"
+      ],
+      "ttps": [
+        "Parcel and letter devices addressed to named executives and institutions",
+        "Incendiary attacks on branch frontages and ATM fascias",
+        "Attacks on telecoms and energy infrastructure as symbols of technological domination",
+        "Claim of responsibility under a shared banner by unconnected cells",
+        "Publication of target rationale to inspire imitation"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Italian, Greek and Spanish prosecutions; sustained claimed-attack record."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "The banner is open to any cell; claimed attribution does not establish organisational linkage."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Banks and financial executives feature in the target set, alongside energy, telecoms and state institutions."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Unexpected packages addressed personally to named executives",
+        "Claimed attacks published on insurrectionary counter-information sites",
+        "Incendiary damage to ATM fascias without any attempt at cash removal"
+      ],
+      "linked_actors": [
+        "EU-GRP-CCF",
+        "EU-GRP-ROUVIKONAS"
+      ],
+      "sources": [
+        {
+          "title": "Greece: Extremism and Terrorism",
+          "url": "https://www.counterextremism.com/countries/greece-extremism-and-terrorism/report",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-MOV-CLIMATEBANK",
+      "name": "Climate and divestment direct-action movements targeting banks",
+      "aliases": [
+        "Extinction Rebellion",
+        "Just Stop Oil",
+        "Letzte Generation",
+        "Debt for Climate",
+        "Soulevements de la Terre"
+      ],
+      "actor_class": "movement",
+      "primary_motivation": "ideological",
+      "categories": [
+        "protest_direct_action"
+      ],
+      "status": "active",
+      "active_since": "2018",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "GB",
+        "DE",
+        "FR",
+        "NL",
+        "BE",
+        "IE",
+        "CH"
+      ],
+      "description": "Broadly non-violent civil disobedience movements that target banks for their fossil fuel financing through branch occupations, glueing of branch doors, facade defacement and headquarters blockades. Barclays has been the most frequently targeted institution in the UK, with actions ranging from lobby sit-ins to superglued locks and window breakage. These groups accept arrest by design, which shapes both their tactics and the appropriate corporate response.",
+      "financial_sector_relevance": "The dominant source of physical disruption at European bank premises by volume. Impacts are branch closure, staff distress, facade damage and headquarters access denial, with a significant reputational dimension because footage is produced for distribution. Response missteps, aggressive removal of peaceful protesters, generate more harm than the action itself.",
+      "targets": [
+        "bank_branch",
+        "corporate_premises"
+      ],
+      "ttps": [
+        "Branch lobby occupation with banners during opening hours",
+        "Superglue and lock-filling to deny branch access",
+        "Facade defacement with paint and stickers",
+        "Headquarters blockades and lock-on devices",
+        "Coordinated same-day actions across many branches nationally",
+        "Advance media coordination to maximise coverage"
+      ],
+      "capability": "low",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Openly organised movements with self-published action records and extensive news coverage."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Actions are publicly claimed."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Named banks are the stated targets of dedicated campaigns."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2023-11",
+          "location": "GB",
+          "summary": "Extinction Rebellion superglued Barclays branches shut in a nationwide coordinated action."
+        },
+        {
+          "date": "2022-11",
+          "location": "Glasgow, GB",
+          "summary": "Windows broken at a Barclays branch during an Extinction Rebellion action demanding fossil fuel divestment."
+        }
+      ],
+      "watch_indicators": [
+        "Campaign announcements naming the institution",
+        "AGM, results day and COP-adjacent dates",
+        "Actions against peer banks in the same market"
+      ],
+      "linked_actors": [
+        "EU-NET-SHUTTHESYSTEM",
+        "EU-NET-PALACTION"
+      ],
+      "sources": [
+        {
+          "title": "Barclays banks superglued shut in nationwide action against climate criminals",
+          "url": "https://extinctionrebellion.uk/2023/11/27/barclays-banks-superglued-shut-in-nationwide-action-against-climate-criminals/",
+          "type": "ngo",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Barclays bank branches vandalized by pro-Palestinian and climate activists",
+          "url": "https://www.aol.com/barclays-bank-branches-vandalized-pro-155614510.html",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Extinction Rebellion protest at banks in Oxford and Reading",
+          "url": "https://feeds.bbci.co.uk/news/uk-england-62422176",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-NET-SHUTTHESYSTEM",
+      "name": "Shut the System",
+      "aliases": [
+        "STS"
+      ],
+      "actor_class": "network",
+      "primary_motivation": "ideological",
+      "categories": [
+        "arson_sabotage",
+        "infrastructure_sabotage",
+        "protest_direct_action"
+      ],
+      "status": "active",
+      "active_since": "2024",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "GB"
+      ],
+      "description": "A covert UK climate sabotage network that explicitly rejects the arrest-accepting model of earlier movements, operating anonymously and targeting the physical infrastructure of insurers and financiers of fossil fuels. It has cut cables and damaged premises, and has acted jointly with the underground wing of Palestine Action against Barclays branches. It represents the migration of climate direct action from civil disobedience toward clandestine infrastructure sabotage.",
+      "financial_sector_relevance": "The most significant escalation in ideologically motivated attacks on European financial premises. Where earlier movements sought arrest and publicity, this network seeks damage and anonymity, which removes the predictability that made previous protest risk manageable. Cable cutting against financial and insurance premises is within its demonstrated repertoire.",
+      "targets": [
+        "bank_branch",
+        "corporate_premises",
+        "telecom_subsea_cable",
+        "data_centre"
+      ],
+      "ttps": [
+        "Covert night-time attacks with no advance notice",
+        "Cutting of external communications cabling at insurer and financier premises",
+        "Window breakage and paint attacks on branch frontages",
+        "Anonymous claim of responsibility after the fact, without identifying participants",
+        "Joint operations with other underground direct-action networks"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "moderate",
+          "basis": "Claimed actions reported in mainstream UK media; limited independent verification of network structure."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Anonymous by design; claims are self-reported."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Financiers and insurers of fossil fuels are the stated target category."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025",
+          "location": "GB",
+          "summary": "Around 20 Barclays branches attacked with smashed windows and red paint in actions by Palestine Action's underground division together with Shut the System."
+        }
+      ],
+      "watch_indicators": [
+        "External cable runs and comms cabinets accessible from public space",
+        "Anonymous claim posts following unexplained overnight damage",
+        "Institution named in divestment campaign material"
+      ],
+      "linked_actors": [
+        "EU-MOV-CLIMATEBANK",
+        "EU-NET-PALACTION"
+      ],
+      "sources": [
+        {
+          "title": "Twenty Barclays branches smashed up by Palestine activists",
+          "url": "https://www.lbc.co.uk/article/barclays-branches-vandalised-palestine-protesters-israel-5HjcmPm_2/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Barclays bank branches vandalized by pro-Palestinian and climate activists",
+          "url": "https://www.aol.com/barclays-bank-branches-vandalized-pro-155614510.html",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-NET-PALACTION",
+      "name": "Pro-Palestine direct action networks targeting financial institutions",
+      "aliases": [
+        "Palestine Action underground",
+        "divestment direct action cells"
+      ],
+      "actor_class": "network",
+      "primary_motivation": "ideological",
+      "categories": [
+        "protest_direct_action",
+        "arson_sabotage"
+      ],
+      "status": "active",
+      "active_since": "2020",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "GB",
+        "IE",
+        "NL",
+        "BE",
+        "DE"
+      ],
+      "description": "Networks conducting property-damage actions against banks assessed to finance or hold shares in defence firms supplying Israel. Tactics run from occupation and paint to coordinated multi-site window breakage. In the UK the organisational picture changed substantially after proscription of Palestine Action in 2025, which pushed activity toward anonymous, decentralised cells that do not identify themselves in advance.",
+      "financial_sector_relevance": "Produces coordinated same-night damage across many branches of a single named institution, which is an availability and staff-safety problem rather than a security-breach problem. Selection is driven by public disclosure of shareholdings and financing relationships, so ESG and investor-relations disclosures function as targeting data.",
+      "targets": [
+        "bank_branch",
+        "corporate_premises"
+      ],
+      "ttps": [
+        "Coordinated multi-branch actions executed on a single night",
+        "Window breakage, red paint and lock glueing",
+        "Symbolic objects left at the scene to frame the action",
+        "Occupation of head office lobbies and roofs",
+        "Anonymous post-hoc claims following organisational proscription"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Extensive UK news coverage and prosecutions."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Claims are made by named or successor networks; individual participants usually unidentified."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Specific banks named and repeatedly attacked."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025",
+          "location": "GB",
+          "summary": "Around 20 Barclays branches vandalised in a coordinated action; in Edinburgh, rocks inscribed with names of Palestinians killed in Gaza were thrown through branch windows."
+        }
+      ],
+      "watch_indicators": [
+        "Institution named in divestment campaign material or shareholding disclosures",
+        "Actions against peer institutions in the preceding fortnight",
+        "Significant escalation in the underlying conflict"
+      ],
+      "linked_actors": [
+        "EU-NET-SHUTTHESYSTEM",
+        "EU-MOV-CLIMATEBANK"
+      ],
+      "sources": [
+        {
+          "title": "Twenty Barclays branches smashed up by Palestine activists who claim bank is 'funding Israel'",
+          "url": "https://www.lbc.co.uk/article/barclays-branches-vandalised-palestine-protesters-israel-5HjcmPm_2/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "St John's Wood Barclays Bank branch among 20 vandalised",
+          "url": "https://www.jewishnews.co.uk/st-johns-wood-barclays-bank-branch-among-20-vandalised-by-pro-palestine-activists/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-GRP-NEWIRA",
+      "name": "New IRA and dissident republican groups",
+      "aliases": [
+        "New IRA",
+        "Continuity IRA",
+        "ONH",
+        "dissident republicans"
+      ],
+      "actor_class": "insurgent_group",
+      "primary_motivation": "ideological",
+      "categories": [
+        "ied_explosive_attack",
+        "extortion_protection",
+        "armed_insurgency"
+      ],
+      "status": "active",
+      "active_since": "2012",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "GB",
+        "IE"
+      ],
+      "description": "The largest and most active dissident republican grouping, concentrated in Derry/Londonderry and County Tyrone, with access to high-calibre weapons, IEDs and mortars. The Northern Ireland terrorism threat level was raised to SEVERE in 2023 following heightened activity including the attempted murder of a senior PSNI officer. Beyond political violence, dissident groups run extortion rackets against drug dealers and businesses and have historically been linked to tiger kidnapping and armed robbery.",
+      "financial_sector_relevance": "Two distinct exposures. First, extortion and 'community taxation' of businesses in specific areas, which surfaces as coerced cash withdrawals and unexplained payments in SME accounts. Second, the residual capability for tiger kidnapping and armed robbery against branches and cash logistics, which is what drove the design of Northern Ireland's cash-handling controls in the first place.",
+      "targets": [
+        "bank_branch",
+        "cash_centre",
+        "bank_staff",
+        "customers",
+        "corporate_premises"
+      ],
+      "ttps": [
+        "Improvised explosive devices, under-vehicle devices and mortars",
+        "Extortion of businesses and drug dealers under a policing pretext",
+        "Historic use of tiger kidnapping and armed robbery for fundraising",
+        "Exploitation of leaked personal data on security personnel",
+        "Targeted shootings of off-duty security force members"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "MI5 threat level assessments, PSNI casework, RUSI analysis."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Group claims attacks; convictions secured."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Extortion of businesses is documented; direct attacks on financial institutions are currently historic rather than current."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2023-02",
+          "location": "Omagh, GB",
+          "summary": "Detective Chief Inspector John Caldwell shot multiple times while off duty; the New IRA claimed responsibility. Threat level subsequently raised to SEVERE."
+        }
+      ],
+      "watch_indicators": [
+        "Threat level changes published by MI5 for Northern Ireland",
+        "SME customers in affected areas making regular unexplained cash withdrawals",
+        "Security alerts and controlled explosions near branch locations"
+      ],
+      "linked_actors": [
+        "EU-CLU-TIGERKIDNAP",
+        "EU-OCG-KINAHAN",
+        "EU-GRP-LOYALIST"
+      ],
+      "sources": [
+        {
+          "title": "Understanding the Dissident Republican Threat to the UK and Ireland",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/understanding-dissident-republican-threat-uk-and-ireland",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Terrorism on the Rise in Ireland: Implications and Possible Solutions",
+          "url": "https://www.msuilr.org/new-blog/2025/3/26/terrorism-on-the-rise-in-ireland-implications-and-possible-solutions-by-olivia-tucker",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-GRP-LOYALIST",
+      "name": "Loyalist paramilitary groups",
+      "aliases": [
+        "UDA",
+        "UVF",
+        "South East Antrim UDA"
+      ],
+      "actor_class": "named_group",
+      "primary_motivation": "hybrid",
+      "categories": [
+        "extortion_protection",
+        "arson_sabotage",
+        "customer_predation"
+      ],
+      "status": "active",
+      "active_since": "1971",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "GB"
+      ],
+      "description": "Northern Irish loyalist organisations that have largely transitioned from political violence to organised criminality, principally extortion of businesses, drug distribution and money laundering within controlled areas. Their financial relevance is now closer to that of an organised crime group than a terrorist one, though the coercive credibility derives from the paramilitary legacy.",
+      "financial_sector_relevance": "Systematic protection extortion of SMEs in specific postcodes, producing coerced cash withdrawal patterns and laundering through cash-intensive businesses. Relevant to SME relationship management, cash deposit profiling and staff safety in a small number of branch locations.",
+      "targets": [
+        "customers",
+        "corporate_premises",
+        "bank_branch",
+        "money_service_business"
+      ],
+      "ttps": [
+        "Protection extortion of local businesses and construction sites",
+        "Arson and intimidation against non-paying businesses",
+        "Laundering through cash-intensive businesses and property",
+        "Community-level coercion suppressing reporting to police"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "PSNI and Independent Reporting Commission assessments."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Group presence well established; individual incidents often unclaimed."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Extortion affects bank customers; institutions are not directly attacked."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Recurring round-sum cash withdrawals by SMEs in specific areas",
+        "Arson or criminal damage at a customer's premises followed by behaviour change",
+        "Cash-intensive businesses with turnover inconsistent with their trade"
+      ],
+      "linked_actors": [
+        "EU-GRP-NEWIRA"
+      ],
+      "sources": [
+        {
+          "title": "Timeline of dissident republican activity",
+          "url": "https://feeds.bbci.co.uk/news/uk-northern-ireland-10866072",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-OCG-NDRANGHETA",
+      "name": "'Ndrangheta",
+      "aliases": [
+        "Calabrian mafia"
+      ],
+      "actor_class": "network",
+      "primary_motivation": "profit",
+      "categories": [
+        "money_laundering_physical",
+        "extortion_protection",
+        "insider_recruitment",
+        "staff_targeting"
+      ],
+      "status": "active",
+      "active_since": "1860",
+      "regions": [
+        "Europe",
+        "Global"
+      ],
+      "countries": [
+        "IT",
+        "DE",
+        "BE",
+        "NL",
+        "ES",
+        "CH",
+        "AU",
+        "CA",
+        "CO"
+      ],
+      "description": "Europe's most financially powerful mafia organisation, structured around blood-tied 'ndrine, dominant in cocaine importation and deeply embedded in legitimate business across northern Italy, Germany, the Benelux and Australia. Its distinguishing characteristic for financial institutions is not violence but penetration: it acquires and operates real businesses, obtains credit, wins public contracts and corrupts professionals.",
+      "financial_sector_relevance": "The principal European source of sophisticated laundering through apparently legitimate corporate customers, particularly in construction, hospitality, logistics and waste. Physical risk to bank staff is low but non-zero, and manifests as pressure on branch managers and professional intermediaries in affected regions. The main exposure is credit and AML rather than security.",
+      "targets": [
+        "corporate_premises",
+        "insiders",
+        "bank_staff",
+        "money_service_business"
+      ],
+      "ttps": [
+        "Acquisition and control of legitimate companies to obtain banking relationships and credit",
+        "Corruption of professionals, local officials and, occasionally, bank staff",
+        "Extortion of businesses in areas of territorial control",
+        "Trade-based laundering through logistics, construction and hospitality",
+        "Selective intimidation rather than demonstrative violence in northern European operations"
+      ],
+      "capability": "advanced",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Decades of Italian and European prosecutions, including large maxi-trials."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Structure judicially established."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Banks are used as infrastructure rather than attacked; insider and credit exposure is the dominant channel."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Corporate customers in high-risk sectors with rapid unexplained growth in Calabrian-linked ownership networks",
+        "Repeated changes of nominal directorship with unchanged operational control",
+        "Branch staff reporting pressure to expedite lending decisions"
+      ],
+      "linked_actors": [
+        "EU-CLU-CIT-IT",
+        "APAC-OMCG-COMANCHERO"
+      ],
+      "sources": [
+        {
+          "title": "Europol supports Italian Carabinieri strike against Georgian Mafia",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/europol-supports-italian-carabinieri-strike-against-georgian-mafia",
+          "type": "law_enforcement",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-CLU-INSIDER",
+      "name": "Coerced and recruited insider cluster (banking, CIT and ATM services)",
+      "aliases": [
+        "insider recruitment",
+        "corrupted staff"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "insider_recruitment",
+        "staff_targeting"
+      ],
+      "status": "active",
+      "active_since": "2000",
+      "regions": [
+        "Europe",
+        "Global"
+      ],
+      "countries": [
+        "NL",
+        "BE",
+        "GB",
+        "IE",
+        "DE",
+        "ES",
+        "IT",
+        "FR"
+      ],
+      "description": "Not a group but a persistent enabling pattern: organised crime networks recruit or coerce employees of banks, cash-in-transit operators, ATM service providers and their contractors to supply schedules, keys, alarm states, customer data and access. Dutch and Belgian port corruption is the best-documented analogue, and the same recruitment playbook, social approach, small first favour, escalation, threat, is applied to financial operations staff.",
+      "financial_sector_relevance": "Almost every high-value physical attack in this database that succeeded against a hardened target involved insider information. Insider recruitment is therefore the single highest-leverage control point available to a financial institution, and the one most often owned by HR and vetting rather than security.",
+      "targets": [
+        "insiders",
+        "bank_staff",
+        "cash_centre",
+        "cit_vehicle",
+        "atm_estate"
+      ],
+      "ttps": [
+        "Social approach through family, community or debt relationships",
+        "Escalating requests beginning with low-consequence information",
+        "Coercion through gambling or drug debt, or threats to family",
+        "Recruitment of contractors and agency staff who fall outside core vetting",
+        "Payment through cash, cryptocurrency or debt forgiveness rather than bank transfer"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Recurring feature of European CIT, ATM and port prosecutions."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Insiders are attributable; the recruiting network frequently is not."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Recruitment is directed at staff with access to cash, keys and schedules."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Unexplained affluence or sudden debt resolution in cash-access roles",
+        "Access to schedules or CCTV outside role requirements",
+        "Contractor staff churn without corresponding vetting records",
+        "Employee reporting of external approaches, which is the control that actually works"
+      ],
+      "linked_actors": [
+        "EU-OCG-MOCRO",
+        "EU-CLU-CIT-IT",
+        "EU-CLU-JACKPOT",
+        "AM-CLU-ATMTECH"
+      ],
+      "sources": [
+        {
+          "title": "Organised crime in the Netherlands",
+          "url": "https://en.wikipedia.org/wiki/Organized_crime_in_the_Netherlands",
+          "type": "reference",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-CLU-ALBANIAN",
+      "name": "Albanian-speaking organised crime networks",
+      "aliases": [
+        "Albanian mafia",
+        "Kosovar OCGs"
+      ],
+      "actor_class": "network",
+      "primary_motivation": "profit",
+      "categories": [
+        "money_laundering_physical",
+        "extortion_protection",
+        "vault_burglary"
+      ],
+      "status": "active",
+      "active_since": "1995",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "AL",
+        "XK",
+        "GB",
+        "IT",
+        "BE",
+        "NL",
+        "DE",
+        "CH",
+        "EC",
+        "CO"
+      ],
+      "description": "Ethnic-Albanian networks that moved from subordinate roles to direct control of cocaine importation into Western Europe, with a distinctive reliance on bulk cash movement and cash-intensive businesses for laundering. In the UK they are the primary driver of cash courier detections and of the market in cash-to-crypto conversion. Violence is used instrumentally against rivals and debtors rather than against institutions.",
+      "financial_sector_relevance": "Principal generator of bulk cash for laundering in the UK and Benelux, creating deposit-profiling and money-service-business exposure. Physical risk to institutions is indirect but real where branch staff are pressured over large cash deposits, and where MSB agents are located in areas of network dominance.",
+      "targets": [
+        "money_service_business",
+        "corporate_premises",
+        "customers",
+        "bank_staff"
+      ],
+      "ttps": [
+        "Bulk cash collection and courier movement across borders",
+        "Cash-intensive front businesses including car washes and hospitality",
+        "Cash-to-crypto conversion through informal OTC brokers",
+        "Debt enforcement through kidnapping and assault",
+        "Kin- and region-based trust structures resistant to infiltration"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "NCA, Europol and Italian assessments; extensive prosecutions."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Individual networks identified; the category is broad and partly ethnographic."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Financial institutions are used as laundering infrastructure rather than attacked."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "MSB agents with cash volumes inconsistent with local demographics",
+        "Cash deposit structuring across multiple branches in a single day",
+        "Cash courier detections on the UK-Netherlands-Albania corridor"
+      ],
+      "linked_actors": [
+        "EU-OCG-MOCRO",
+        "EU-OCG-KINAHAN"
+      ],
+      "sources": [
+        {
+          "title": "Organised crime in the Netherlands",
+          "url": "https://en.wikipedia.org/wiki/Organized_crime_in_the_Netherlands",
+          "type": "reference",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-CLU-METALCABLE",
+      "name": "Metal and cable theft cluster affecting financial connectivity",
+      "aliases": [
+        "copper theft gangs",
+        "fibre theft crews"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "infrastructure_sabotage"
+      ],
+      "status": "active",
+      "active_since": "2005",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "GB",
+        "FR",
+        "DE",
+        "PL",
+        "ES",
+        "IT",
+        "RO"
+      ],
+      "description": "Profit-driven crews that strip copper cable, earthing conductors and metal from telecoms, rail and power infrastructure. The financial relevance is entirely second-order and frequently overlooked: severed backhaul takes ATM estates, branch networks and payment terminals offline in a whole district, and is indistinguishable in its early minutes from deliberate sabotage.",
+      "financial_sector_relevance": "The most common real-world cause of localised loss of ATM and branch connectivity in Europe, and a persistent source of false-positive hybrid-attack alerts. Institutions should be able to distinguish theft-driven outages from sabotage quickly, because the response and escalation paths differ entirely.",
+      "targets": [
+        "telecom_subsea_cable",
+        "atm_estate",
+        "bank_branch"
+      ],
+      "ttps": [
+        "Night-time cutting and stripping of copper cable from ducts and poles",
+        "Targeting of rail and telecoms infrastructure with predictable low guardianship",
+        "Disposal through scrap metal dealers with weak provenance checks",
+        "Repeat attacks on the same route once access is proven"
+      ],
+      "capability": "low",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Routine national prosecutions and carrier reporting."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Opportunistic and dispersed."
+        },
+        "financial_targeting": {
+          "confidence": "low",
+          "basis": "No intent to target finance; impact is collateral."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Carrier fault reports citing cable theft on routes serving branches or ATMs",
+        "Repeat outages affecting the same district within a short period",
+        "Scrap metal price movements correlating with theft frequency"
+      ],
+      "linked_actors": [
+        "EU-CLU-SHADOWFLEET",
+        "EU-PROXY-RU-DISPOSABLE"
+      ],
+      "sources": [
+        {
+          "title": "Shallow seas and 'shadow fleets': Europe's undersea infrastructure is dangerously vulnerable",
+          "url": "https://ecfr.eu/article/shallow-seas-and-shadow-fleets-europes-undersea-infrastructure-is-dangerously-vulnerable/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "EU-CLU-RIPDEAL",
+      "name": "Rip-deal and gold-purchase robbery crews",
+      "aliases": [
+        "rip deals",
+        "Swiss franc scam crews"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "customer_predation",
+        "branch_robbery"
+      ],
+      "status": "active",
+      "active_since": "1995",
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "CH",
+        "IT",
+        "DE",
+        "AT",
+        "ES",
+        "NL"
+      ],
+      "description": "Crews that lure victims into apparently legitimate high-value transactions, typically currency exchange, precious metals or property deals, then rob them at the point of exchange. Victims are often themselves acting semi-informally, which suppresses reporting. The pattern regularly intersects with legitimate banking because victims withdraw large sums in cash immediately beforehand.",
+      "financial_sector_relevance": "Produces large, atypical cash withdrawals and bullion purchases by customers who cannot explain them afterwards, and occasionally violence in or immediately outside branch premises. It is the commercial-customer analogue of courier fraud and responds to the same branch intervention controls.",
+      "targets": [
+        "customers",
+        "gold_jewellery_dealer",
+        "bank_branch"
+      ],
+      "ttps": [
+        "Elaborate pretext transactions in currency, gold or real estate",
+        "Meetings arranged at hotels or car parks near the victim's bank",
+        "Robbery or sleight-of-hand substitution at the moment of exchange",
+        "Exploitation of the victim's own reluctance to involve police",
+        "Surveillance of the victim from the branch to the meeting point"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Long-running Swiss, Italian and German police warnings and prosecutions."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Itinerant crews; limited persistent identity."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Bank customers are the victims; institutions are affected through withdrawal patterns and premises proximity."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Large cash withdrawal by a business customer for an unexplained 'private deal'",
+        "Customer requesting foreign currency in unusual denominations at short notice",
+        "Loitering vehicles observing customers leaving the branch with bags"
+      ],
+      "linked_actors": [
+        "EU-CLU-COURIERFRAUD",
+        "AM-CLU-JUGGING"
+      ],
+      "sources": [
+        {
+          "title": "Eurojust: robbery casework",
+          "url": "https://www.eurojust.europa.eu/term/robbery",
+          "type": "law_enforcement",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    }
+  ]
+}

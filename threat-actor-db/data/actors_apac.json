@@ -1,0 +1,1806 @@
+{
+  "region_file": "Southeast Asia and Oceania (Malaysia, Thailand, Australia, New Zealand and adjacent)",
+  "last_reviewed": "2026-07-24",
+  "actors": [
+    {
+      "id": "APAC-GRP-BRN",
+      "name": "Barisan Revolusi Nasional",
+      "aliases": [
+        "BRN",
+        "BRN-Coordinate",
+        "National Revolutionary Front"
+      ],
+      "actor_class": "insurgent_group",
+      "primary_motivation": "ideological",
+      "categories": [
+        "ied_explosive_attack",
+        "armed_insurgency",
+        "arson_sabotage",
+        "atm_physical_attack"
+      ],
+      "status": "active",
+      "active_since": "1960",
+      "regions": [
+        "Southeast Asia"
+      ],
+      "countries": [
+        "TH",
+        "MY"
+      ],
+      "description": "The dominant insurgent organisation in Thailand's Malay-Muslim deep south, operating across Pattani, Yala, Narathiwat and four districts of Songkhla. Since January 2004 more than 23,000 incidents have been recorded in the conflict, with over 7,700 killed and 14,500 injured. Bank and ATM bombings are a recurring signature: attacks on ATMs of the Islamic Bank of Thailand and the Government Savings Bank have featured in coordinated multi-site waves, chosen as accessible symbols of the Thai state's presence.",
+      "financial_sector_relevance": "The only actor in Southeast Asia that systematically bombs bank infrastructure for political rather than acquisitive reasons. State-linked banks are attacked as symbols of Thai administration, meaning target selection follows ownership rather than cash holdings. Coordinated multi-site waves mean a single event can affect an entire province's ATM availability, and staff safety in the four southern provinces is a standing concern.",
+      "targets": [
+        "atm_estate",
+        "bank_branch",
+        "bank_staff",
+        "corporate_premises"
+      ],
+      "ttps": [
+        "Coordinated multi-site IED and arson waves across several districts in one night",
+        "Small explosive devices at ATMs of state-linked banks",
+        "Motorcycle-borne and vehicle-borne IEDs",
+        "Secondary devices targeting responders",
+        "Arson of government-linked commercial premises",
+        "Ambushes of security forces and shootings of officials and teachers"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Two decades of documented insurgency; Deep South Watch and Human Rights Watch reporting."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "BRN is assessed to conduct the majority of attacks but rarely claims them, which is a deliberate feature of its operating model."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Bank ATMs and branches are a documented recurring target category."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2022-08",
+          "location": "Narathiwat and neighbouring provinces, TH",
+          "summary": "Wave of arson and bombings; blasts damaged an ATM of the Islamic Bank of Thailand and an ATM of the Government Savings Bank among multiple simultaneous attacks."
+        },
+        {
+          "date": "2025-05",
+          "location": "TH",
+          "summary": "Human Rights Watch reported new insurgent attacks on civilians despite a public BRN pledge not to target them; 57 attacks in April alone caused 18 deaths and 50 injuries."
+        }
+      ],
+      "watch_indicators": [
+        "Anniversary dates and negotiation breakdowns preceding attack waves",
+        "Multi-site simultaneous incidents indicating a coordinated campaign night",
+        "Attacks on state-linked commercial premises as a precursor to bank targeting"
+      ],
+      "linked_actors": [],
+      "sources": [
+        {
+          "title": "Thailand: New Insurgent Attacks on Civilians Despite Pledge",
+          "url": "https://www.hrw.org/news/2025/05/29/thailand-new-insurgent-attacks-civilians-despite-pledge",
+          "type": "ngo",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Thailand's Restive South Hit by Wave of Arson and Bombings",
+          "url": "https://thediplomat.com/2022/08/thailands-restive-south-hit-by-wave-of-arson-and-bombings/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Violent Extremism and Insurgency in Southern Thailand: A Risk Assessment",
+          "url": "https://www.msiworldwide.com/wp-content/uploads/2023/09/Violent-Extremism-and-Insurgency-Southern-Thailand.pdf",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Southern Thailand's 22-year insurgency: why the conflict continues and who BRN is",
+          "url": "https://thethaiger.com/hot-news/politics/southern-thailand-insurgency-brn-explained",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "APAC-CLU-SCAMCOMPOUND",
+      "name": "Mekong scam compound operators",
+      "aliases": [
+        "pig butchering compounds",
+        "KK Park operators",
+        "Shwe Kokko syndicates"
+      ],
+      "actor_class": "network",
+      "primary_motivation": "profit",
+      "categories": [
+        "scam_compound_operations",
+        "kidnap_for_ransom",
+        "money_laundering_physical",
+        "fraud_enabled_physical"
+      ],
+      "status": "active",
+      "active_since": "2018",
+      "regions": [
+        "Southeast Asia",
+        "Global"
+      ],
+      "countries": [
+        "MM",
+        "KH",
+        "LA",
+        "TH",
+        "MY",
+        "PH"
+      ],
+      "description": "Chinese-led criminal syndicates operating industrial-scale fraud compounds in territory controlled by armed groups along the Myanmar-Thailand border and in Cambodia and Laos. KK Park and Shwe Kokko are purpose-built cities dedicated to online fraud, sited in territory held by the Karen Border Guard Force and the Democratic Karen Benevolent Army. Workers are frequently trafficked and held under armed guard, which makes this simultaneously a fraud, human trafficking and armed-group financing problem. Demolition campaigns in 2025 proved largely cosmetic: KK Park infrastructure was demolished while Shwe Kokko buildings were merely sealed, and operations resumed within two months.",
+      "financial_sector_relevance": "The single largest source of scam-driven financial crime affecting Malaysian, Thai, Australian and Western retail banking. UNODC estimates just under USD 40 billion in annual revenue for the syndicates. The physical dimension matters for banks because it explains the mule account and cash-out infrastructure: compounds require recruiters, mule handlers, cash couriers and crypto OTC desks in Malaysia, Thailand and beyond, and those are physical networks operating inside bank customer bases.",
+      "targets": [
+        "customers",
+        "money_service_business",
+        "correspondent_agents",
+        "crypto_atm"
+      ],
+      "ttps": [
+        "Industrial-scale romance, investment and task-based fraud run from guarded compounds",
+        "Human trafficking and debt bondage of compound workers",
+        "Payment of protection to armed groups controlling the territory",
+        "Layered laundering through mule accounts, OTC desks, USDT and gold",
+        "Rapid relocation and reconstitution after enforcement action",
+        "Recruitment of mule account holders and cash couriers in target-country banking systems"
+      ],
+      "capability": "advanced",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "UNODC reporting, US Scam Center Strike Force, extensive investigative journalism and enforcement action."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Operating syndicates and host armed groups are identified; individual compound ownership is often opaque and contested."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Retail banking customers worldwide are the victim base and banking rails are the laundering channel."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025-11",
+          "location": "Myawaddy, MM",
+          "summary": "Junta and allied Border Guard Force conducted a publicised crackdown a week after the US announced its Scam Center Strike Force; KK Park infrastructure was demolished while Shwe Kokko buildings were only sealed. Operations resumed within two months."
+        },
+        {
+          "date": "2023",
+          "location": "Southeast and East Asia",
+          "summary": "Scam victims in the region were defrauded of up to USD 37 billion; UNODC estimates just under USD 40 billion annual revenue for the syndicates."
+        }
+      ],
+      "watch_indicators": [
+        "Surges in mule account opening in border provinces and among specific demographics",
+        "OTC crypto desks with settlement patterns matching compound cash-out timing",
+        "Repatriation events releasing nationals from compounds, indicating operational disruption",
+        "Gold shop transaction volumes inconsistent with retail demand"
+      ],
+      "linked_actors": [
+        "APAC-GRP-KARENBGF",
+        "APAC-NET-HUIONE",
+        "APAC-CLU-MULE-TH",
+        "APAC-CLU-MULE-MY"
+      ],
+      "sources": [
+        {
+          "title": "Scam Operations Stage Comeback in Shwe Kokko Despite Crackdown Claims",
+          "url": "https://www.irrawaddy.com/news/burma/scam-operations-stage-comeback-in-shwe-kokko-despite-crackdown-claims.html",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Global scam industry evolving at 'unprecedented scale' despite recent crackdown",
+          "url": "https://www.cnn.com/2025/04/02/asia/myanmar-scam-center-crackdown-intl-hnk-dst",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Myanmar has declared a 'zero tolerance' policy for cyberscams, but the fraud goes on",
+          "url": "https://www.pbs.org/newshour/world/myanmar-has-declared-a-zero-tolerance-policy-for-cyberscams-but-the-fraud-goes-on",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "APAC-GRP-KARENBGF",
+      "name": "Karen Border Guard Force and Democratic Karen Benevolent Army",
+      "aliases": [
+        "BGF",
+        "DKBA",
+        "Chit Thu network"
+      ],
+      "actor_class": "named_group",
+      "primary_motivation": "hybrid",
+      "categories": [
+        "scam_compound_operations",
+        "extortion_protection",
+        "armed_insurgency"
+      ],
+      "status": "active",
+      "active_since": "2010",
+      "regions": [
+        "Southeast Asia"
+      ],
+      "countries": [
+        "MM",
+        "TH"
+      ],
+      "description": "Armed ethnic militia formations controlling the Myawaddy border area where the largest scam compounds are sited. They provide land, security, utilities and protection to the syndicates in exchange for rent and a share of proceeds, which makes them the physical guarantors of the region's fraud economy. Their participation in publicised crackdowns has been assessed by observers as pressure relief rather than genuine disruption.",
+      "financial_sector_relevance": "These are the actors that make scam compounds physically defensible. Any assessment of whether Southeast Asian fraud volumes will fall has to model militia incentives rather than compound raids. Sanctions exposure is the direct banking consequence, since designated militia leaders and their business networks reach into Thai and regional commerce.",
+      "targets": [
+        "customers",
+        "corporate_premises"
+      ],
+      "ttps": [
+        "Provision of land, power, telecoms and armed protection to fraud syndicates",
+        "Rent extraction and revenue sharing from compound operators",
+        "Border control and taxation of movement and goods",
+        "Participation in performative enforcement to relieve international pressure",
+        "Shielding of compound assets and personnel from Myanmar and Thai authorities"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Well-documented militia formations with named leadership; subject to UK and US sanctions."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Territorial control and compound siting are established by multiple independent investigations."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Relevance is as enabler and sanctions-exposed counterparty rather than direct attacker."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025-11",
+          "location": "Shwe Kokko, MM",
+          "summary": "BGF participated with the junta in a publicised crackdown; independent reporting assessed the demolitions as selective and the sealing of Shwe Kokko as reversible."
+        }
+      ],
+      "watch_indicators": [
+        "New sanctions listings of militia leadership and linked companies",
+        "Thai-side business relationships with designated individuals",
+        "Compound construction or reconstruction visible in satellite imagery reporting"
+      ],
+      "linked_actors": [
+        "APAC-CLU-SCAMCOMPOUND"
+      ],
+      "sources": [
+        {
+          "title": "Shwe Kokko Almost Untouched by Myanmar Regime's Scam Crackdown",
+          "url": "https://www.irrawaddy.com/news/burma/shwe-kokko-almost-untouched-by-myanmar-regimes-scam-crackdown.html",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Myanmar border guards chief pledges to help Thailand crack down on scammers amid alleged links to trafficking rings",
+          "url": "https://www.malaymail.com/amp/news/world/2025/02/15/myanmar-border-guards-chief-pledges-to-help-thailand-crack-down-on-scammers-amid-alleged-links-to-trafficking-rings/166806",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "APAC-NET-HUIONE",
+      "name": "Regional illicit financial service conglomerates",
+      "aliases": [
+        "Huione Group",
+        "Prince Group",
+        "guarantee marketplaces"
+      ],
+      "actor_class": "network",
+      "primary_motivation": "profit",
+      "categories": [
+        "money_laundering_physical",
+        "scam_compound_operations"
+      ],
+      "status": "degraded",
+      "active_since": "2018",
+      "regions": [
+        "Southeast Asia"
+      ],
+      "countries": [
+        "KH",
+        "MM",
+        "TH",
+        "MY",
+        "SG",
+        "CN"
+      ],
+      "description": "Cambodia-headquartered conglomerates providing the financial and marketplace infrastructure that scam compounds depend on, including guarantee escrow services, payment processing, currency exchange and, in some cases, licensed banking. Their significance is that they blur the boundary between the illicit compound economy and licensed regional finance, holding banking licences and correspondent relationships while servicing fraud proceeds.",
+      "financial_sector_relevance": "The clearest correspondent banking risk in Southeast Asia, because these entities have at times held genuine licences and legitimate-looking relationships. Malaysian, Thai, Singaporean and Australian institutions with regional correspondent exposure need to track designations and ownership chains here, not just the compounds themselves.",
+      "targets": [
+        "money_service_business",
+        "correspondent_agents",
+        "customers"
+      ],
+      "ttps": [
+        "Guarantee and escrow marketplaces facilitating trade in stolen data, mule accounts and laundering services",
+        "Payment processing and currency exchange for compound proceeds",
+        "Use of licensed banking and payment entities to obtain correspondent access",
+        "Rapid rebranding and restructuring following designation",
+        "Cross-border cash and gold movement to settle balances"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "US and allied designations and enforcement actions against named conglomerates."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Corporate structures are deliberately opaque; beneficial ownership is contested in places."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Regulated financial infrastructure is the operating medium."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "New designations naming regional conglomerates or their subsidiaries",
+        "Correspondent counterparties with Cambodian or Myanmar ownership chains",
+        "Sudden rebranding of a payment counterparty following enforcement news"
+      ],
+      "linked_actors": [
+        "APAC-CLU-SCAMCOMPOUND",
+        "APAC-CLU-MULE-TH"
+      ],
+      "sources": [
+        {
+          "title": "Thai Banks Flag USDT as $3.4B Scam-Center Proceeds Enter Financial System",
+          "url": "https://www.techtimes.com/articles/320312/20260713/thai-banks-flag-usdt-34b-scam-center-proceeds-enter-financial-system.htm",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Thai Regulators Launch Unified Crackdown on Scammers and Transnational Dirty Money",
+          "url": "https://www.nationthailand.com/business/banking-finance/40059266",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "APAC-CLU-MULE-TH",
+      "name": "Thai mule account recruitment and cash-out networks",
+      "aliases": [
+        "bank account renting networks",
+        "mule recruiters"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "money_laundering_physical",
+        "fraud_enabled_physical",
+        "insider_recruitment"
+      ],
+      "status": "active",
+      "active_since": "2019",
+      "regions": [
+        "Southeast Asia"
+      ],
+      "countries": [
+        "TH",
+        "MM",
+        "KH",
+        "LA"
+      ],
+      "description": "Networks that recruit Thai nationals to open bank accounts and rent them to fraud syndicates, plus the cash-out layer of couriers, OTC brokers and gold dealers that converts proceeds. The scale is exceptional: Thai banks froze approximately three million accounts in a 2025 crackdown, and authorities closed over 351,000 mule accounts and froze assets worth more than 3.6 billion baht in a nine-month period. The crackdown also ensnared thousands of legitimate account holders, which is itself a lesson about blunt controls.",
+      "financial_sector_relevance": "This is where Southeast Asian fraud proceeds physically enter and leave the Thai banking system, and it is the layer Thai institutions are directly accountable for. Recruitment is conducted in person and online, and increasingly involves coercion; some mule holders are victims. Distinguishing coerced or duped mules from willing ones is now a live compliance and consumer-duty problem.",
+      "targets": [
+        "customers",
+        "money_service_business",
+        "correspondent_agents",
+        "gold_jewellery_dealer"
+      ],
+      "ttps": [
+        "Recruitment of account holders through social media, workplace and community networks",
+        "Purchase or rental of accounts, often from economically vulnerable individuals",
+        "Layered movement of funds through many accounts before conversion",
+        "Conversion to USDT through OTC desks, then mixers or cross-chain swaps",
+        "Settlement through gold bullion purchase and informal currency exchange",
+        "Cross-border courier movement of cash and gold to Myanmar and Cambodia"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Royal Thai Police operations, Bank of Thailand and AMLO action, published account closure figures."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Recruiters and ringleaders arrested; the wider network is diffuse."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Bank accounts are the product being trafficked."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025-11-18 to 2025-11-26",
+          "location": "TH",
+          "summary": "Operation 'Lightning Strike: Shaking Mule Accounts Across the Country' arrested 327 suspects plus 55 recruiters and ringleaders."
+        },
+        {
+          "date": "2025-2026",
+          "location": "TH",
+          "summary": "Over 351,000 mule accounts closed and more than 3.6 billion baht in assets frozen in a nine-month period; approximately three million accounts frozen in the wider crackdown, affecting many legitimate holders."
+        },
+        {
+          "date": "2026",
+          "location": "TH",
+          "summary": "Bank of Thailand tightened gold and FX controls, requiring gold shops to report all transactions and increasing scrutiny of crypto-settled payments."
+        }
+      ],
+      "watch_indicators": [
+        "Account opening surges in specific provinces or demographic cohorts",
+        "Newly opened accounts with immediate high-velocity pass-through",
+        "Gold shop and OTC desk volumes inconsistent with retail demand",
+        "Customers reporting they were paid to open an account"
+      ],
+      "linked_actors": [
+        "APAC-CLU-SCAMCOMPOUND",
+        "APAC-NET-HUIONE",
+        "APAC-CLU-MULE-MY"
+      ],
+      "sources": [
+        {
+          "title": "Thailand closes over 351,000 mule accounts in 9-month scam crackdown",
+          "url": "https://english.news.cn/20260713/8afa7a37ce1e4a2ea37bd12ee394d8be/c.html",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Thai Police Arrest 300+ Suspects in Nationwide Crackdown on Online Scams and Money Laundering",
+          "url": "https://fintechnews.sg/122887/thailand/thai-police-arrest-300-suspects-in-nationwide-crackdown-on-online-scams-and-money-laundering/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Thailand's crackdown on money mule accounts, fraud, and scams",
+          "url": "https://www.biocatch.com/report/thailand-crackdown-money-mule-fraud-scams-2025",
+          "type": "industry",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Crackdown on Mule Accounts Disrupts Civilians; Authorities Move to Restore Access",
+          "url": "https://www.thaienquirer.com/59630/crackdown-on-mule-accounts-disrupts-civilians-authorities-move-to-restore-access/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "APAC-CLU-GOLDSHOP-TH",
+      "name": "Thai gold shop robbery and gold-laundering cluster",
+      "aliases": [
+        "gold shop raids",
+        "bullion laundering Thailand"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "branch_robbery",
+        "money_laundering_physical"
+      ],
+      "status": "active",
+      "active_since": "2000",
+      "regions": [
+        "Southeast Asia"
+      ],
+      "countries": [
+        "TH"
+      ],
+      "description": "Two overlapping phenomena around Thai gold shops. First, armed robbery of gold retailers, an established Thai crime pattern that occasionally produces mass-casualty incidents. Second, and more significant for banks, the use of gold purchase as a laundering step for scam proceeds, which prompted the Bank of Thailand to require gold shops to report all transactions and to increase scrutiny of crypto-settled gold purchases.",
+      "financial_sector_relevance": "Gold is Thailand's principal non-bank store of value and its principal laundering off-ramp. The 2026 reporting requirements make gold shops a de facto reporting entity, and institutions financing or banking gold retailers inherit that exposure. The robbery dimension matters for banks that provide cash services and lending to gold retailers.",
+      "targets": [
+        "gold_jewellery_dealer",
+        "customers",
+        "money_service_business"
+      ],
+      "ttps": [
+        "Armed robbery of gold retailers in shopping centres and provincial towns",
+        "Purchase of gold with fraud proceeds to convert digital value into a portable asset",
+        "Crypto-settled gold purchase to break the transaction trail",
+        "Onward export or resale of bullion to complete integration"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Thai regulatory action and sustained crime reporting."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Robbery crews are individual; laundering use is systemic rather than attributable to one network."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Gold retail sits adjacent to banking; the laundering channel is the primary institutional exposure."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2026",
+          "location": "TH",
+          "summary": "Bank of Thailand tightened controls on gold and FX markets, requiring gold shops to report all transactions and increasing scrutiny of crypto-settled payments."
+        }
+      ],
+      "watch_indicators": [
+        "Gold retailer customers with turnover inconsistent with footfall",
+        "Crypto-settled purchases at financed gold retailers",
+        "Bullion export volumes inconsistent with domestic demand"
+      ],
+      "linked_actors": [
+        "APAC-CLU-MULE-TH",
+        "APAC-CLU-SCAMCOMPOUND"
+      ],
+      "sources": [
+        {
+          "title": "Thailand Central Bank Audits USDT Amid Gray Money Crackdown",
+          "url": "https://cointelegraph.com/news/thailand-targets-stablecoins-in-latest-laundering-crackdown",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Thai Regulators Launch Unified Crackdown on Scammers and Transnational Dirty Money",
+          "url": "https://www.nationthailand.com/business/banking-finance/40059266",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "APAC-CLU-AHLONG",
+      "name": "Malaysian Ah Long illegal moneylending syndicates",
+      "aliases": [
+        "Ah Long",
+        "along",
+        "illegal moneylenders"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "extortion_protection",
+        "customer_predation",
+        "arson_sabotage"
+      ],
+      "status": "active",
+      "active_since": "1980",
+      "regions": [
+        "Southeast Asia"
+      ],
+      "countries": [
+        "MY",
+        "SG"
+      ],
+      "description": "Unlicensed moneylending syndicates operating nationwide in Malaysia, enforcing repayment through harassment, vandalism and intimidation. Signature tactics include splashing red paint on borrowers' homes, vehicles and workplaces, posting threatening notices, and calling at night. The MCA's public complaints bureau recorded 165 moneylending cases involving RM18.6 million by mid-2025, with over 85 percent from the Chinese community. Enforcers have shifted from firebombing toward psychological intimidation, precisely because arson attracts heavier charges.",
+      "financial_sector_relevance": "The dominant informal credit competitor in Malaysia and a direct driver of customer financial distress, coerced withdrawals and account misuse. Borrowers are frequently required to hand over ATM cards and online banking credentials as collateral, which converts a loan sharking problem into an account takeover and mule account problem inside the bank. Branches and their staff are occasionally targeted when a borrower is traced to a workplace.",
+      "targets": [
+        "customers",
+        "corporate_premises",
+        "bank_staff",
+        "money_service_business"
+      ],
+      "ttps": [
+        "Red paint splashing on homes, vehicles and business premises",
+        "Threatening notices and staged imagery sent by messaging apps",
+        "Night-time harassment calls and visits to family and employers",
+        "Retention of borrower ATM cards, bank credentials and identity documents",
+        "Historic use of firebombing, now reduced due to heavier sentencing",
+        "Recruitment of borrowers into mule account provision to clear debt"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Malaysian prosecutions and MCA public complaints data."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Highly fragmented syndicates; enforcers are prosecuted, principals rarely."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Bank customers and their credentials are directly exploited; institutions are not attacked."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025-05",
+          "location": "Johor, MY",
+          "summary": "Two men linked to an illegal moneylending syndicate pleaded guilty to vandalism charges including splashing paint on homes and vehicles, alongside harassment and drug offences."
+        },
+        {
+          "date": "2025-06",
+          "location": "MY",
+          "summary": "MCA reported 165 moneylending-related cases involving RM18.6 million, and noted a shift from paint and firebombs toward psychological intimidation such as staged wake photographs."
+        }
+      ],
+      "watch_indicators": [
+        "Customers reporting loss or surrender of ATM cards and banking credentials",
+        "Property damage reports at a customer's registered address",
+        "Accounts showing third-party control indicators shortly after a distress event"
+      ],
+      "linked_actors": [
+        "APAC-CLU-MULE-MY",
+        "AM-CLU-GOTAGOTA"
+      ],
+      "sources": [
+        {
+          "title": "Illegal moneylenders getting increasingly aggressive, says MCA's Michael Chong",
+          "url": "https://www.thestar.com.my/news/nation/2025/07/01/illegal-moneylenders-getting-increasingly-aggressive-says-mca039s-michael-chong",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Loan shark enforcers charged in Johor for harassment, vandalism, and drug offences",
+          "url": "https://www.malaymail.com/news/malaysia/2025/05/28/loan-sharks-charged-in-johor-for-harassment-vandalism-and-drug-offences/178492",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Loan sharks: Malaysia's battle against unethical lending practices",
+          "url": "https://themalaysianreserve.com/2024/05/06/loan-sharks-malaysias-battle-against-unethical-lending-practices/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "APAC-CLU-MULE-MY",
+      "name": "Malaysian mule account and syndicate recruitment networks",
+      "aliases": [
+        "akaun keldai networks",
+        "mule recruiters Malaysia"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "money_laundering_physical",
+        "fraud_enabled_physical",
+        "insider_recruitment"
+      ],
+      "status": "active",
+      "active_since": "2018",
+      "regions": [
+        "Southeast Asia"
+      ],
+      "countries": [
+        "MY",
+        "SG",
+        "KH",
+        "MM"
+      ],
+      "description": "Networks recruiting Malaysians to open and surrender bank accounts, e-wallets and SIM cards to fraud syndicates, including those operating from Mekong compounds. Recruitment happens through social media, campus networks, employment scams and loan shark debt clearance. Bank Negara Malaysia and PDRM have run repeated National Scam Response Centre and account-freezing campaigns.",
+      "financial_sector_relevance": "The point at which Southeast Asian fraud proceeds enter Malaysian banking. It is also where the coercion picture matters: a meaningful share of mule holders are debt-coerced by loan sharks or trafficked, and treating all of them as offenders creates consumer-protection risk. Institutions face account-opening abuse, rapid pass-through and freezing-order operational load.",
+      "targets": [
+        "customers",
+        "money_service_business",
+        "correspondent_agents"
+      ],
+      "ttps": [
+        "Recruitment via social media job advertisements and campus networks",
+        "Purchase or rental of accounts, e-wallets and registered SIM cards",
+        "Debt-clearance arrangements with loan sharks in exchange for account provision",
+        "High-velocity layering through many accounts before withdrawal or crypto conversion",
+        "Cash courier movement to regional syndicate hubs"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Bank Negara Malaysia and PDRM enforcement, sustained national reporting."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Recruiters prosecuted individually; syndicate control is offshore."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Bank accounts are the traded commodity."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "New accounts with immediate high-velocity inbound and outbound flow",
+        "Account holders whose profile does not match transaction volume",
+        "Clusters of accounts opened at the same branch within a short window",
+        "Customers reporting they surrendered credentials to clear a debt"
+      ],
+      "linked_actors": [
+        "APAC-CLU-SCAMCOMPOUND",
+        "APAC-CLU-AHLONG",
+        "APAC-CLU-MULE-TH"
+      ],
+      "sources": [
+        {
+          "title": "Malaysia must crack down on crime syndicates taking billions from citizens",
+          "url": "https://www.benarnews.org/english/commentaries/crime-syndicates-11212024104351.html",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "APAC-CLU-SECRETSOC-MY",
+      "name": "Malaysian secret societies and numbered gangs",
+      "aliases": [
+        "Gang 04",
+        "Gang 08",
+        "Gang 24",
+        "Gang 36",
+        "kongsi gelap"
+      ],
+      "actor_class": "network",
+      "primary_motivation": "profit",
+      "categories": [
+        "extortion_protection",
+        "customer_predation",
+        "money_laundering_physical",
+        "insider_recruitment"
+      ],
+      "status": "active",
+      "active_since": "1960",
+      "regions": [
+        "Southeast Asia"
+      ],
+      "countries": [
+        "MY"
+      ],
+      "description": "Malaysia's long-established numbered secret societies, drawing on both Chinese triad and Indian gang traditions, proscribed under national security legislation. Their core economies are extortion of businesses, illegal gambling, debt collection, drug distribution and control of informal moneylending. They provide the enforcement layer for much of the Ah Long economy.",
+      "financial_sector_relevance": "The enforcement infrastructure behind illegal moneylending and unlicensed debt collection, and a source of extortion pressure on SME banking customers. They also supply the personnel who recover ATM cards and credentials from indebted borrowers, which is where they intersect most directly with bank fraud losses.",
+      "targets": [
+        "customers",
+        "corporate_premises",
+        "money_service_business",
+        "bank_staff"
+      ],
+      "ttps": [
+        "Extortion and protection collection from businesses and entertainment venues",
+        "Violent debt collection on behalf of illegal moneylenders",
+        "Control of illegal gambling and its cash flows",
+        "Recruitment of youths for enforcement tasks",
+        "Laundering through cash-intensive businesses"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Malaysian proscription lists and sustained police action."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Gang identities are formally recognised; individual incident attribution varies."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Bank customers are affected; institutions are not directly attacked."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "SME customers in entertainment and hospitality reporting protection demands",
+        "Cash-intensive customers with turnover inconsistent with trade",
+        "Violent incidents at customer premises followed by account behaviour change"
+      ],
+      "linked_actors": [
+        "APAC-CLU-AHLONG",
+        "APAC-CLU-MULE-MY"
+      ],
+      "sources": [
+        {
+          "title": "Crime Trends and Patterns in Malaysia",
+          "url": "https://kyotoreview.org/trendsetters/crime-trends-and-patterns-in-malaysia/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "APAC-CLU-MSBROB-MY",
+      "name": "Malaysian money changer and remittance robbery cluster",
+      "aliases": [
+        "money changer heists",
+        "remittance agent robberies"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "branch_robbery",
+        "cash_in_transit_attack",
+        "insider_recruitment"
+      ],
+      "status": "active",
+      "active_since": "2010",
+      "regions": [
+        "Southeast Asia"
+      ],
+      "countries": [
+        "MY"
+      ],
+      "description": "Armed and edged-weapon robbery of money changers, remittance agents and their couriers in Malaysia, frequently involving insider information about currency supply runs and, in at least one documented case, serving police officers as the perpetrators. Losses in individual incidents have ranged from RM120,000 to RM8 million.",
+      "financial_sector_relevance": "Money services businesses are the softest cash-holding financial nodes in Malaysia, with less protective infrastructure than bank branches but comparable cash volumes at peak times. Insider involvement, including impersonation of police, is a consistent feature and is the control failure most worth addressing.",
+      "targets": [
+        "money_service_business",
+        "cit_vehicle",
+        "insiders",
+        "gold_jewellery_dealer"
+      ],
+      "ttps": [
+        "Armed or machete robbery of money changer outlets during trading hours",
+        "Interception of currency supply runs between outlets",
+        "Impersonation of police officers to gain compliance",
+        "Insider tipping on cash and currency holdings",
+        "Targeting of outlets in shopping complexes with multiple exits"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Sustained Malaysian prosecution and reporting record."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Crews are individual; some cases involve corrupt officials."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Money services businesses and their cash movements are the sole target."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2019",
+          "location": "Kuala Lumpur, MY",
+          "summary": "Five police officers arrested for robbing a money changer of RM200,000 in Jalan Silang, with a Bukit Aman officer alleged as mastermind; perpetrators identified themselves as commercial crime officers."
+        },
+        {
+          "date": "2018-01",
+          "location": "MY",
+          "summary": "Three suspects arrested over the theft of at least RM8 million in foreign currency during a supply run distributing Thai currency to city money changers."
+        }
+      ],
+      "watch_indicators": [
+        "Supply run schedules known outside the immediate operating team",
+        "Approaches to outlet staff by individuals claiming official status",
+        "Robbery reports at nearby outlets in the same complex"
+      ],
+      "linked_actors": [
+        "APAC-CLU-SECRETSOC-MY",
+        "EU-CLU-INSIDER"
+      ],
+      "sources": [
+        {
+          "title": "Five cops nabbed for robbing money changer; Bukit Aman mastermind still at large",
+          "url": "https://www.malaymail.com/news/malaysia/2019/05/21/five-cops-nabbed-for-robbing-money-changer-bukit-aman-mastermind-still-at-l/1755094",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Cops nab three suspects in RM8m foreign currency heist",
+          "url": "https://www.malaymail.com/amp/news/malaysia/2018/01/29/cops-nab-three-suspects-in-rm8m-foreign-currency-heist/1564797",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "APAC-CLU-SNATCH-MY",
+      "name": "Malaysian snatch theft and device-theft cluster",
+      "aliases": [
+        "ragut",
+        "Mat Rempit snatch crews"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "opportunistic",
+      "categories": [
+        "device_theft_account_takeover",
+        "customer_predation"
+      ],
+      "status": "active",
+      "active_since": "2000",
+      "regions": [
+        "Southeast Asia"
+      ],
+      "countries": [
+        "MY"
+      ],
+      "description": "Motorcycle-borne snatch theft of bags and phones, historically a signature Malaysian street crime associated with Mat Rempit riding culture. Its financial significance has changed: where the value was once the physical contents, it is now the banking and e-wallet apps on the stolen handset, mirroring the London pattern.",
+      "financial_sector_relevance": "Malaysia has very high mobile banking and e-wallet penetration, so a snatched unlocked handset gives immediate access to accounts, wallets and DuitNow transfers. The same authentication assumption that fails in London, that possession of the enrolled device implies the legitimate customer, fails here, with the added factor that many victims cannot immediately report from the stolen device.",
+      "targets": [
+        "customers",
+        "crypto_holders"
+      ],
+      "ttps": [
+        "Motorcycle pillion snatch of bags and handsets from pedestrians and vehicle windows",
+        "Targeting near ATMs, markets and transport hubs",
+        "Immediate exploitation of unlocked banking and e-wallet apps",
+        "Resale of handsets through informal markets",
+        "Occasional escalation to assault when the victim resists"
+      ],
+      "capability": "low",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Long-running Malaysian crime statistics and reporting."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Opportunistic and dispersed offending."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Device contents rather than the device drive the modern financial loss, though the theft itself is opportunistic."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Wallet transfers immediately following a reported device loss",
+        "Rapid limit changes and payee additions from a known-good device",
+        "Snatch theft clusters near branch and ATM locations"
+      ],
+      "linked_actors": [
+        "EU-CLU-DEVICETHEFT",
+        "APAC-CLU-MULE-MY"
+      ],
+      "sources": [
+        {
+          "title": "Crime Trends and Patterns in Malaysia",
+          "url": "https://kyotoreview.org/trendsetters/crime-trends-and-patterns-in-malaysia/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "APAC-CLU-WAFRICAN-MY",
+      "name": "West African fraud syndicates in Malaysia",
+      "aliases": [
+        "African scam syndicates",
+        "romance scam syndicates Malaysia"
+      ],
+      "actor_class": "network",
+      "primary_motivation": "profit",
+      "categories": [
+        "fraud_enabled_physical",
+        "money_laundering_physical",
+        "insider_recruitment"
+      ],
+      "status": "active",
+      "active_since": "2010",
+      "regions": [
+        "Southeast Asia"
+      ],
+      "countries": [
+        "MY",
+        "NG",
+        "GH",
+        "ID"
+      ],
+      "description": "Nigerian and other West African syndicates operating from Malaysia, typically using student visas as cover, running romance and business email compromise fraud with local recruitment of Malaysian mules and, frequently, local partners who open accounts. Malaysian police conduct regular enforcement operations against them.",
+      "financial_sector_relevance": "A persistent source of romance and BEC fraud losses booked against Malaysian and international accounts, with a distinctive local recruitment pattern: Malaysian women recruited as romantic partners then used to open and operate accounts. This makes the mule holder simultaneously a fraud victim and an account offender, which complicates both freezing decisions and remediation.",
+      "targets": [
+        "customers",
+        "money_service_business",
+        "corporate_premises"
+      ],
+      "ttps": [
+        "Romance and business email compromise fraud targeting victims worldwide",
+        "Recruitment of local partners to open and operate receiving accounts",
+        "Use of student and business visas as residency cover",
+        "Rapid withdrawal and onward transfer before freezing orders take effect",
+        "Cash courier and remittance movement of proceeds"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Sustained Malaysian police enforcement and prosecution record."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Cells operate independently under a broad ethnographic label."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Banking rails and accounts are the operating medium."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Accounts opened by Malaysian nationals shortly after a new relationship, with foreign-sourced inbound funds",
+        "Rapid full withdrawal following a large single credit",
+        "Address clustering across ostensibly unrelated account holders"
+      ],
+      "linked_actors": [
+        "APAC-CLU-MULE-MY"
+      ],
+      "sources": [
+        {
+          "title": "Malaysia must crack down on crime syndicates taking billions from citizens",
+          "url": "https://www.benarnews.org/english/commentaries/crime-syndicates-11212024104351.html",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "APAC-OMCG-COMANCHERO",
+      "name": "Comanchero and Australian outlaw motorcycle gangs",
+      "aliases": [
+        "Comancheros",
+        "Rebels MC",
+        "Mongols MC",
+        "Hells Angels Australia",
+        "OMCGs"
+      ],
+      "actor_class": "named_group",
+      "primary_motivation": "profit",
+      "categories": [
+        "extortion_protection",
+        "arson_sabotage",
+        "money_laundering_physical",
+        "insider_recruitment",
+        "staff_targeting"
+      ],
+      "status": "active",
+      "active_since": "1966",
+      "regions": [
+        "Oceania"
+      ],
+      "countries": [
+        "AU",
+        "NZ",
+        "TH",
+        "AE",
+        "TR"
+      ],
+      "description": "Australia's outlaw motorcycle gangs, of which the Comancheros are currently the most transnationally capable, function as franchised organised crime networks rather than as clubs. They control significant shares of the illicit tobacco, drug distribution and extortion markets, and have been central to the Melbourne tobacco war arson campaign. Leadership frequently operates offshore from Dubai, Turkey and Thailand.",
+      "financial_sector_relevance": "Two exposures. Extortion and arson against small businesses, which shows up as SME customer distress, insurance claims and coerced payment patterns. And laundering, where OMCG-linked networks use cash-intensive businesses, cryptocurrency and professional facilitators; AUSTRAC has repeatedly flagged the sector. There is also a documented history of attempts to recruit insiders in banking and telecommunications.",
+      "targets": [
+        "customers",
+        "corporate_premises",
+        "insiders",
+        "money_service_business",
+        "bank_staff"
+      ],
+      "ttps": [
+        "Extortion of businesses, particularly in the illicit tobacco and vape sector",
+        "Arson and firebombing of non-compliant retail premises",
+        "Drive-by shootings and demonstrative violence",
+        "Laundering through cash-intensive businesses, crypto and professional facilitators",
+        "Offshore leadership directing domestic operations via encrypted platforms",
+        "Recruitment of insiders in banking, telecoms and logistics"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "AFP, ACIC and state police designations and prosecutions."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Formal club identities; membership documented."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Financial institutions are used for laundering and their SME customers extorted; branches are not attacked."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2023-10-08",
+          "location": "Craigieburn, Melbourne, AU",
+          "summary": "Robert Issa, associated with Comanchero-linked figures in the illicit tobacco trade, fatally shot in a daylight drive-by at a shopping centre."
+        },
+        {
+          "date": "2023-2026",
+          "location": "Melbourne, AU",
+          "summary": "Tobacco war arson campaign exceeded 200 attacks by early 2026, with Comanchero-linked premises among those firebombed and shot at."
+        }
+      ],
+      "watch_indicators": [
+        "SME customers in tobacco, vape and hospitality with arson or damage claims",
+        "Cash-intensive customers with turnover inconsistent with trade",
+        "Staff reporting external approaches for account or customer information"
+      ],
+      "linked_actors": [
+        "APAC-CLU-TOBACCOARSON",
+        "APAC-NET-ALAMEDDINE",
+        "APAC-NET-LONGRIVER",
+        "EU-OCG-NDRANGHETA"
+      ],
+      "sources": [
+        {
+          "title": "Melbourne tobacco wars",
+          "url": "https://en.wikipedia.org/wiki/Melbourne_tobacco_wars",
+          "type": "reference",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "The Melbourne tobacco wars explained: how a black-market turf war became 200+ arson attacks",
+          "url": "https://vicpolicenews.com.au/the-melbourne-tobacco-wars-explained/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Money laundering crime in Australia - AFP",
+          "url": "https://www.afp.gov.au/crimes/money-laundering-and-financial-crime/money-laundering",
+          "type": "law_enforcement",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "APAC-CLU-TOBACCOARSON",
+      "name": "Melbourne tobacco war arson-for-hire cluster",
+      "aliases": [
+        "tobacco wars",
+        "Taskforce Lunar targets"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "arson_sabotage",
+        "extortion_protection"
+      ],
+      "status": "active",
+      "active_since": "2023",
+      "regions": [
+        "Oceania"
+      ],
+      "countries": [
+        "AU"
+      ],
+      "description": "A sustained arson and extortion campaign in Melbourne, running from March 2023, in which rival networks firebomb tobacconists, vape shops and associated businesses to enforce control of the illicit tobacco market. Victoria Police established Taskforce Lunar in response; by early 2026 the running tally had cleared 200 arson attacks with more than 100 arrests. The executors are typically young, recruited for individual jobs and paid small sums, which mirrors the Nordic violence-as-a-service model.",
+      "financial_sector_relevance": "The most consequential Australian pattern of physical attacks on commercial premises, and therefore on bank SME customers, their collateral and their insurance. It also produces a recognisable extortion signature in SME account behaviour. Because the executors are recruited disposably, the pattern generalises: any Australian business, including financial service points, can be firebombed cheaply on a third party's instruction.",
+      "targets": [
+        "corporate_premises",
+        "customers"
+      ],
+      "ttps": [
+        "Firebombing of retail premises using accelerant, often at night",
+        "Recruitment of young executors for small payments via encrypted apps",
+        "Extortion demands preceding or following the attack",
+        "Shootings and vehicle arson as escalation",
+        "Rapid replacement of arrested executors, sustaining tempo"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Victoria Police Taskforce Lunar reporting and arrest figures."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Executors charged; commissioning networks partly identified."
+        },
+        "financial_targeting": {
+          "confidence": "low",
+          "basis": "Financial institutions are not targeted; exposure is through SME customers and the demonstrated availability of cheap arson."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2023-03-24 onward",
+          "location": "Melbourne, AU",
+          "summary": "Campaign begins; over 125 arson attacks and more than 100 arrests reported by early 2025, exceeding 200 attacks by early 2026."
+        },
+        {
+          "date": "2025",
+          "location": "Melbourne, AU",
+          "summary": "Mordialloc and Hallam premises linked to Comanchero-associated figures shot at and firebombed; a AUD 1 million extortion plot reported against a local businessman."
+        }
+      ],
+      "watch_indicators": [
+        "SME customers in tobacco and vape retail with sudden banking behaviour changes",
+        "Insurance claims for fire damage clustered by sector and suburb",
+        "Customers requesting urgent large cash withdrawals after a fire at their premises"
+      ],
+      "linked_actors": [
+        "APAC-OMCG-COMANCHERO",
+        "EU-CLU-VIOLENCESERV"
+      ],
+      "sources": [
+        {
+          "title": "The Melbourne tobacco wars explained",
+          "url": "https://vicpolicenews.com.au/the-melbourne-tobacco-wars-explained/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "The flames, gangsters and tobacco that ruled Melbourne this year",
+          "url": "https://acapmag.com.au/2025/12/the-flames-gangsters-and-tobacco-that-ruled-melbourne-this-year/",
+          "type": "industry",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Melbourne tobacco wars",
+          "url": "https://en.wikipedia.org/wiki/Melbourne_tobacco_wars",
+          "type": "reference",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "APAC-NET-ALAMEDDINE",
+      "name": "Sydney organised crime networks",
+      "aliases": [
+        "Alameddine network",
+        "Hamzy network",
+        "Sydney gangland networks"
+      ],
+      "actor_class": "network",
+      "primary_motivation": "profit",
+      "categories": [
+        "extortion_protection",
+        "staff_targeting",
+        "money_laundering_physical"
+      ],
+      "status": "active",
+      "active_since": "2010",
+      "regions": [
+        "Oceania"
+      ],
+      "countries": [
+        "AU"
+      ],
+      "description": "Family- and area-based Sydney networks engaged in drug distribution, extortion and a long-running series of public shootings against rivals. NSW Police have run successive strike forces against them. Like their Melbourne counterparts they increasingly commission violence through intermediaries and recruit young executors.",
+      "financial_sector_relevance": "Extortion of businesses in western and southwestern Sydney affects SME banking customers, and laundering runs through cash-intensive businesses and professional facilitators. Public shootings in commercial areas create incidental risk to branch staff and customers.",
+      "targets": [
+        "customers",
+        "corporate_premises",
+        "money_service_business",
+        "bank_staff"
+      ],
+      "ttps": [
+        "Public shootings to enforce discipline and settle disputes",
+        "Extortion of businesses in areas of influence",
+        "Use of encrypted communications and intermediaries to commission violence",
+        "Laundering through cash-intensive businesses and property",
+        "Recruitment of young executors for violent tasks"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "NSW Police strike forces and prosecutions."
+        },
+        "attribution": {
+          "confidence": "moderate",
+          "basis": "Network identities established; individual attributions frequently contested."
+        },
+        "financial_targeting": {
+          "confidence": "low",
+          "basis": "No targeting of financial institutions; exposure is customer-side and incidental."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Shooting incidents in commercial areas with branch presence",
+        "SME customers reporting extortion demands",
+        "Cash-intensive customers with unexplained turnover"
+      ],
+      "linked_actors": [
+        "APAC-OMCG-COMANCHERO"
+      ],
+      "sources": [
+        {
+          "title": "Money laundering crime in Australia - AFP",
+          "url": "https://www.afp.gov.au/crimes/money-laundering-and-financial-crime/money-laundering",
+          "type": "law_enforcement",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "APAC-NET-LONGRIVER",
+      "name": "Long River money laundering organisation",
+      "aliases": [
+        "Changjiang Currency Exchange",
+        "Long River"
+      ],
+      "actor_class": "network",
+      "primary_motivation": "profit",
+      "categories": [
+        "money_laundering_physical",
+        "insider_recruitment"
+      ],
+      "status": "disrupted",
+      "active_since": "2019",
+      "regions": [
+        "Oceania"
+      ],
+      "countries": [
+        "AU",
+        "CN"
+      ],
+      "description": "A Chinese organised crime group that operated the Changjiang Currency Exchange, a shopfront remittance business with a national Australian footprint, as a laundering vehicle. The AFP alleged it laundered almost AUD 229 million in three years while transferring more than AUD 10 billion in total, including proceeds of cybercrime against victims. Operation Avarus-Nightwolf, a 14-month AFP-led investigation supported by AUSTRAC, ABF, ACIC, ASIC, ATO and US HSI, produced seven charges and over AUD 50 million restrained.",
+      "financial_sector_relevance": "The most instructive Australian case of a licensed-looking remittance business operating as a criminal laundering utility, with modern retail shopfronts specifically designed to project legitimacy. For banks it is a direct lesson in MSB counterparty risk: the business held banking relationships and looked entirely conventional from the outside.",
+      "targets": [
+        "money_service_business",
+        "correspondent_agents",
+        "customers",
+        "insiders"
+      ],
+      "ttps": [
+        "Operation of retail currency exchange shopfronts as laundering infrastructure",
+        "Commingling of legitimate remittance flows with criminal proceeds",
+        "Use of professional-looking retail branding to sustain banking relationships",
+        "Processing of cybercrime and scam proceeds alongside other criminal funds",
+        "Structuring of transfers to remain below reporting attention"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "AFP charges and multi-agency operation."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Named defendants and identified corporate vehicle."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Regulated remittance infrastructure was the operating medium."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2023-10-26",
+          "location": "AU",
+          "summary": "Seven people charged, four Chinese nationals and three Australian citizens; 20 search warrants executed across mainland states with over AUD 50 million in property and vehicles restrained."
+        }
+      ],
+      "watch_indicators": [
+        "MSB counterparties with retail volumes inconsistent with visible customer flow",
+        "Remittance corridors with turnover far exceeding local community size",
+        "Rapid national expansion of a shopfront remittance brand"
+      ],
+      "linked_actors": [
+        "AM-CLU-CMLO",
+        "APAC-OMCG-COMANCHERO"
+      ],
+      "sources": [
+        {
+          "title": "Seven syndicate members charged for allegedly laundering almost $229 million",
+          "url": "https://www.afp.gov.au/news-centre/media-release/seven-syndicate-members-charged-allegedly-laundering-almost-229-million",
+          "type": "law_enforcement",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "HSI, Australian Federal Police and partners announce takedown of multi-million dollar Chinese money laundering syndicate",
+          "url": "https://www.ice.gov/news/releases/hsi-australian-federal-police-and-partners-announce-takedown-multi-million-dollar",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Modern currency exchange shopfronts were just a slick front for a huge money-laundering operation",
+          "url": "https://www.canberratimes.com.au/story/8400745/shopfronts-laundered-hundreds-of-millions-in-alleged-proceeds-of-crime/",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "APAC-CLU-RAMRAID",
+      "name": "Australian and New Zealand ram-raid and ATM removal crews",
+      "aliases": [
+        "ram raiders",
+        "youth ram raid crews"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "atm_physical_attack",
+        "customer_predation"
+      ],
+      "status": "active",
+      "active_since": "2020",
+      "regions": [
+        "Oceania"
+      ],
+      "countries": [
+        "AU",
+        "NZ"
+      ],
+      "description": "Crews, predominantly juvenile, that drive stolen vehicles into retail premises to seize cash drawers, ATMs, safes and high-value stock. New Zealand recorded a 400 percent increase in ram raids between 2017 and 2022, with 76 percent of those arrested under 18 and 14 percent connected to organised crime, prompting dedicated legislation. Australian incidence follows a similar youth-led pattern with adult organised crime involvement at the fencing layer.",
+      "financial_sector_relevance": "The main destructive threat to in-store ATMs and retail cash holdings in both countries. The organised crime linkage is at the disposal end rather than the offence end, which means enforcement against individual juveniles does not reduce demand. For deployers the practical implication is siting and anchoring in convenience retail rather than perimeter security.",
+      "targets": [
+        "atm_estate",
+        "corporate_premises"
+      ],
+      "ttps": [
+        "Stolen vehicles driven through shopfronts in the early hours",
+        "Removal of ATMs, safes and cash drawers within a short dwell time",
+        "Social media coordination and 'post and boast' publication",
+        "Fencing of proceeds through adult organised crime networks",
+        "Repeat targeting of premises with weak bollarding"
+      ],
+      "capability": "low",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "New Zealand Police statistics, dedicated legislation, Australian state police reporting."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Predominantly juvenile ad hoc groups."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "ATMs and cash are among several targets alongside retail stock."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2017-2022",
+          "location": "NZ",
+          "summary": "400 percent increase in ram raids; 76 percent of those arrested under 18 and 14 percent connected to organised crime."
+        }
+      ],
+      "watch_indicators": [
+        "Ram raids at neighbouring retail sites hosting ATMs",
+        "Removal or absence of bollards at in-store deployments",
+        "Vehicle theft clusters in the surrounding suburbs"
+      ],
+      "linked_actors": [
+        "AM-CLU-ATMHOOK",
+        "EU-CLU-ATMRAM"
+      ],
+      "sources": [
+        {
+          "title": "Ram-Raid Attacks in Australia: Trends, Statistics & Prevention (2025)",
+          "url": "https://supamaxx.com.au/ram-raid-attacks-in-australia-trends-statistics-prevention-2025/",
+          "type": "industry",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Ram Raid Offending and Related Measures Amendment Bill",
+          "url": "https://en.wikipedia.org/wiki/Ram_Raid_Offending_and_Related_Measures_Amendment_Bill",
+          "type": "reference",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Ram raiding the colony: Maori youth crime in capitalist ideology",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/1177083X.2025.2511299",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "APAC-CLU-VIRTKIDNAP",
+      "name": "Virtual kidnapping and coercion cluster targeting Chinese-speaking communities",
+      "aliases": [
+        "virtual kidnapping",
+        "Chinese consulate scam",
+        "staged abduction fraud"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "kidnap_for_ransom",
+        "customer_predation",
+        "fraud_enabled_physical"
+      ],
+      "status": "active",
+      "active_since": "2018",
+      "regions": [
+        "Oceania",
+        "Southeast Asia"
+      ],
+      "countries": [
+        "AU",
+        "NZ",
+        "MY",
+        "TH",
+        "CA",
+        "US",
+        "GB"
+      ],
+      "description": "Syndicates that contact Chinese international students and recent migrants posing as Chinese police or embassy officials, convince them they are implicated in a crime, then coerce them into staging their own kidnapping, photographing themselves bound, and cutting contact while a ransom is extracted from family in China. Australian and New Zealand police have run repeated public awareness campaigns because the missing-person response consumes substantial resource.",
+      "financial_sector_relevance": "Produces coerced large transfers, account emptying and family-funded remittances that look like legitimate student support payments. Victims are actively coached to deceive bank staff, and the manufactured urgency defeats normal cooling-off interventions. It also generates duress situations inside branches that staff are rarely trained to recognise.",
+      "targets": [
+        "customers",
+        "bank_branch",
+        "money_service_business"
+      ],
+      "ttps": [
+        "Impersonation of Chinese police, prosecutors or embassy officials",
+        "Manufactured criminal accusation with threat of deportation or prosecution",
+        "Coercion of the victim to self-isolate and stage abduction imagery",
+        "Ransom extraction from family overseas while the victim is unreachable",
+        "Coaching of the victim to mislead banks and universities about transfers"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Australian, New Zealand and Canadian police warnings and case records."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Syndicates operate offshore, largely unidentified."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Bank transfers and remittances are the extraction mechanism."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Young international students making atypical large transfers to unfamiliar beneficiaries",
+        "Customer on a live call and evasive about transfer purpose",
+        "Sudden account emptying followed by loss of contact"
+      ],
+      "linked_actors": [
+        "APAC-CLU-SCAMCOMPOUND",
+        "EU-CLU-COURIERFRAUD"
+      ],
+      "sources": [
+        {
+          "title": "Money laundering crime in Australia - AFP",
+          "url": "https://www.afp.gov.au/crimes/money-laundering-and-financial-crime/money-laundering",
+          "type": "law_enforcement",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "APAC-CLU-CARDSKIM-AU",
+      "name": "Australian card skimming and mail-theft cluster",
+      "aliases": [
+        "mail theft crews",
+        "card interception"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "card_skimming_tampering",
+        "customer_predation",
+        "fraud_enabled_physical"
+      ],
+      "status": "active",
+      "active_since": "2010",
+      "regions": [
+        "Oceania"
+      ],
+      "countries": [
+        "AU",
+        "NZ"
+      ],
+      "description": "Crews that combine ATM and POS skimming with theft of mail from unsecured letterboxes and apartment mailrooms to intercept newly issued cards, PIN mailers and identity documents. Australia's high proportion of apartment living and communal mailrooms sustains the mail-theft component, which also feeds identity takeover and fraudulent account opening.",
+      "financial_sector_relevance": "The main physical channel for Australian card and identity compromise. It targets the card issuance process itself, which is a control most institutions treat as a logistics matter rather than a security one. It also intersects with account opening fraud, since intercepted documents support synthetic and stolen identity applications.",
+      "targets": [
+        "atm_estate",
+        "pos_terminals",
+        "customers"
+      ],
+      "ttps": [
+        "Overlay skimmers and pinhole cameras at ATMs and unattended terminals",
+        "Theft of mail from communal letterboxes and apartment mailrooms",
+        "Interception of newly issued cards and PIN mailers",
+        "Use of stolen identity documents for fraudulent account opening",
+        "Rapid cash-out before the legitimate customer notices non-delivery"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Australian state police reporting and prosecutions."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Small crews with no persistent identity."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Cards, PINs and identity documents are the target."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Card non-delivery reports clustered by postcode or building",
+        "First use of a newly issued card in an unexpected geography",
+        "Common-point-of-purchase clustering on a single terminal"
+      ],
+      "linked_actors": [
+        "EU-CLU-SKIM-RO",
+        "AM-CLU-EBTSKIM"
+      ],
+      "sources": [
+        {
+          "title": "Money laundering crime in Australia - AFP",
+          "url": "https://www.afp.gov.au/crimes/money-laundering-and-financial-crime/money-laundering",
+          "type": "law_enforcement",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "APAC-CLU-HOMEINV-AU",
+      "name": "Australian aggravated home invasion and follow-home robbery crews",
+      "aliases": [
+        "car key burglary crews",
+        "youth home invasion crews"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "customer_predation",
+        "crypto_coercion",
+        "kidnap_for_ransom"
+      ],
+      "status": "active",
+      "active_since": "2019",
+      "regions": [
+        "Oceania"
+      ],
+      "countries": [
+        "AU"
+      ],
+      "description": "Crews, frequently youth-dominated, conducting aggravated burglaries and home invasions targeting luxury vehicles, watches, jewellery and, increasingly, cryptocurrency access. Victoria and Queensland have seen sustained increases with significant political salience. A subset targets business owners known to hold cash at home, and a further subset targets known crypto holders.",
+      "financial_sector_relevance": "The Australian expression of the global shift toward attacking wealth at the residence rather than the institution. Private banking and business banking customers are the exposed population, and the crypto-targeting subset connects directly to the wrench attack pattern seen in France and North America.",
+      "targets": [
+        "executives_hnwi",
+        "customers",
+        "crypto_holders"
+      ],
+      "ttps": [
+        "Forced entry to occupied homes at night to obtain vehicle keys and valuables",
+        "Targeting of luxury vehicles for immediate theft and export or rebirthing",
+        "Selection of business owners assessed to hold cash at home",
+        "Coercion of cryptocurrency transfers in a growing subset of cases",
+        "Social media identification of affluent targets"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Victorian and Queensland police statistics and prosecutions."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Ad hoc youth crews with fluid composition."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Wealthy individuals including bank customers are targeted; crypto coercion is an emerging subset."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Client reports of surveillance or attempted entry at residences",
+        "Public disclosure of client wealth or crypto holdings",
+        "Home invasion clusters in affluent suburbs with client concentration"
+      ],
+      "linked_actors": [
+        "EU-CLU-CRYPTOWRENCH",
+        "AM-CLU-CRYPTOHOMEINV",
+        "AM-CLU-SATG"
+      ],
+      "sources": [
+        {
+          "title": "Ram-Raid Attacks in Australia: Trends, Statistics & Prevention (2025)",
+          "url": "https://supamaxx.com.au/ram-raid-attacks-in-australia-trends-statistics-prevention-2025/",
+          "type": "industry",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "APAC-CLU-MACAUSCAM",
+      "name": "Macau scam call-centre syndicates",
+      "aliases": [
+        "Macau scam",
+        "Taiwanese-led telecom fraud syndicates"
+      ],
+      "actor_class": "network",
+      "primary_motivation": "profit",
+      "categories": [
+        "fraud_enabled_physical",
+        "money_laundering_physical",
+        "kidnap_for_ransom"
+      ],
+      "status": "active",
+      "active_since": "2012",
+      "regions": [
+        "Southeast Asia"
+      ],
+      "countries": [
+        "MY",
+        "TH",
+        "TW",
+        "CN",
+        "KH",
+        "PH",
+        "ID"
+      ],
+      "description": "Chinese-language telecom fraud syndicates, historically Taiwanese-led, that impersonate police, prosecutors and bank officials to convince victims their accounts are implicated in crime and to transfer funds to 'safe' accounts. Call centres are established in rented premises across Malaysia, Thailand, Cambodia and the Philippines, and are periodically raided with large numbers of operators detained and deported.",
+      "financial_sector_relevance": "The dominant impersonation fraud typology affecting Chinese-speaking customers in Malaysia and across the region. It specifically weaponises the bank's own identity and authority, coaches victims to lie to branch staff, and produces coerced transfers that pass normal authentication. The physical dimension is the call-centre premises themselves and the mule and courier layer that follows.",
+      "targets": [
+        "customers",
+        "bank_branch",
+        "money_service_business"
+      ],
+      "ttps": [
+        "Impersonation of police, prosecutors and bank anti-fraud teams",
+        "Multi-stage scripts escalating from a parcel or account notification to a criminal accusation",
+        "Instruction to transfer funds to a 'safe account' under investigation",
+        "Coaching of victims to conceal the purpose from bank staff",
+        "Operation from rented premises across multiple Southeast Asian jurisdictions",
+        "Cash-out through mule accounts and cross-border couriers"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Repeated multi-country raids and mass deportations; sustained regional reporting."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Operators detained; controlling syndicates rarely identified."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Bank identity and bank transfers are integral to the method."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Customers making urgent transfers to newly added domestic beneficiaries",
+        "Customers on live calls during branch or app transactions",
+        "Beneficiary accounts receiving from multiple unrelated victims"
+      ],
+      "linked_actors": [
+        "APAC-CLU-SCAMCOMPOUND",
+        "APAC-CLU-MULE-MY",
+        "APAC-CLU-VIRTKIDNAP"
+      ],
+      "sources": [
+        {
+          "title": "Malaysia must crack down on crime syndicates taking billions from citizens",
+          "url": "https://www.benarnews.org/english/commentaries/crime-syndicates-11212024104351.html",
+          "type": "news",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    }
+  ]
+}

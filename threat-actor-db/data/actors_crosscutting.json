@@ -1,0 +1,1018 @@
+{
+  "region_file": "Cross-cutting and global activity clusters",
+  "last_reviewed": "2026-07-24",
+  "actors": [
+    {
+      "id": "GLB-STATE-DPRK-CASHOUT",
+      "name": "DPRK-linked coordinated ATM cash-out networks",
+      "aliases": [
+        "FASTCash",
+        "Hidden Cobra cash-out",
+        "Lazarus cash-out mules"
+      ],
+      "actor_class": "state_proxy_program",
+      "primary_motivation": "state_directed",
+      "categories": [
+        "atm_logical_physical_attack",
+        "money_laundering_physical",
+        "insider_recruitment"
+      ],
+      "status": "active",
+      "active_since": "2016",
+      "regions": [
+        "Global"
+      ],
+      "countries": [
+        "KP",
+        "IN",
+        "PK",
+        "BD",
+        "TR",
+        "ES",
+        "US",
+        "MY",
+        "TH"
+      ],
+      "description": "North Korean state-directed operations that compromise a bank's payment switch or card processing environment, force fraudulent authorisation responses, and then simultaneously withdraw cash from ATMs across many countries using pre-positioned mule networks. It is the purest hybrid in this database: the intrusion is remote and the extraction is entirely physical, requiring hundreds of people standing at machines in coordinated time windows. US CISA and Treasury have issued repeated advisories.",
+      "financial_sector_relevance": "The scenario that most clearly defeats a siloed security model. Detection depends on correlating switch anomalies with ATM withdrawal patterns in near real time, which requires the fraud, cyber and ATM operations functions to share telemetry. Losses are realised in minutes across dozens of jurisdictions and are effectively unrecoverable.",
+      "targets": [
+        "atm_estate",
+        "correspondent_agents",
+        "insiders",
+        "money_service_business"
+      ],
+      "ttps": [
+        "Intrusion into payment switch and card processing infrastructure",
+        "Malicious applications forcing fraudulent authorisation responses on behalf of the issuer",
+        "Pre-positioning of mule networks in many countries with cloned cards",
+        "Simultaneous timed withdrawals across jurisdictions, usually on weekends or holidays",
+        "Rapid consolidation and laundering of proceeds through crypto and cash couriers",
+        "Targeting of institutions in jurisdictions with weaker switch segmentation"
+      ],
+      "capability": "advanced",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "CISA, FBI and Treasury advisories; multiple confirmed incidents."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Formally attributed to DPRK by US and allied governments."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Banks and their ATM estates are the sole target."
+        },
+        "state_tasking": {
+          "confidence": "high",
+          "basis": "Government attribution to DPRK revenue generation programmes."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2018",
+          "location": "Global",
+          "summary": "A single incident saw simultaneous cash withdrawals from ATMs in more than 20 countries; another involved withdrawals across 30 countries."
+        }
+      ],
+      "watch_indicators": [
+        "Switch or HSM configuration changes outside change windows",
+        "Authorisation responses inconsistent with core banking balances",
+        "Withdrawal clusters on a small set of BINs across many countries",
+        "Elevated activity on a public holiday or weekend"
+      ],
+      "linked_actors": [
+        "EU-CLU-JACKPOT",
+        "GLB-CLU-MULECOURIER"
+      ],
+      "sources": [
+        {
+          "title": "CISA Alert: FASTCash 2.0 / North Korea's BeagleBoyz Robbing Banks",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-239a",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "GLB-CLU-POSSWAP",
+      "name": "POS terminal swap and merchant-side tampering cluster",
+      "aliases": [
+        "terminal swap crews",
+        "merchant terminal tampering"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "card_skimming_tampering",
+        "insider_recruitment"
+      ],
+      "status": "active",
+      "active_since": "2008",
+      "regions": [
+        "Global"
+      ],
+      "countries": [
+        "GB",
+        "FR",
+        "DE",
+        "ES",
+        "US",
+        "AU",
+        "MY",
+        "TH",
+        "BR"
+      ],
+      "description": "Crews that substitute a merchant's payment terminal with a tampered unit, or open and modify a terminal in situ, to harvest card data at the point of acceptance. Access is obtained either by posing as maintenance engineers or by recruiting merchant staff. It is quieter and higher yield than ATM skimming because compromise can persist for months without any customer-visible symptom.",
+      "financial_sector_relevance": "Directly attacks the acquirer's estate and the merchant relationship, and it is frequently discovered only through common-point-of-purchase analysis rather than physical inspection. Acquirers carry the reconciliation, remediation and merchant remediation cost, and the insider dimension means terminal logistics and engineer identity verification are the real controls.",
+      "targets": [
+        "pos_terminals",
+        "insiders",
+        "customers"
+      ],
+      "ttps": [
+        "Impersonation of terminal maintenance engineers to gain physical access",
+        "Substitution of a genuine terminal with a pre-modified unit",
+        "In-situ opening and implanting of a data-capture module",
+        "Recruitment or bribery of merchant staff to permit or ignore access",
+        "Interception of terminals in the distribution and repair supply chain",
+        "Periodic revisits to harvest stored data"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Long-running acquirer and law enforcement casework internationally."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Perpetrators are diverse and rarely form persistent groups."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Payment acceptance infrastructure is the sole target."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Terminal serial numbers not matching deployment records",
+        "Unscheduled engineer visits reported by merchants",
+        "Common-point-of-purchase concentration at a single merchant",
+        "Tamper-evident seal discrepancies at routine servicing"
+      ],
+      "linked_actors": [
+        "EU-CLU-SKIM-RO",
+        "AM-CLU-EBTSKIM",
+        "EU-CLU-INSIDER"
+      ],
+      "sources": [
+        {
+          "title": "EAST: Data relay attacks drive up European terminal related fraud incidents",
+          "url": "https://www.association-secure-transactions.eu/data-relay-attacks-drive-up-european-terminal-related-fraud-incidents/",
+          "type": "industry",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "GLB-CLU-DURESSATM",
+      "name": "Coerced-withdrawal and ATM duress cluster",
+      "aliases": [
+        "forced withdrawal robbery",
+        "express kidnapping"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "customer_predation",
+        "kidnap_for_ransom"
+      ],
+      "status": "active",
+      "active_since": "1995",
+      "regions": [
+        "Global",
+        "Americas",
+        "Europe",
+        "Southeast Asia"
+      ],
+      "countries": [
+        "BR",
+        "MX",
+        "CO",
+        "VE",
+        "AR",
+        "ZA",
+        "GB",
+        "FR",
+        "TH",
+        "MY"
+      ],
+      "description": "Offenders who abduct or restrain a victim and drive them between ATMs, forcing withdrawals up to daily limits, sometimes across a rollover at midnight to double the take. Known as express kidnapping in Latin America, it also appears in European night-time economy areas as a short-duration variant following a street robbery.",
+      "financial_sector_relevance": "The clearest case where transaction monitoring can detect an in-progress violent crime rather than just a loss. Repeated maximum withdrawals across multiple machines in a short window, especially spanning midnight, is a recognisable and actionable signature. Some institutions have implemented duress-aware limits and referral rules on this basis.",
+      "targets": [
+        "customers",
+        "atm_estate"
+      ],
+      "ttps": [
+        "Abduction or restraint following a street robbery or ride-hail interaction",
+        "Sequential withdrawals across several ATMs to defeat single-machine limits",
+        "Deliberate continuation across the midnight limit rollover",
+        "Coercion of card and PIN disclosure through threat or violence",
+        "Use of the victim's own vehicle for movement between machines"
+      ],
+      "capability": "low",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Well-documented across Latin America, Africa and parts of Europe."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Predominantly opportunistic offenders."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "The ATM network is the extraction mechanism."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Sequential maximum withdrawals at multiple ATMs within a short period",
+        "Withdrawals spanning the midnight limit reset",
+        "Withdrawal geography inconsistent with the customer's normal pattern",
+        "Failed PIN attempts immediately preceding successful maximum withdrawals"
+      ],
+      "linked_actors": [
+        "EU-CLU-DEVICETHEFT",
+        "AM-CLU-SALIDERA",
+        "AM-CLU-SAIDINHA"
+      ],
+      "sources": [
+        {
+          "title": "EAST European Payment Terminal Crime Report",
+          "url": "https://www.association-secure-transactions.eu/data-relay-attacks-drive-up-european-terminal-related-fraud-incidents/",
+          "type": "industry",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "GLB-CLU-EXECTARGET",
+      "name": "Targeted violence against financial sector executives and staff",
+      "aliases": [
+        "executive targeting",
+        "banker kidnapping"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "hybrid",
+      "categories": [
+        "staff_targeting",
+        "kidnap_for_ransom"
+      ],
+      "status": "active",
+      "active_since": "1990",
+      "regions": [
+        "Global"
+      ],
+      "countries": [
+        "US",
+        "MX",
+        "BR",
+        "CO",
+        "HT",
+        "NL",
+        "SE",
+        "FR",
+        "GB",
+        "EC",
+        "PE"
+      ],
+      "description": "A convergent pattern rather than a single actor: organised crime coercing compliance and investigations staff, ideologically motivated attacks on named executives, grievance-driven lone actors, and kidnapping of banking personnel for ransom in high-kidnap jurisdictions. The common feature is that the individual, not the institution, is the attack surface, and that home addresses and family details are the targeting data.",
+      "financial_sector_relevance": "Executive and staff protection has moved from a niche concern to a core financial-sector security discipline, driven by three developments: cheap brokered violence in the Nordics and Australia, doxxing and open-source targeting, and the willingness of networks like the Mocro Maffia to attack officers of the justice system. Data protection of staff personal information is now a physical security control, not just a privacy one.",
+      "targets": [
+        "bank_staff",
+        "executives_hnwi",
+        "insiders"
+      ],
+      "ttps": [
+        "Open-source and breach-derived collection of home addresses, vehicles and routines",
+        "Surveillance of residences and predictable movements",
+        "Commissioned assault, arson or shooting via intermediaries",
+        "Kidnapping for ransom of executives and their families in high-risk jurisdictions",
+        "Threats and harassment against compliance, collections and foreclosure staff",
+        "Coercion to obtain access, information or favourable decisions"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Multiple documented cases across the jurisdictions listed."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Perpetrators range from state-linked to organised crime to lone actors; brokered violence deliberately obscures the commissioner."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Financial sector individuals are one of several professional target groups, alongside lawyers, journalists and officials."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2019-09-18",
+          "location": "Amsterdam, NL",
+          "summary": "Killing of lawyer Derk Wiersum demonstrated Dutch organised crime's willingness to attack officers of the justice system, a precedent directly relevant to financial crime investigators."
+        }
+      ],
+      "watch_indicators": [
+        "Staff personal data appearing in breach dumps or on hostile forums",
+        "Employee reports of surveillance, unexpected deliveries or approaches",
+        "Escalating grievance correspondence naming individual staff",
+        "Institution named in an active hostile campaign"
+      ],
+      "linked_actors": [
+        "EU-OCG-MOCRO",
+        "EU-CLU-VIOLENCESERV",
+        "EU-CLU-TIGERKIDNAP",
+        "AM-CLU-USDOMEXT"
+      ],
+      "sources": [
+        {
+          "title": "Murder of Derk Wiersum",
+          "url": "https://en.wikipedia.org/wiki/Murder_of_Derk_Wiersum",
+          "type": "reference",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "The Com: Theft, Extortion, and Violence are a Rising Threat to Youth Online (IC3 PSA)",
+          "url": "https://www.ic3.gov/PSA/2025/PSA250723-3",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "GLB-CLU-DCPHYSICAL",
+      "name": "Data centre and technology supply-chain physical intrusion cluster",
+      "aliases": [
+        "data centre intrusion",
+        "hardware tampering"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "hybrid",
+      "categories": [
+        "infrastructure_sabotage",
+        "insider_recruitment"
+      ],
+      "status": "active",
+      "active_since": "2015",
+      "regions": [
+        "Global"
+      ],
+      "countries": [
+        "GB",
+        "DE",
+        "NL",
+        "IE",
+        "US",
+        "SG",
+        "AU"
+      ],
+      "description": "Physical approaches to the compute and network estate underpinning financial services: intrusion into colocation facilities, tailgating on contractor credentials, theft of drives and equipment, and interference with power and cooling. State-linked pre-positioning against operational technology has been documented, but the higher-frequency reality is theft and contractor-mediated unauthorised access.",
+      "financial_sector_relevance": "The physical layer of a bank's technology estate is largely operated by third parties with their own vetting standards, and access is mediated by contractor identity processes rather than the bank's. This is a genuine control gap: institutions audit their cloud providers' certifications but rarely test who can physically stand next to their racks.",
+      "targets": [
+        "data_centre",
+        "insiders",
+        "telecom_subsea_cable"
+      ],
+      "ttps": [
+        "Tailgating and use of contractor credentials to enter colocation halls",
+        "Theft of drives, network equipment and decommissioned hardware",
+        "Interference with power, cooling and fire suppression systems",
+        "Interception or substitution of equipment in the logistics chain",
+        "Reconnaissance of facility layout, plant and access control"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "moderate",
+          "basis": "Documented intrusion and theft incidents; state pre-positioning documented in critical infrastructure OT more broadly."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Most incidents are unattributed; conflation of criminal theft with state pre-positioning is a known analytical error."
+        },
+        "financial_targeting": {
+          "confidence": "low",
+          "basis": "Facilities are shared; finance-specific targeting is generally inferred rather than demonstrated."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Access log anomalies at colocation facilities hosting the institution's estate",
+        "Contractor credential sharing or unescorted access findings in audits",
+        "Equipment discrepancies at decommissioning or asset reconciliation",
+        "Drone activity or reconnaissance reported at the facility"
+      ],
+      "linked_actors": [
+        "EU-STATE-GRU29155",
+        "EU-CLU-UAS",
+        "EU-CLU-INSIDER"
+      ],
+      "sources": [
+        {
+          "title": "Admitting the Elephantine Void Between Kinetic and Cyber Threats",
+          "url": "https://www.flyingpenguin.com/elephantine-void/",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "UK and allies uncover Russian military unit carrying out cyber attacks and digital sabotage",
+          "url": "https://www.ncsc.gov.uk/news/uk-allies-uncover-russian-military-carrying-out-cyber-attacks-digital-sabotage",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "GLB-CLU-MULECOURIER",
+      "name": "Cash courier and bulk value movement cluster",
+      "aliases": [
+        "cash mules",
+        "bulk cash smuggling",
+        "hawala couriers"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "money_laundering_physical",
+        "customer_predation"
+      ],
+      "status": "active",
+      "active_since": "1990",
+      "regions": [
+        "Global"
+      ],
+      "countries": [
+        "US",
+        "MX",
+        "GB",
+        "NL",
+        "AE",
+        "TR",
+        "MY",
+        "TH",
+        "AU",
+        "CO"
+      ],
+      "description": "The physical movement of cash, gold and bearer value across borders by human couriers, vehicle concealment and air cargo, underpinning almost every laundering typology in this database. It is the point at which criminal proceeds are most physically vulnerable, which is also why couriers are themselves robbed, and why courier robbery is a recurring feature of organised crime violence.",
+      "financial_sector_relevance": "The bridge between the physical crime economy and the banking system. Institutions encounter it as structured deposits after a courier run, as MSB counterparties with volumes inconsistent with their corridor, and as customers whose businesses exist to justify cash. FinCEN has specifically warned about cartel repatriation of bulk cash through armoured car and air transport services.",
+      "targets": [
+        "money_service_business",
+        "correspondent_agents",
+        "armoured_air_cargo",
+        "customers",
+        "insiders"
+      ],
+      "ttps": [
+        "Human couriers carrying cash and gold on commercial flights and land crossings",
+        "Vehicle concealment and use of legitimate freight for bulk movement",
+        "Exploitation of armoured car and air cargo services for repatriation",
+        "Structuring of subsequent deposits across many branches and institutions",
+        "Hawala and informal value transfer settlement to avoid movement entirely",
+        "Recruitment of insiders at ports, airports and cargo handlers"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "FinCEN advisories, customs seizure data, prosecutions worldwide."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Couriers are interchangeable and rarely connect to identifiable principals."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Banking and MSB rails are the destination for the value moved."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2025-03-31",
+          "location": "US",
+          "summary": "FinCEN alert on cross-border bulk cash smuggling from the United States into Mexico, noting cartel use of armoured car services and air transport."
+        }
+      ],
+      "watch_indicators": [
+        "Structured deposits following known courier corridor timing",
+        "MSB corridors with volumes far exceeding the size of the diaspora served",
+        "Customs seizure notifications naming a customer or counterparty",
+        "Cash-intensive customers whose declared trade cannot generate the volume"
+      ],
+      "linked_actors": [
+        "AM-CLU-CMLO",
+        "EU-CLU-ALBANIAN",
+        "APAC-CLU-MULE-TH",
+        "AM-GRP-CJNG"
+      ],
+      "sources": [
+        {
+          "title": "FinCEN Warns US Financial Institutions of Bulk Cash Smuggling Risks from Mexico-Based Cartels",
+          "url": "https://www.gtlaw.com/en/insights/2025/4/fincen-warns-us-financial-institutions-of-bulk-cash-smuggling-risks-from-mexico-based-cartels",
+          "type": "industry",
+          "retrieved": "2026-07-24"
+        },
+        {
+          "title": "Money laundering crime in Australia - AFP",
+          "url": "https://www.afp.gov.au/crimes/money-laundering-and-financial-crime/money-laundering",
+          "type": "law_enforcement",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "GLB-CLU-BRANCHSIEGE",
+      "name": "Branch siege, hostage and grievance-driven attack cluster",
+      "aliases": [
+        "bank sieges",
+        "grievance attackers"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "opportunistic",
+      "categories": [
+        "branch_robbery",
+        "staff_targeting",
+        "kidnap_for_ransom"
+      ],
+      "status": "active",
+      "active_since": "1970",
+      "regions": [
+        "Global"
+      ],
+      "countries": [
+        "LB",
+        "GR",
+        "IT",
+        "BR",
+        "AR",
+        "US",
+        "GB",
+        "TH"
+      ],
+      "description": "Incidents in which an individual, usually acting alone and often a customer rather than a professional criminal, takes over a bank branch. Motivations range from robbery to grievance over frozen deposits or foreclosure. Lebanon's 2022 wave of depositors storming branches to withdraw their own frozen savings, some of them publicly celebrated, is the clearest modern illustration that this category is driven by systemic conditions as much as by individual pathology.",
+      "financial_sector_relevance": "The scenario branch staff are most likely to actually face, and the one where security posture interacts most directly with reputational risk, because the assailant may be a sympathetic figure. Response planning has to account for the possibility that public opinion sides with the person holding the branch, which changes both the police response and the aftermath.",
+      "targets": [
+        "bank_branch",
+        "bank_staff",
+        "customers"
+      ],
+      "ttps": [
+        "Lone actor entering with a weapon or claimed device during opening hours",
+        "Detention of staff and customers to compel a withdrawal or extract publicity",
+        "Grievance framing communicated to media during the incident",
+        "Escalation triggered by delay or perceived deception in negotiation",
+        "Imitation clustering following a publicised incident"
+      ],
+      "capability": "low",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Recurring documented incidents across many jurisdictions."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Predominantly lone actors with no organisational affiliation."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Bank branches are the deliberate location."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2022",
+          "location": "LB",
+          "summary": "Repeated incidents in which depositors, some armed, seized branches to force withdrawal of their own frozen savings amid the banking crisis; several attracted public sympathy rather than condemnation."
+        }
+      ],
+      "watch_indicators": [
+        "Escalating grievance correspondence or branch confrontations by a named customer",
+        "Systemic events affecting deposit access or foreclosure volumes",
+        "Publicised incident at a peer institution creating imitation risk"
+      ],
+      "linked_actors": [
+        "AM-CLU-USDOMEXT",
+        "GLB-CLU-EXECTARGET"
+      ],
+      "sources": [
+        {
+          "title": "Bank Robbery News - FBI",
+          "url": "https://www.fbi.gov/investigate/violent-crime/bank-robbery/bank-robbery-news",
+          "type": "government",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "GLB-CLU-SECINDUSTRY",
+      "name": "Private security and cash-logistics industry infiltration cluster",
+      "aliases": [
+        "guard force infiltration",
+        "CIT insider compromise"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "insider_recruitment",
+        "cash_in_transit_attack",
+        "cash_centre_attack"
+      ],
+      "status": "active",
+      "active_since": "1995",
+      "regions": [
+        "Global"
+      ],
+      "countries": [
+        "BR",
+        "MX",
+        "ZA",
+        "IT",
+        "FR",
+        "GB",
+        "MY",
+        "TH",
+        "AU"
+      ],
+      "description": "Deliberate placement or recruitment of personnel inside guarding companies, cash-in-transit operators and ATM service providers. Because these firms compete on price, vetting quality is uneven and turnover is high, and they hold precisely the schedule, route and value information that makes a high-value physical attack feasible. Almost every large CIT and cash centre loss in this database has an insider component.",
+      "financial_sector_relevance": "Financial institutions outsource the function but retain the loss. The practical implication is that vetting standards, access segregation and information compartmentation at the contractor are a bank control problem, and contractually specifying them is more effective than any physical hardening the bank can buy.",
+      "targets": [
+        "insiders",
+        "cit_vehicle",
+        "cash_centre",
+        "atm_estate"
+      ],
+      "ttps": [
+        "Placement of associates into guarding and CIT roles through legitimate recruitment",
+        "Recruitment of existing staff through debt, community ties or coercion",
+        "Extraction of route timings, load values, alarm states and key control procedures",
+        "Facilitation of access during an attack, including disabling of controls",
+        "Exploitation of high turnover and subcontracting chains to defeat vetting"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Recurring feature of major CIT and cash centre prosecutions internationally."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Insiders identified case by case; recruiting networks often not."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Recruitment targets roles with access to cash, keys and schedules."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Contractor staff churn without corresponding vetting evidence",
+        "Access to schedules or CCTV beyond role requirements",
+        "Unexplained affluence or debt resolution among cash-access staff",
+        "Subcontracting chains that obscure who actually holds the keys"
+      ],
+      "linked_actors": [
+        "EU-CLU-INSIDER",
+        "EU-CLU-CIT-IT",
+        "AM-CLU-USARMORED",
+        "AM-CLU-BULLIONCARGO"
+      ],
+      "sources": [
+        {
+          "title": "Highway Bandits, An Ever Increasing Trend In European Armed Robbery",
+          "url": "https://covertaccessteam.substack.com/p/highway-bandits-an-ever-increasing",
+          "type": "research",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "GLB-CLU-AGMDISRUPT",
+      "name": "Shareholder meeting and corporate event disruption cluster",
+      "aliases": [
+        "AGM disruption",
+        "shareholder activism direct action"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "ideological",
+      "categories": [
+        "protest_direct_action"
+      ],
+      "status": "active",
+      "active_since": "2015",
+      "regions": [
+        "Global",
+        "Europe",
+        "Americas",
+        "Oceania"
+      ],
+      "countries": [
+        "GB",
+        "FR",
+        "DE",
+        "NL",
+        "CH",
+        "US",
+        "AU"
+      ],
+      "description": "Coordinated disruption of annual general meetings, investor days and sponsored events by climate, human rights and anti-war campaigners, using proxy attendance, blockades of venue access, and disruption from the floor. Distinct from branch actions because participants often have a legal right to be present, which constrains the response options available to the institution.",
+      "financial_sector_relevance": "A predictable, date-bound physical security requirement with an unusual constraint: many disruptors are legitimate shareholders. It creates governance-visible reputational risk, and venue and executive movement security around these dates is a recurring cost. Because the dates are published, this is the most plannable item in the whole database.",
+      "targets": [
+        "corporate_premises",
+        "executives_hnwi"
+      ],
+      "ttps": [
+        "Acquisition of shares to obtain legitimate AGM attendance rights",
+        "Coordinated interventions from the floor and banner deployment",
+        "Blockade of venue entrances and lock-on devices",
+        "Targeting of sponsored events, conferences and art or sport sponsorships",
+        "Pre-briefed media coverage timed to the event"
+      ],
+      "capability": "low",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Extensively documented at major financial institutions' AGMs."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Actions are publicly claimed by named campaigns."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Financial institutions' governance events are the deliberate target."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Campaign announcements referencing the AGM date",
+        "Unusual small share purchases before the record date",
+        "Actions at peer institutions' AGMs in the same season"
+      ],
+      "linked_actors": [
+        "EU-MOV-CLIMATEBANK",
+        "EU-NET-PALACTION",
+        "EU-GRP-ROUVIKONAS"
+      ],
+      "sources": [
+        {
+          "title": "Barclays banks superglued shut in nationwide action against climate criminals",
+          "url": "https://extinctionrebellion.uk/2023/11/27/barclays-banks-superglued-shut-in-nationwide-action-against-climate-criminals/",
+          "type": "ngo",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "GLB-CLU-DEEPFAKEPHYS",
+      "name": "Synthetic-media-enabled physical intrusion and courier fraud cluster",
+      "aliases": [
+        "deepfake-enabled impersonation",
+        "voice clone authorisation"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "fraud_enabled_physical",
+        "insider_recruitment",
+        "customer_predation"
+      ],
+      "status": "active",
+      "active_since": "2023",
+      "regions": [
+        "Global"
+      ],
+      "countries": [
+        "GB",
+        "US",
+        "AE",
+        "HK",
+        "SG",
+        "AU",
+        "MY"
+      ],
+      "description": "Use of cloned voices and synthetic video to obtain physical outcomes: authorising a courier collection, instructing a facilities team to admit a contractor, approving an out-of-band cash release, or persuading a customer to hand over value at the door. The important shift is that synthetic media is increasingly used to move a physical process rather than to complete a purely digital transaction.",
+      "financial_sector_relevance": "It undermines voice and video as verification for exactly the processes that were deliberately moved off digital channels for safety, including out-of-band callbacks for high-value payments and physical access authorisation. Institutions that responded to payment fraud by adding a human voice check have, in some cases, added an attack surface rather than removed one.",
+      "targets": [
+        "customers",
+        "insiders",
+        "bank_staff",
+        "corporate_premises"
+      ],
+      "ttps": [
+        "Voice cloning of executives to authorise urgent payments or access",
+        "Synthetic video in conference calls to legitimise instructions",
+        "Impersonation of bank staff to direct customers to hand over cards or cash",
+        "Manufactured urgency to defeat callback and cooling-off controls",
+        "Combination with courier collection to complete extraction physically"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Multiple confirmed corporate incidents and law enforcement warnings."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Perpetrators are usually offshore and unidentified."
+        },
+        "financial_targeting": {
+          "confidence": "high",
+          "basis": "Payment authorisation and bank identity are the targets."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Out-of-band authorisation requests originating from an unfamiliar number",
+        "Urgent instructions that discourage independent verification",
+        "Facilities or courier access authorised verbally without written confirmation",
+        "Customers reporting convincing calls from apparent bank staff"
+      ],
+      "linked_actors": [
+        "EU-CLU-COURIERFRAUD",
+        "APAC-CLU-MACAUSCAM",
+        "APAC-CLU-VIRTKIDNAP"
+      ],
+      "sources": [
+        {
+          "title": "Six jailed for more than 25 years after GBP 1 million courier fraud",
+          "url": "https://www.lancashire.police.uk/news/2025/march/six-jailed-for-more-than-25-years-after-1-million-courier-fraud/",
+          "type": "law_enforcement",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "GLB-CLU-CRYPTOATMPHYS",
+      "name": "Crypto kiosk physical attack and tampering cluster",
+      "aliases": [
+        "bitcoin ATM theft",
+        "kiosk tampering"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "profit",
+      "categories": [
+        "atm_physical_attack",
+        "card_skimming_tampering"
+      ],
+      "status": "active",
+      "active_since": "2021",
+      "regions": [
+        "Global",
+        "Americas",
+        "Europe"
+      ],
+      "countries": [
+        "US",
+        "CA",
+        "GB",
+        "ES",
+        "AU"
+      ],
+      "description": "Physical attacks on cryptocurrency kiosks, including removal of the whole unit, forced opening of the cash box, and tampering to capture user credentials or redirect deposits. Kiosks are attractive because they hold cash but are typically deployed in low-guardianship retail with far less protective engineering than bank ATMs.",
+      "financial_sector_relevance": "Relevant to institutions that bank kiosk operators, and as a leading indicator for the security standards regulators will eventually impose. It is also a useful contrast case: the kiosk sector shows what an ATM estate looks like without the accumulated physical security standards the banking industry developed over decades.",
+      "targets": [
+        "crypto_atm",
+        "corporate_premises",
+        "customers"
+      ],
+      "ttps": [
+        "Removal of the whole kiosk from unsecured retail locations",
+        "Forced opening of the cash acceptor and note store",
+        "Tampering to capture wallet addresses or redirect deposits",
+        "Targeting of sites with no attendant presence outside trading hours"
+      ],
+      "capability": "low",
+      "assessments": {
+        "existence": {
+          "confidence": "moderate",
+          "basis": "Reported incidents and operator advisories; less systematically tracked than bank ATM crime."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Opportunistic offending."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Kiosks hold cash and crypto value; the sector is adjacent to rather than part of regulated banking."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Kiosk operator customers reporting repeated unit losses",
+        "Insurance claims concentrated on a single operator's estate",
+        "Deployment into sites with no anchoring or attendant presence"
+      ],
+      "linked_actors": [
+        "AM-CLU-ATMHOOK",
+        "AM-CLU-CRYPTOATM"
+      ],
+      "sources": [
+        {
+          "title": "Crypto kiosk fraud topped $389M in 2025",
+          "url": "https://www.kioskmarketplace.com/news/crypto-kiosk-fraud-topped-389m-in-2025/",
+          "type": "industry",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "GLB-CLU-DISASTERLOOT",
+      "name": "Disaster, unrest and outage exploitation cluster",
+      "aliases": [
+        "riot looting of branches",
+        "blackout ATM attacks"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "opportunistic",
+      "categories": [
+        "branch_robbery",
+        "atm_physical_attack"
+      ],
+      "status": "active",
+      "active_since": "1990",
+      "regions": [
+        "Global"
+      ],
+      "countries": [
+        "ZA",
+        "CL",
+        "EC",
+        "FR",
+        "GB",
+        "US",
+        "BR",
+        "HT",
+        "TH"
+      ],
+      "description": "Exploitation of civil unrest, natural disaster or extended power and telecoms outage to attack branches and ATMs while police and alarm response are saturated or unavailable. It is opportunistic rather than organised, but the losses are concentrated: a single unrest event can destroy dozens of machines and multiple branches in a night.",
+      "financial_sector_relevance": "The scenario in which every response-dependent control fails simultaneously. Alarm monitoring, guard response and police attendance all assume ordinary conditions. Planning for it means accepting that during the event nothing can be protected, and concentrating on cash withdrawal from the estate beforehand and rapid restoration afterwards.",
+      "targets": [
+        "bank_branch",
+        "atm_estate",
+        "cash_centre"
+      ],
+      "ttps": [
+        "Attack on branches and ATMs during unrest when response is saturated",
+        "Exploitation of extended power or telecoms outage disabling alarms",
+        "Forced entry through fire-damaged or already-breached premises",
+        "Secondary looting of adjacent commercial premises"
+      ],
+      "capability": "low",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Repeatedly documented during major unrest events internationally."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Opportunistic and largely anonymous."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "Branches and ATMs are attacked as available high-value targets, not selected in advance."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Civil unrest forecasts and protest scheduling in branch catchments",
+        "Extended grid or telecoms outage affecting alarm reporting",
+        "Attacks on adjacent commercial premises as an escalation signal"
+      ],
+      "linked_actors": [
+        "EU-CLU-METALCABLE",
+        "AM-GRP-VIVANSANM"
+      ],
+      "sources": [
+        {
+          "title": "EAST European Payment Terminal Crime Report",
+          "url": "https://www.association-secure-transactions.eu/data-relay-attacks-drive-up-european-terminal-related-fraud-incidents/",
+          "type": "industry",
+          "retrieved": "2026-07-24"
+        }
+      ],
+      "last_reviewed": "2026-07-24"
+    }
+  ]
+}

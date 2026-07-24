@@ -1,0 +1,199 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/pha-fin/schema.json",
+  "title": "Physical & Hybrid Threat Actor Record (Financial Sector)",
+  "description": "Record format for physical, hybrid and physical-enabled threat actors relevant to banks, payment providers, cash logistics, crypto holders and financial infrastructure. Confidence is recorded per variable, not once for the whole record.",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "actor_class",
+    "primary_motivation",
+    "categories",
+    "status",
+    "regions",
+    "countries",
+    "description",
+    "financial_sector_relevance",
+    "targets",
+    "ttps",
+    "capability",
+    "assessments",
+    "sources",
+    "last_reviewed"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z]{2,4}-[A-Z0-9]+-[A-Z0-9-]+$",
+      "description": "Stable identifier. Format REGION-CLASS-SLUG (e.g. EU-OCG-MOCRO). Never reuse an id for a different actor."
+    },
+    "name": { "type": "string" },
+    "aliases": { "type": "array", "items": { "type": "string" } },
+    "actor_class": {
+      "type": "string",
+      "enum": [
+        "named_group",
+        "network",
+        "activity_cluster",
+        "state_proxy_program",
+        "insurgent_group",
+        "movement"
+      ],
+      "description": "activity_cluster = recurring, coherent behaviour with no reliable group attribution (e.g. device theft). Use it rather than inventing a group name."
+    },
+    "primary_motivation": {
+      "type": "string",
+      "enum": ["profit", "ideological", "state_directed", "hybrid", "opportunistic"]
+    },
+    "categories": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": [
+          "atm_physical_attack",
+          "atm_logical_physical_attack",
+          "card_skimming_tampering",
+          "cash_in_transit_attack",
+          "branch_robbery",
+          "vault_burglary",
+          "cash_centre_attack",
+          "tiger_kidnap_coercion",
+          "staff_targeting",
+          "customer_predation",
+          "device_theft_account_takeover",
+          "crypto_coercion",
+          "extortion_protection",
+          "arson_sabotage",
+          "ied_explosive_attack",
+          "infrastructure_sabotage",
+          "protest_direct_action",
+          "insider_recruitment",
+          "money_laundering_physical",
+          "scam_compound_operations",
+          "fraud_enabled_physical",
+          "kidnap_for_ransom",
+          "armed_insurgency",
+          "uas_incursion"
+        ]
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "degraded", "dormant", "disrupted", "historical"]
+    },
+    "active_since": { "type": "string" },
+    "regions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["Europe", "Americas", "Southeast Asia", "Oceania", "Global"]
+      }
+    },
+    "countries": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[A-Z]{2}$" },
+      "description": "ISO 3166-1 alpha-2. Countries of operation, not of origin."
+    },
+    "description": { "type": "string" },
+    "financial_sector_relevance": {
+      "type": "string",
+      "description": "Why a bank, PSP, CIT operator or exchange should care. Must be specific; if the actor is only tangentially relevant, say so here."
+    },
+    "targets": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "atm_estate",
+          "pos_terminals",
+          "bank_branch",
+          "vault_safe_deposit",
+          "cash_centre",
+          "cit_vehicle",
+          "bank_staff",
+          "executives_hnwi",
+          "customers",
+          "crypto_holders",
+          "crypto_atm",
+          "money_service_business",
+          "gold_jewellery_dealer",
+          "data_centre",
+          "telecom_subsea_cable",
+          "corporate_premises",
+          "insiders",
+          "correspondent_agents",
+          "armoured_air_cargo"
+        ]
+      }
+    },
+    "ttps": { "type": "array", "items": { "type": "string" } },
+    "capability": {
+      "type": "string",
+      "enum": ["low", "moderate", "high", "advanced"],
+      "description": "Judged on planning depth, weapons/explosives access, counter-surveillance, cross-border reach and reconstitution speed."
+    },
+    "assessments": {
+      "type": "object",
+      "description": "Per-variable confidence. Adopted from EuRepoC/Soufan practice: do not collapse existence, attribution and targeting into one score.",
+      "required": ["existence", "attribution", "financial_targeting"],
+      "properties": {
+        "existence": { "$ref": "#/$defs/assessment" },
+        "attribution": { "$ref": "#/$defs/assessment" },
+        "financial_targeting": { "$ref": "#/$defs/assessment" },
+        "state_tasking": { "$ref": "#/$defs/assessment" }
+      }
+    },
+    "notable_incidents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["date", "summary"],
+        "properties": {
+          "date": { "type": "string" },
+          "location": { "type": "string" },
+          "summary": { "type": "string" }
+        }
+      }
+    },
+    "watch_indicators": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Observable precursors a defender can actually collect on."
+    },
+    "linked_actors": { "type": "array", "items": { "type": "string" } },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["title", "url", "type"],
+        "properties": {
+          "title": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "type": {
+            "type": "string",
+            "enum": ["government", "law_enforcement", "research", "news", "industry", "ngo", "reference"]
+          },
+          "retrieved": { "type": "string" }
+        }
+      }
+    },
+    "last_reviewed": { "type": "string", "format": "date" }
+  },
+  "$defs": {
+    "assessment": {
+      "type": "object",
+      "required": ["confidence", "basis"],
+      "properties": {
+        "confidence": {
+          "type": "string",
+          "enum": ["low", "moderate", "high"],
+          "description": "high = multiple independent official/judicial sources; moderate = credible reporting, some corroboration; low = single-source, contested, or inference."
+        },
+        "basis": { "type": "string" }
+      }
+    }
+  }
+}
