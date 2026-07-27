@@ -1,6 +1,6 @@
 {
   "schema": "schema.json",
-  "actor_count": 105,
+  "actor_count": 110,
   "actors": [
     {
       "id": "AM-CLU-ATMEXPL-CL",
@@ -842,6 +842,116 @@
         }
       ],
       "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-CLU-GRIDATTACK",
+      "name": "North American electric grid physical attack cluster",
+      "aliases": [
+        "substation gunfire attacks",
+        "grid sabotage incidents"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "hybrid",
+      "categories": [
+        "infrastructure_sabotage",
+        "armed_attack_premises",
+        "arson_sabotage"
+      ],
+      "status": "active",
+      "active_since": "2013",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "description": "Physical attacks on electricity substations and distribution infrastructure in the United States and Canada, ranging from vandalism and copper theft through deliberate rifle fire into transformers to planned multi-site sabotage. DOE OE-417 reporting shows a pronounced rise: 25 actual physical attacks reported in 2022 against six in 2021, and by 2023 roughly 200 reports of vandalism, suspicious activity, sabotage or physical attack, some 58 percent of all reported disturbances, against 9.3 percent noting suspicious circumstances in 2017. Motivation is genuinely mixed, which is why this is coded hybrid: metal theft, grievance, curiosity and ideology all appear in the same statistics, and the reporting form does not distinguish them.",
+      "financial_sector_relevance": "Grid attack is the most concrete pathway by which a physical attack on someone else's asset takes a bank offline. Branch networks, ATM estates, data centres and payment processing all sit behind distribution infrastructure that is unfenced, unmonitored and legally protected only by ordinary criminal law. The Moore County attack took power from up to 40,000 customers for days, which is well beyond most institutions' generator autonomy and cash-resupply assumptions. It is also the clearest case in this database where an institution can measure its own exposure precisely, because OE-417 and EAGLE-I data are public and joinable to branch and data centre locations.",
+      "targets": [
+        "power_grid_infrastructure",
+        "data_centre",
+        "bank_branch",
+        "atm_estate"
+      ],
+      "ttps": [
+        "Rifle fire into transformer radiators and bushings to cause oil loss and failure",
+        "Cutting of perimeter fencing followed by damage to control cabinets and relays",
+        "Coordinated near-simultaneous attacks on multiple substations serving one area",
+        "Theft of copper grounding conductors, degrading protection systems",
+        "Arson against control houses and cable trenches",
+        "Reconnaissance of substation layout, sometimes by drone"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "DOE OE-417 mandatory reporting, NERC data, federal prosecutions."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "The large majority of reported attacks are never attributed to any individual or motive; OE-417 does not code intent."
+        },
+        "financial_targeting": {
+          "confidence": "low",
+          "basis": "No evidence of finance-specific targeting; exposure is downstream dependency on the affected grid segment."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2022-12-03",
+          "location": "Moore County, NC, US",
+          "summary": "Gunfire attack on two electrical distribution substations left up to 40,000 residential and business customers without power. Never attributed."
+        },
+        {
+          "date": "2022",
+          "location": "US",
+          "summary": "25 actual physical attacks and one sabotage report filed to DOE, against six attacks and two sabotage reports in 2021."
+        },
+        {
+          "date": "2023",
+          "location": "US",
+          "summary": "Roughly 200 reports of vandalism, suspicious activity, sabotage or physical attack, about 58 percent of all reported grid disturbances."
+        }
+      ],
+      "watch_indicators": [
+        "OE-417 filings affecting the utility serving a branch cluster or data centre",
+        "Local substation attacks or attempted intrusions reported in the press",
+        "Generator autonomy and fuel contracts shorter than observed regional outage durations",
+        "Single-substation dependency discovered during resilience mapping"
+      ],
+      "linked_actors": [
+        "GLB-NET-ACCELERATIONIST",
+        "GLB-STATE-OTPREPOS",
+        "GLB-CLU-DISASTERLOOT"
+      ],
+      "sources": [
+        {
+          "title": "Moore County substation attack",
+          "url": "https://en.wikipedia.org/wiki/Moore_County_substation_attack",
+          "type": "reference",
+          "retrieved": "2026-07-27"
+        },
+        {
+          "title": "A vulnerable power grid is in the crosshairs of domestic extremist groups",
+          "url": "https://www.cnn.com/2023/02/04/us/us-power-grid-attacks/index.html",
+          "type": "news",
+          "retrieved": "2026-07-27"
+        },
+        {
+          "title": "DOE OE-417 Electric Disturbance Events annual summaries",
+          "url": "https://www.oe.netl.doe.gov/OE417_annual_summary.aspx",
+          "type": "government",
+          "retrieved": "2026-07-27"
+        },
+        {
+          "title": "How attacks on energy substations play into the hands of extremists",
+          "url": "https://www.hcn.org/issues/56-5/how-attacks-on-energy-substations-play-into-the-hands-of-extremists/",
+          "type": "news",
+          "retrieved": "2026-07-27"
+        }
+      ],
+      "last_reviewed": "2026-07-27"
     },
     {
       "id": "AM-CLU-JUGGING",
@@ -8424,6 +8534,108 @@
       "last_reviewed": "2026-07-24"
     },
     {
+      "id": "GLB-CLU-CABLELANDING",
+      "name": "Cable landing station and terrestrial fibre chokepoint exposure",
+      "aliases": [
+        "landing station attacks",
+        "fibre chokepoints",
+        "cable cuts"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "hybrid",
+      "categories": [
+        "infrastructure_sabotage",
+        "supply_chain_tampering"
+      ],
+      "status": "active",
+      "active_since": "2010",
+      "regions": [
+        "Global",
+        "Europe"
+      ],
+      "countries": [
+        "GB",
+        "FR",
+        "IE",
+        "PT",
+        "ES",
+        "EG",
+        "SG",
+        "US",
+        "AU",
+        "MY",
+        "TH"
+      ],
+      "description": "The shore end of the subsea cable system: landing stations, beach manholes, terrestrial backhaul and the small number of geographic chokepoints where many cables converge. More than 150 cable faults occur worldwide each year, with fishing and anchoring accounting for close to 70 percent, so deliberate sabotage is a small minority of a large number. That statistic cuts both ways. It means most outages are accidental, and it means a deliberate cut is easy to hide inside the noise. Landing stations are a far softer target than the cable itself: they are on land, few in number, and often lightly guarded.",
+      "financial_sector_relevance": "Financial messaging, market data, inter-datacentre replication and cloud connectivity all depend on this infrastructure, and route diversity purchased from carriers frequently converges at the same landing station or the same duct without the buying institution knowing. That is the actual risk: not that a cable will be cut, but that an institution's documented diversity is fictional at the shore end. Repair timelines are governed by cable ship availability, which is a global constraint no customer can escalate.",
+      "targets": [
+        "cable_landing_station",
+        "telecom_subsea_cable",
+        "data_centre"
+      ],
+      "ttps": [
+        "Physical intrusion or damage at landing stations and beach manholes",
+        "Cutting of terrestrial backhaul in ducts and at aggregation points",
+        "Exploitation of chokepoints where many systems converge geographically",
+        "Concealment of deliberate damage within the high baseline of accidental faults",
+        "Targeting of repair and maintenance capacity, which is globally scarce"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "ICPC and carrier fault reporting; documented landing station security concerns in national reviews."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Accidental and deliberate damage are difficult to distinguish; deliberate cases are rarely attributed."
+        },
+        "financial_targeting": {
+          "confidence": "low",
+          "basis": "Shared infrastructure with no finance-specific selection observed."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Carrier fault notifications on routes carrying financial traffic",
+        "Discovery during diversity audit that nominally separate circuits share a landing station or duct",
+        "Repair vessel availability constraints published after a regional fault",
+        "Security incidents reported at landing stations serving the institution's routes"
+      ],
+      "linked_actors": [
+        "EU-CLU-SHADOWFLEET",
+        "EU-CLU-METALCABLE",
+        "GLB-CLU-DCPHYSICAL"
+      ],
+      "sources": [
+        {
+          "title": "International Cable Protection Committee (ICPC)",
+          "url": "https://www.iscpc.org/",
+          "type": "industry",
+          "retrieved": "2026-07-27"
+        },
+        {
+          "title": "Protection of Undersea Telecommunication Cables: Issues for Congress (CRS R47648)",
+          "url": "https://www.congress.gov/crs-product/R47648",
+          "type": "government",
+          "retrieved": "2026-07-27"
+        },
+        {
+          "title": "TeleGeography Submarine Cable Map",
+          "url": "https://www.submarinecablemap.com/",
+          "type": "reference",
+          "retrieved": "2026-07-27"
+        },
+        {
+          "title": "Submarine Cable Damage and Repair in 2025: Causes, Claims & Solutions",
+          "url": "https://www.leadventgrp.com/blog/submarine-cable-damage-and-repair-claims-and-remedial-measures",
+          "type": "industry",
+          "retrieved": "2026-07-27"
+        }
+      ],
+      "last_reviewed": "2026-07-27"
+    },
+    {
       "id": "GLB-CLU-CRYPTOATMPHYS",
       "name": "Crypto kiosk physical attack and tampering cluster",
       "aliases": [
@@ -8919,6 +9131,111 @@
       "last_reviewed": "2026-07-24"
     },
     {
+      "id": "GLB-CLU-HWIMPLANT",
+      "name": "Hardware and firmware supply-chain tampering cluster",
+      "aliases": [
+        "hardware additions",
+        "T1200",
+        "implanted devices",
+        "interdiction"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "hybrid",
+      "categories": [
+        "supply_chain_tampering",
+        "insider_recruitment",
+        "infrastructure_sabotage"
+      ],
+      "status": "active",
+      "active_since": "2008",
+      "regions": [
+        "Global"
+      ],
+      "countries": [
+        "US",
+        "GB",
+        "DE",
+        "NL",
+        "SG",
+        "CN",
+        "MY",
+        "TH",
+        "AU",
+        "BR"
+      ],
+      "description": "Physical modification of hardware or firmware somewhere between manufacture and deployment: implanted devices added to servers, network gear, ATMs, HSMs and payment terminals; firmware flashed during manufacture, repair or shipping interdiction; or rogue devices attached to a network by someone who walked in. This is the category where public claims and public evidence diverge most sharply. The 2018 Bloomberg Supermicro report remains unverified and denied by the named parties, and it merged a hardware claim, an actor claim and a tasking claim into a single assertion, which is precisely the failure mode this database's per-variable confidence model exists to avoid. Firmware compromise and rogue device addition, by contrast, are routinely demonstrated.",
+      "financial_sector_relevance": "Banks operate more security-critical hardware than almost any other commercial sector: HSMs, PIN pads, ATM dispensers and cash controllers, card personalisation equipment. Each has a supply chain, a repair loop and a decommissioning path, and each is handled by third parties. The realistic and demonstrated threats are firmware tampering during repair, terminal substitution in the field and rogue devices added inside offices. The exotic nation-state implant scenario absorbs disproportionate attention relative to its evidence base, and treating both at the same confidence level distorts spending.",
+      "targets": [
+        "hardware_supply_chain",
+        "atm_estate",
+        "pos_terminals",
+        "data_centre",
+        "insiders"
+      ],
+      "ttps": [
+        "Firmware modification during manufacture, repair or refurbishment",
+        "Interdiction and modification of equipment in shipping",
+        "Addition of rogue network devices by an insider or a visitor with premises access",
+        "Substitution of payment terminals and ATM components with modified units",
+        "Compromise of the vendor's own update and signing infrastructure",
+        "Exploitation of weak provenance controls in refurbished and grey-market hardware"
+      ],
+      "capability": "high",
+      "assessments": {
+        "existence": {
+          "confidence": "moderate",
+          "basis": "Firmware tampering, rogue device addition and terminal substitution are well demonstrated; the server implant scenario is not."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "Very few incidents are attributed to a named actor; the most publicised claim remains unverified and denied."
+        },
+        "financial_targeting": {
+          "confidence": "moderate",
+          "basis": "ATM, HSM and payment terminal hardware is demonstrably targeted; general server implant targeting of finance is unevidenced."
+        },
+        "state_tasking": {
+          "confidence": "low",
+          "basis": "Asserted in reporting on the highest-profile case, never established."
+        }
+      },
+      "notable_incidents": [],
+      "watch_indicators": [
+        "Firmware versions or hashes not matching the vendor's expected baseline",
+        "Serial numbers inconsistent with asset records after a repair cycle",
+        "Unexpected devices appearing on internal network segments",
+        "Equipment procured outside approved channels or from refurbishers",
+        "Tamper-evident seal discrepancies at installation or servicing"
+      ],
+      "linked_actors": [
+        "GLB-CLU-POSSWAP",
+        "GLB-CLU-DCPHYSICAL",
+        "EU-CLU-JACKPOT",
+        "GLB-STATE-OTPREPOS"
+      ],
+      "sources": [
+        {
+          "title": "Admitting the Elephantine Void Between Kinetic and Cyber Threats",
+          "url": "https://www.flyingpenguin.com/elephantine-void/",
+          "type": "research",
+          "retrieved": "2026-07-27"
+        },
+        {
+          "title": "MITRE ATT&CK T1200: Hardware Additions",
+          "url": "https://attack.mitre.org/techniques/T1200/",
+          "type": "reference",
+          "retrieved": "2026-07-27"
+        },
+        {
+          "title": "PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a",
+          "type": "government",
+          "retrieved": "2026-07-27"
+        }
+      ],
+      "last_reviewed": "2026-07-27"
+    },
+    {
       "id": "GLB-CLU-MULECOURIER",
       "name": "Cash courier and bulk value movement cluster",
       "aliases": [
@@ -9181,6 +9498,125 @@
       "last_reviewed": "2026-07-24"
     },
     {
+      "id": "GLB-NET-ACCELERATIONIST",
+      "name": "Accelerationist infrastructure-attack networks",
+      "aliases": [
+        "Terrorgram Collective",
+        "Atomwaffen Division lineage",
+        "militant accelerationism"
+      ],
+      "actor_class": "network",
+      "primary_motivation": "ideological",
+      "categories": [
+        "infrastructure_sabotage",
+        "ied_explosive_attack",
+        "armed_attack_premises",
+        "arson_sabotage"
+      ],
+      "status": "degraded",
+      "active_since": "2015",
+      "regions": [
+        "Global",
+        "Americas",
+        "Europe"
+      ],
+      "countries": [
+        "US",
+        "CA",
+        "GB",
+        "DE",
+        "ZA",
+        "AU"
+      ],
+      "description": "Transnational neo-Nazi accelerationist networks that promote attacks on electricity infrastructure as a deliberate strategy to precipitate societal collapse. The Terrorgram Collective functioned as a publishing and radicalisation layer rather than an operational cell structure, distributing target guidance and celebrating attacks. Its two US-based leaders were arrested in September 2024, and Atomwaffen Division founder Brandon Russell was convicted in February 2025 and sentenced in August 2025 to 20 years for conspiring to destroy electrical facilities serving Baltimore. More than a dozen separate federal prosecutions involve alleged core members or individuals inspired toward infrastructure attacks.",
+      "financial_sector_relevance": "Relevant in two ways, and it is worth being precise about which. Directly, the ideology is antisemitic and explicitly anti-financial, so banks appear in propaganda target lists alongside synagogues, power stations and data centres, and staff who are publicly identifiable are within the threat model. Indirectly and more probably, the strategy of attacking electricity infrastructure to induce cascading failure puts the institution's continuity planning, not its guard force, in the line of fire. Attack planning is amateur but intent is explicit and published, which makes it unusually legible for a threat of this severity.",
+      "targets": [
+        "power_grid_infrastructure",
+        "data_centre",
+        "corporate_premises",
+        "bank_staff",
+        "telecom_subsea_cable"
+      ],
+      "ttps": [
+        "Online publication of target guidance, substation lists and attack methodology",
+        "Planned rifle attacks on transformers at multiple substations serving a single metro area",
+        "Explosive and incendiary device plots against energy facilities",
+        "Attempted use of drones carrying explosive payloads against substations",
+        "Radicalisation and tasking of isolated individuals with no organisational contact",
+        "Celebration of unattributed attacks to encourage imitation"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Multiple US federal convictions and indictments; UK and other proscription action against related entities."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Named defendants convicted; the Collective's leadership publicly identified and charged."
+        },
+        "financial_targeting": {
+          "confidence": "low",
+          "basis": "Financial institutions appear in propaganda but no executed attack in this dataset targeted one; the realistic exposure is grid dependency."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2024-09",
+          "location": "US",
+          "summary": "FBI arrested Dallas Humber and Matthew Allison, the two US-based leaders of the Terrorgram Collective, on charges including conspiracy, soliciting hate crimes and distributing bomb-making instructions."
+        },
+        {
+          "date": "2025-02",
+          "location": "US",
+          "summary": "Atomwaffen Division founder Brandon Russell convicted of conspiring to destroy Baltimore-area power stations; sentenced in August 2025 to 20 years."
+        },
+        {
+          "date": "2025-09",
+          "location": "Nashville, US",
+          "summary": "Skyler Philippi pleaded guilty to attempting to use a weapon of mass destruction and to destroy an energy facility, having planned a drone-borne explosive attack on substations."
+        }
+      ],
+      "watch_indicators": [
+        "Institution or named staff appearing in accelerationist propaganda or target lists",
+        "Substation attack plots reported in the utility service area",
+        "Federal charging announcements indicating an active regional cell",
+        "Drone sightings over energy infrastructure serving the institution"
+      ],
+      "linked_actors": [
+        "AM-CLU-GRIDATTACK",
+        "AM-CLU-USDOMEXT",
+        "EU-CLU-UAS"
+      ],
+      "sources": [
+        {
+          "title": "White supremacist leader found guilty of conspiring to destroy regional power grid",
+          "url": "https://www.justice.gov/opa/pr/white-supremacist-leader-found-guilty-conspiring-destroy-regional-power-grid",
+          "type": "government",
+          "retrieved": "2026-07-27"
+        },
+        {
+          "title": "Neo-Nazi network 'Terrorgram' goes to court over planned attack on substation",
+          "url": "https://www.splcenter.org/resources/hatewatch/neo-nazi-network-terrorgram-court-planned-attack-substation/",
+          "type": "ngo",
+          "retrieved": "2026-07-27"
+        },
+        {
+          "title": "From Earth Liberation to Accelerationism: Fifty Years of Domestic Infrastructure Terrorism",
+          "url": "https://ctc.westpoint.edu/from-earth-liberation-to-accelerationism-a-high-level-review-of-fifty-years-of-domestic-infrastructure-terrorism/",
+          "type": "research",
+          "retrieved": "2026-07-27"
+        },
+        {
+          "title": "Neo-Nazi activists continue to inspire attacks on electrical infrastructure",
+          "url": "https://www.splcenter.org/resources/hatewatch/right-wing-extremists-infrastructure-violence/",
+          "type": "ngo",
+          "retrieved": "2026-07-27"
+        }
+      ],
+      "last_reviewed": "2026-07-27"
+    },
+    {
       "id": "GLB-STATE-DPRK-CASHOUT",
       "name": "DPRK-linked coordinated ATM cash-out networks",
       "aliases": [
@@ -9272,6 +9708,111 @@
         }
       ],
       "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "GLB-STATE-OTPREPOS",
+      "name": "State-sponsored OT pre-positioning in critical infrastructure",
+      "aliases": [
+        "Volt Typhoon",
+        "VOLTZITE",
+        "Insidious Taurus",
+        "BRONZE SILHOUETTE",
+        "VANGUARD PANDA"
+      ],
+      "actor_class": "state_proxy_program",
+      "primary_motivation": "state_directed",
+      "categories": [
+        "infrastructure_sabotage",
+        "supply_chain_tampering"
+      ],
+      "status": "active",
+      "active_since": "2021",
+      "regions": [
+        "Global",
+        "Americas"
+      ],
+      "countries": [
+        "US",
+        "GU",
+        "CA",
+        "AU",
+        "GB",
+        "NZ"
+      ],
+      "description": "PRC state-sponsored intrusion into the IT environments of communications, energy, transportation and water utilities, with US authoring agencies assessing with high confidence that the objective is pre-positioning for lateral movement into operational technology in order to disrupt functions during a future crisis. Tracked as Volt Typhoon by CISA and as VOLTZITE by Dragos, among numerous vendor names. It belongs in a physical threat database because the intended effect is physical: the loss of power, water or communications, not the theft of data.",
+      "financial_sector_relevance": "This is the case the Elephantine Void argument is really about. What is established is presence in utility IT networks and an assessed intent to reach OT. What is not established is any executed disruption, and conflating the two overstates the position. For a bank the practical exposure is identical to the grid attack cluster and should be planned for the same way, as dependency on utilities that may fail without warning and without a weather explanation. The distinctive addition is that a state-timed outage would be simultaneous across regions, which defeats mutual-aid and failover assumptions built around localised events.",
+      "targets": [
+        "power_grid_infrastructure",
+        "data_centre",
+        "telecom_subsea_cable",
+        "corporate_premises"
+      ],
+      "ttps": [
+        "Living-off-the-land techniques using built-in tools to avoid detection",
+        "Compromise of small office and edge network devices as operational relays",
+        "Long-dwell persistence in utility IT networks without data exfiltration",
+        "Reconnaissance of OT asset inventories, network diagrams and control systems",
+        "Credential harvesting from domain controllers for durable access",
+        "Targeting of communications and energy providers serving strategically significant regions"
+      ],
+      "capability": "advanced",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "Joint CISA/NSA/FBI advisory AA24-038A and independent vendor tracking by Dragos and others."
+        },
+        "attribution": {
+          "confidence": "high",
+          "basis": "Formally attributed to PRC state sponsorship by US and allied agencies."
+        },
+        "financial_targeting": {
+          "confidence": "low",
+          "basis": "Finance is not among the sectors named as compromised; exposure is entirely via dependency on affected utilities."
+        },
+        "state_tasking": {
+          "confidence": "high",
+          "basis": "Government attribution states PRC sponsorship and assesses pre-positioning intent with high confidence."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2024-02-07",
+          "location": "US",
+          "summary": "CISA, NSA, FBI and partners issued AA24-038A documenting compromise of communications, energy, transportation and water sector IT environments across the continental US, its territories and Guam, assessing pre-positioning for OT disruption."
+        }
+      ],
+      "watch_indicators": [
+        "Advisories naming utilities or telecoms serving the institution's sites",
+        "Simultaneous unexplained outages across geographically separate regions",
+        "Utility disclosure of intrusion affecting operational technology",
+        "Edge device compromise notifications from network providers"
+      ],
+      "linked_actors": [
+        "AM-CLU-GRIDATTACK",
+        "GLB-CLU-HWIMPLANT",
+        "GLB-CLU-DCPHYSICAL"
+      ],
+      "sources": [
+        {
+          "title": "PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure (AA24-038A)",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a",
+          "type": "government",
+          "retrieved": "2026-07-27"
+        },
+        {
+          "title": "CISA and Partners Release Joint Fact Sheet for Leaders on PRC-sponsored Volt Typhoon Cyber Activity",
+          "url": "https://www.cisa.gov/news-events/alerts/2024/03/19/cisa-and-partners-release-joint-fact-sheet-leaders-prc-sponsored-volt-typhoon-cyber-activity",
+          "type": "government",
+          "retrieved": "2026-07-27"
+        },
+        {
+          "title": "Dragos outlines VOLTZITE's attacks against critical infrastructure",
+          "url": "https://natlawreview.com/article/dragos-outlines-voltzites-attacks-against-critical-infrastructure",
+          "type": "industry",
+          "retrieved": "2026-07-27"
+        }
+      ],
+      "last_reviewed": "2026-07-27"
     }
   ]
 }

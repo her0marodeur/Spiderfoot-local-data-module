@@ -4,18 +4,19 @@ A structured, sourced database of **physical and hybrid threat actors relevant t
 payment providers, cash logistics operators, exchanges and their customers**, covering
 Europe, the Americas, Malaysia, Thailand and Australia.
 
-**105 actor records · 76 countries · 219 sources · built entirely from free, open sources.**
+**110 actor records · 78 countries · 237 sources · built entirely from free, open sources.**
 
 | | |
 | --- | --- |
 | Machine-readable | [`dist/actors.json`](dist/actors.json) |
-| Human-readable | [`ACTORS.md`](ACTORS.md) |
+| Full reference | [`ACTORS.md`](ACTORS.md) — every field, TTPs, confidence tables, watch indicators |
+| Readable digest | [`ACTOR-BRIEF.md`](ACTOR-BRIEF.md) — descriptions, incidents and sources, made to read straight through |
 | Record format | [`schema.json`](schema.json) |
 | Source datasets & feeds | [`sources/datasets.md`](sources/datasets.md) |
 | Editable data | [`data/actors_*.json`](data/) |
 
 ```bash
-python3 build.py           # validate, then regenerate dist/actors.json and ACTORS.md
+python3 build.py           # validate, then regenerate dist/actors.json, ACTORS.md, ACTOR-BRIEF.md
 python3 build.py --check   # validate only (CI-friendly, non-zero exit on failure)
 ```
 
@@ -33,7 +34,7 @@ Tren de Aragua, Comancheros, Viv Ansanm, GRU Unit 29155, and so on.
 
 **Activity clusters** — recurring, coherent behaviour with no reliable group attribution.
 Device theft to account takeover. Cash trapping. ATM technician ambush. Jugging. Crypto
-wrench attacks. Tiger kidnapping. Coerced insiders. These are 58 of the 105 records, and
+wrench attacks. Tiger kidnapping. Coerced insiders. These are 61 of the 110 records, and
 they are frequently the ones that actually generate loss. The schema has a dedicated
 `activity_cluster` class specifically so that no one is tempted to invent a group name for
 a behaviour.
@@ -46,23 +47,23 @@ volume, even though almost none of it is violent.
 
 | Class | Records |
 | --- | ---: |
-| Activity cluster | 58 |
-| Network | 24 |
+| Activity cluster | 61 |
+| Network | 25 |
 | Named group | 15 |
 | Insurgent group | 4 |
-| State proxy program | 2 |
+| State proxy program | 3 |
 | Movement | 2 |
 
 | Primary region | Records |
 | --- | ---: |
-| Europe | 43 |
-| Americas | 32 |
+| Europe | 45 |
+| Americas | 34 |
 | Southeast Asia | 14 |
-| Global / cross-cutting | 9 |
+| Global / cross-cutting | 10 |
 | Oceania | 7 |
 
-Records are filed under a primary region but many carry several: 24 operate globally,
-39 touch the Americas, 15 Southeast Asia, 9 Oceania.
+Records are filed under a primary region but many carry several: 28 operate globally,
+42 touch the Americas, 15 Southeast Asia, 9 Oceania.
 
 ---
 
@@ -107,7 +108,7 @@ Worked examples from the data:
   crews prosecuted, but the cluster is a behavioural grouping, not a command structure),
   `financial_targeting: high`.
 
-Across the database only 30 of 105 records reach `attribution: high` — those with a
+Across the database only 32 of 110 records reach `attribution: high` — those with a
 designation, indictment or conviction behind them. That ratio is the honest state of open
 knowledge, not a gap to be filled with confident-sounding prose.
 
@@ -170,6 +171,15 @@ attacks (France recorded at least 41 kidnappings and home invasions in a year an
 home invasion crews now coercing crypto transfers. For private banking this is a client
 security problem that no branch control touches.
 
+**Some of the worst exposure is to assets the institution does not own.** Grid substations,
+subsea cable landing stations and utility OT networks are unfenced, lightly monitored and
+outside any bank's control, yet branch networks, ATM estates and data centres sit directly
+behind them. US grid physical-attack reports rose from six in 2021 to 25 in 2022 and to
+around 200 vandalism, sabotage and suspicious-activity reports by 2023 — 58 percent of all
+reported disturbances, against 9.3 percent in 2017. Almost none are ever attributed. This
+is measurable exposure rather than speculative: DOE OE-417 and EAGLE-I outage data are
+public and can be joined to your own site list.
+
 **Controls decay when they are removed.** Chile's ATM attacks resurged after banks abandoned
 dye staining as ineffective. Dutch crews exported to Germany and Switzerland only after
 Dutch banks hardened. Tiger kidnapping collapsed because of duress protocols and dual
@@ -206,6 +216,10 @@ Read these before relying on it.
   European reporting is the most granular, not because European institutions face the most
   danger. Haiti has two records and arguably the most constrained banking environment in the
   hemisphere.
+- **Grid and OT records describe someone else's asset.** `AM-CLU-GRIDATTACK`,
+  `GLB-STATE-OTPREPOS` and `GLB-CLU-CABLELANDING` cover infrastructure a bank depends on but
+  does not own or control. They belong here because the dependency is real, but the only
+  available responses are continuity planning and procurement, not security controls.
 
 ---
 

@@ -2990,6 +2990,116 @@
         }
       ],
       "last_reviewed": "2026-07-24"
+    },
+    {
+      "id": "AM-CLU-GRIDATTACK",
+      "name": "North American electric grid physical attack cluster",
+      "aliases": [
+        "substation gunfire attacks",
+        "grid sabotage incidents"
+      ],
+      "actor_class": "activity_cluster",
+      "primary_motivation": "hybrid",
+      "categories": [
+        "infrastructure_sabotage",
+        "armed_attack_premises",
+        "arson_sabotage"
+      ],
+      "status": "active",
+      "active_since": "2013",
+      "regions": [
+        "Americas"
+      ],
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "description": "Physical attacks on electricity substations and distribution infrastructure in the United States and Canada, ranging from vandalism and copper theft through deliberate rifle fire into transformers to planned multi-site sabotage. DOE OE-417 reporting shows a pronounced rise: 25 actual physical attacks reported in 2022 against six in 2021, and by 2023 roughly 200 reports of vandalism, suspicious activity, sabotage or physical attack, some 58 percent of all reported disturbances, against 9.3 percent noting suspicious circumstances in 2017. Motivation is genuinely mixed, which is why this is coded hybrid: metal theft, grievance, curiosity and ideology all appear in the same statistics, and the reporting form does not distinguish them.",
+      "financial_sector_relevance": "Grid attack is the most concrete pathway by which a physical attack on someone else's asset takes a bank offline. Branch networks, ATM estates, data centres and payment processing all sit behind distribution infrastructure that is unfenced, unmonitored and legally protected only by ordinary criminal law. The Moore County attack took power from up to 40,000 customers for days, which is well beyond most institutions' generator autonomy and cash-resupply assumptions. It is also the clearest case in this database where an institution can measure its own exposure precisely, because OE-417 and EAGLE-I data are public and joinable to branch and data centre locations.",
+      "targets": [
+        "power_grid_infrastructure",
+        "data_centre",
+        "bank_branch",
+        "atm_estate"
+      ],
+      "ttps": [
+        "Rifle fire into transformer radiators and bushings to cause oil loss and failure",
+        "Cutting of perimeter fencing followed by damage to control cabinets and relays",
+        "Coordinated near-simultaneous attacks on multiple substations serving one area",
+        "Theft of copper grounding conductors, degrading protection systems",
+        "Arson against control houses and cable trenches",
+        "Reconnaissance of substation layout, sometimes by drone"
+      ],
+      "capability": "moderate",
+      "assessments": {
+        "existence": {
+          "confidence": "high",
+          "basis": "DOE OE-417 mandatory reporting, NERC data, federal prosecutions."
+        },
+        "attribution": {
+          "confidence": "low",
+          "basis": "The large majority of reported attacks are never attributed to any individual or motive; OE-417 does not code intent."
+        },
+        "financial_targeting": {
+          "confidence": "low",
+          "basis": "No evidence of finance-specific targeting; exposure is downstream dependency on the affected grid segment."
+        }
+      },
+      "notable_incidents": [
+        {
+          "date": "2022-12-03",
+          "location": "Moore County, NC, US",
+          "summary": "Gunfire attack on two electrical distribution substations left up to 40,000 residential and business customers without power. Never attributed."
+        },
+        {
+          "date": "2022",
+          "location": "US",
+          "summary": "25 actual physical attacks and one sabotage report filed to DOE, against six attacks and two sabotage reports in 2021."
+        },
+        {
+          "date": "2023",
+          "location": "US",
+          "summary": "Roughly 200 reports of vandalism, suspicious activity, sabotage or physical attack, about 58 percent of all reported grid disturbances."
+        }
+      ],
+      "watch_indicators": [
+        "OE-417 filings affecting the utility serving a branch cluster or data centre",
+        "Local substation attacks or attempted intrusions reported in the press",
+        "Generator autonomy and fuel contracts shorter than observed regional outage durations",
+        "Single-substation dependency discovered during resilience mapping"
+      ],
+      "linked_actors": [
+        "GLB-NET-ACCELERATIONIST",
+        "GLB-STATE-OTPREPOS",
+        "GLB-CLU-DISASTERLOOT"
+      ],
+      "sources": [
+        {
+          "title": "Moore County substation attack",
+          "url": "https://en.wikipedia.org/wiki/Moore_County_substation_attack",
+          "type": "reference",
+          "retrieved": "2026-07-27"
+        },
+        {
+          "title": "A vulnerable power grid is in the crosshairs of domestic extremist groups",
+          "url": "https://www.cnn.com/2023/02/04/us/us-power-grid-attacks/index.html",
+          "type": "news",
+          "retrieved": "2026-07-27"
+        },
+        {
+          "title": "DOE OE-417 Electric Disturbance Events annual summaries",
+          "url": "https://www.oe.netl.doe.gov/OE417_annual_summary.aspx",
+          "type": "government",
+          "retrieved": "2026-07-27"
+        },
+        {
+          "title": "How attacks on energy substations play into the hands of extremists",
+          "url": "https://www.hcn.org/issues/56-5/how-attacks-on-energy-substations-play-into-the-hands-of-extremists/",
+          "type": "news",
+          "retrieved": "2026-07-27"
+        }
+      ],
+      "last_reviewed": "2026-07-27"
     }
   ]
 }

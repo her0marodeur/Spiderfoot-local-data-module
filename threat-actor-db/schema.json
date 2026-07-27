@@ -28,8 +28,15 @@
       "pattern": "^[A-Z]{2,4}-[A-Z0-9]+-[A-Z0-9-]+$",
       "description": "Stable identifier. Format REGION-CLASS-SLUG (e.g. EU-OCG-MOCRO). Never reuse an id for a different actor."
     },
-    "name": { "type": "string" },
-    "aliases": { "type": "array", "items": { "type": "string" } },
+    "name": {
+      "type": "string"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "actor_class": {
       "type": "string",
       "enum": [
@@ -44,7 +51,13 @@
     },
     "primary_motivation": {
       "type": "string",
-      "enum": ["profit", "ideological", "state_directed", "hybrid", "opportunistic"]
+      "enum": [
+        "profit",
+        "ideological",
+        "state_directed",
+        "hybrid",
+        "opportunistic"
+      ]
     },
     "categories": {
       "type": "array",
@@ -75,28 +88,49 @@
           "fraud_enabled_physical",
           "kidnap_for_ransom",
           "armed_insurgency",
-          "uas_incursion"
+          "uas_incursion",
+          "supply_chain_tampering",
+          "armed_attack_premises"
         ]
       }
     },
     "status": {
       "type": "string",
-      "enum": ["active", "degraded", "dormant", "disrupted", "historical"]
+      "enum": [
+        "active",
+        "degraded",
+        "dormant",
+        "disrupted",
+        "historical"
+      ]
     },
-    "active_since": { "type": "string" },
+    "active_since": {
+      "type": "string"
+    },
     "regions": {
       "type": "array",
       "items": {
         "type": "string",
-        "enum": ["Europe", "Americas", "Southeast Asia", "Oceania", "Global"]
+        "enum": [
+          "Europe",
+          "Americas",
+          "Southeast Asia",
+          "Oceania",
+          "Global"
+        ]
       }
     },
     "countries": {
       "type": "array",
-      "items": { "type": "string", "pattern": "^[A-Z]{2}$" },
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z]{2}$"
+      },
       "description": "ISO 3166-1 alpha-2. Countries of operation, not of origin."
     },
-    "description": { "type": "string" },
+    "description": {
+      "type": "string"
+    },
     "financial_sector_relevance": {
       "type": "string",
       "description": "Why a bank, PSP, CIT operator or exchange should care. Must be specific; if the actor is only tangentially relevant, say so here."
@@ -124,75 +158,147 @@
           "corporate_premises",
           "insiders",
           "correspondent_agents",
-          "armoured_air_cargo"
+          "armoured_air_cargo",
+          "power_grid_infrastructure",
+          "hardware_supply_chain",
+          "cable_landing_station"
         ]
       }
     },
-    "ttps": { "type": "array", "items": { "type": "string" } },
+    "ttps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "capability": {
       "type": "string",
-      "enum": ["low", "moderate", "high", "advanced"],
+      "enum": [
+        "low",
+        "moderate",
+        "high",
+        "advanced"
+      ],
       "description": "Judged on planning depth, weapons/explosives access, counter-surveillance, cross-border reach and reconstitution speed."
     },
     "assessments": {
       "type": "object",
       "description": "Per-variable confidence. Adopted from EuRepoC/Soufan practice: do not collapse existence, attribution and targeting into one score.",
-      "required": ["existence", "attribution", "financial_targeting"],
+      "required": [
+        "existence",
+        "attribution",
+        "financial_targeting"
+      ],
       "properties": {
-        "existence": { "$ref": "#/$defs/assessment" },
-        "attribution": { "$ref": "#/$defs/assessment" },
-        "financial_targeting": { "$ref": "#/$defs/assessment" },
-        "state_tasking": { "$ref": "#/$defs/assessment" }
+        "existence": {
+          "$ref": "#/$defs/assessment"
+        },
+        "attribution": {
+          "$ref": "#/$defs/assessment"
+        },
+        "financial_targeting": {
+          "$ref": "#/$defs/assessment"
+        },
+        "state_tasking": {
+          "$ref": "#/$defs/assessment"
+        }
       }
     },
     "notable_incidents": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["date", "summary"],
+        "required": [
+          "date",
+          "summary"
+        ],
         "properties": {
-          "date": { "type": "string" },
-          "location": { "type": "string" },
-          "summary": { "type": "string" }
+          "date": {
+            "type": "string"
+          },
+          "location": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          }
         }
       }
     },
     "watch_indicators": {
       "type": "array",
-      "items": { "type": "string" },
+      "items": {
+        "type": "string"
+      },
       "description": "Observable precursors a defender can actually collect on."
     },
-    "linked_actors": { "type": "array", "items": { "type": "string" } },
+    "linked_actors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "sources": {
       "type": "array",
       "minItems": 1,
       "items": {
         "type": "object",
-        "required": ["title", "url", "type"],
+        "required": [
+          "title",
+          "url",
+          "type"
+        ],
         "properties": {
-          "title": { "type": "string" },
-          "url": { "type": "string", "format": "uri" },
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
           "type": {
             "type": "string",
-            "enum": ["government", "law_enforcement", "research", "news", "industry", "ngo", "reference"]
+            "enum": [
+              "government",
+              "law_enforcement",
+              "research",
+              "news",
+              "industry",
+              "ngo",
+              "reference"
+            ]
           },
-          "retrieved": { "type": "string" }
+          "retrieved": {
+            "type": "string"
+          }
         }
       }
     },
-    "last_reviewed": { "type": "string", "format": "date" }
+    "last_reviewed": {
+      "type": "string",
+      "format": "date"
+    }
   },
   "$defs": {
     "assessment": {
       "type": "object",
-      "required": ["confidence", "basis"],
+      "required": [
+        "confidence",
+        "basis"
+      ],
       "properties": {
         "confidence": {
           "type": "string",
-          "enum": ["low", "moderate", "high"],
+          "enum": [
+            "low",
+            "moderate",
+            "high"
+          ],
           "description": "high = multiple independent official/judicial sources; moderate = credible reporting, some corroboration; low = single-source, contested, or inference."
         },
-        "basis": { "type": "string" }
+        "basis": {
+          "type": "string"
+        }
       }
     }
   }
