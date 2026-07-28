@@ -90,7 +90,10 @@
           "armed_insurgency",
           "uas_incursion",
           "supply_chain_tampering",
-          "armed_attack_premises"
+          "armed_attack_premises",
+          "insurance_fraud_physical",
+          "close_access_operation",
+          "transnational_repression"
         ]
       }
     },
@@ -161,7 +164,10 @@
           "armoured_air_cargo",
           "power_grid_infrastructure",
           "hardware_supply_chain",
-          "cable_landing_station"
+          "cable_landing_station",
+          "insurer_premises",
+          "claims_field_staff",
+          "insured_assets"
         ]
       }
     },

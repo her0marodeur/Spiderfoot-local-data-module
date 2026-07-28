@@ -2,15 +2,17 @@
 
 A structured, sourced database of **physical and hybrid threat actors relevant to banks,
 payment providers, cash logistics operators, exchanges and their customers**, covering
-Europe, the Americas, Malaysia, Thailand and Australia.
+Europe, the Americas, Malaysia, Thailand and Australia. Banking, payments and cash
+logistics throughout; insurance covered by a dedicated set of records.
 
-**110 actor records · 78 countries · 237 sources · built entirely from free, open sources.**
+**123 actor records · 84 countries · 280 sources · built entirely from free, open sources.**
 
 | | |
 | --- | --- |
 | Machine-readable | [`dist/actors.json`](dist/actors.json) |
 | Full reference | [`ACTORS.md`](ACTORS.md) — every field, TTPs, confidence tables, watch indicators |
 | Readable digest | [`ACTOR-BRIEF.md`](ACTOR-BRIEF.md) — descriptions, incidents and sources, made to read straight through |
+| Latest additions | [`NEW-ADDITIONS.md`](NEW-ADDITIONS.md) — insurance-sector and intelligence-service records |
 | Record format | [`schema.json`](schema.json) |
 | Source datasets & feeds | [`sources/datasets.md`](sources/datasets.md) |
 | Editable data | [`data/actors_*.json`](data/) |
@@ -34,7 +36,7 @@ Tren de Aragua, Comancheros, Viv Ansanm, GRU Unit 29155, and so on.
 
 **Activity clusters** — recurring, coherent behaviour with no reliable group attribution.
 Device theft to account takeover. Cash trapping. ATM technician ambush. Jugging. Crypto
-wrench attacks. Tiger kidnapping. Coerced insiders. These are 61 of the 110 records, and
+wrench attacks. Tiger kidnapping. Coerced insiders. These are 66 of the 123 records, and
 they are frequently the ones that actually generate loss. The schema has a dedicated
 `activity_cluster` class specifically so that no one is tempted to invent a group name for
 a behaviour.
@@ -47,23 +49,23 @@ volume, even though almost none of it is violent.
 
 | Class | Records |
 | --- | ---: |
-| Activity cluster | 61 |
-| Network | 25 |
+| Activity cluster | 66 |
+| Network | 26 |
 | Named group | 15 |
+| State proxy program | 9 |
 | Insurgent group | 4 |
-| State proxy program | 3 |
-| Movement | 2 |
+| Movement | 3 |
 
 | Primary region | Records |
 | --- | ---: |
-| Europe | 45 |
-| Americas | 34 |
+| Europe | 53 |
+| Americas | 38 |
 | Southeast Asia | 14 |
-| Global / cross-cutting | 10 |
+| Global / cross-cutting | 11 |
 | Oceania | 7 |
 
-Records are filed under a primary region but many carry several: 28 operate globally,
-42 touch the Americas, 15 Southeast Asia, 9 Oceania.
+Records are filed under a primary region but many carry several: 39 operate globally,
+46 touch the Americas, 16 Southeast Asia, 10 Oceania.
 
 ---
 
@@ -108,7 +110,7 @@ Worked examples from the data:
   crews prosecuted, but the cluster is a behavioural grouping, not a command structure),
   `financial_targeting: high`.
 
-Across the database only 32 of 110 records reach `attribution: high` — those with a
+Across the database only 38 of 123 records reach `attribution: high` — those with a
 designation, indictment or conviction behind them. That ratio is the honest state of open
 knowledge, not a gap to be filled with confident-sounding prose.
 
@@ -180,6 +182,13 @@ reported disturbances, against 9.3 percent in 2017. Almost none are ever attribu
 is measurable exposure rather than speculative: DOE OE-417 and EAGLE-I outage data are
 public and can be joined to your own site list.
 
+**Insurance faces a threat banking does not.** The killing of UnitedHealthcare's CEO in
+December 2024 turned a diffuse background of grievance threats into a named, celebrated
+template. The attacker profile is a customer, not a criminal; the motive is the product
+itself; and target selection runs off public disclosure. One provider reported demand for
+executive protection assessments rising ten to fifteen times. Nothing in the banking half
+of this database behaves like that.
+
 **Controls decay when they are removed.** Chile's ATM attacks resurged after banks abandoned
 dye staining as ineffective. Dutch crews exported to Germany and Switzerland only after
 Dutch banks hardened. Tiger kidnapping collapsed because of duress protocols and dual
@@ -216,6 +225,11 @@ Read these before relying on it.
   European reporting is the most granular, not because European institutions face the most
   danger. Haiti has two records and arguably the most constrained banking environment in the
   hemisphere.
+- **Intelligence-service records are scoped to physical and insider activity.** They cover
+  close-access teams, illegals, transnational repression, worker placement and OT
+  programmes — not the full cyber picture of any service. `financial_targeting` is `low` on
+  most of them, and that is the point: they are in scope because of what they do
+  physically, not because banks are their objective.
 - **Grid and OT records describe someone else's asset.** `AM-CLU-GRIDATTACK`,
   `GLB-STATE-OTPREPOS` and `GLB-CLU-CABLELANDING` cover infrastructure a bank depends on but
   does not own or control. They belong here because the dependency is real, but the only
